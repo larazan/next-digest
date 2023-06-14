@@ -6,6 +6,7 @@ import Head from "next/head";
 import Notice from "@/components/Notice";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import SubscribeForm from "@/components/SubscribeForm";
 import AccordionItem from "@/components/AccordionItem";
 import { QuoteLine } from "@/components/QuoteLine";
 
@@ -104,6 +105,7 @@ export default function Faqs() {
 
                 <QuoteLine />
               </div>
+              <SubscribeForm />
             </div>
           </div>
         </div>
