@@ -8,7 +8,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import SubscribeForm from "@/components/SubscribeForm";
 import AccordionItem from "@/components/AccordionItem";
-import { QuoteLine } from "@/components/QuoteLine";
+import QuoteRandom from "@/components/QuoteRandom";
 
 export default function Faqs() {
 
@@ -103,7 +103,7 @@ export default function Faqs() {
                   </dl>
                 </section>
 
-                <QuoteLine />
+                <QuoteRandom />
               </div>
               <SubscribeForm />
             </div>

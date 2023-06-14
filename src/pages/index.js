@@ -1,48 +1,47 @@
-import React, { useState, useRef } from 'react'
-import Link from 'next/link'
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import SwiperCore, { Autoplay } from 'swiper'
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
-import 'swiper/css/scrollbar';
+import React, { useState, useRef } from "react";
+import Link from "next/link";
+import Head from "next/head";
+import Image from "next/image";
+import styles from "../styles/Home.module.css";
+import { Navigation, Pagination, Scrollbar, A11y } from "swiper";
+import { Swiper, SwiperSlide } from "swiper/react";
+import SwiperCore, { Autoplay } from "swiper";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import "swiper/css/scrollbar";
 
-import Header from '@/components/Header'
-import Footer from '@/components/Footer'
-import Notice from '@/components/Notice'
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
+import Notice from "@/components/Notice";
 import SubscribeForm from "@/components/SubscribeForm";
-import { QuoteLine } from "@/components/QuoteLine";
+import QuoteLine from "@/components/QuoteLine";
 
-import banner from '@/img/banner.jpg'
-import kado from '@/img/kadountukasmat.jpg'
-import kebaikan from '@/img/kebaikantanpaputus.jpg'
-import amanah from '@/img/lazmizanamanah.jpg'
-import arrowLeft from '@/img/icon_arrow-left.png'
-import arrowRight from '@/img/icon_arrow-right.png'
+import banner from "@/img/banner.jpg";
+import kado from "@/img/kadountukasmat.jpg";
+import kebaikan from "@/img/kebaikantanpaputus.jpg";
+import amanah from "@/img/lazmizanamanah.jpg";
+import arrowLeft from "@/img/icon_arrow-left.png";
+import arrowRight from "@/img/icon_arrow-right.png";
 
-import meme1 from '@/img/meme1.jpg'
-import meme2 from '@/img/meme2.jpg'
-import meme3 from '@/img/meme3.jpg'
-import meme4 from '@/img/meme4.jpg'
-import meme5 from '@/img/meme5.jpg'
-import meme6 from '@/img/meme6.jpg'
-import meme7 from '@/img/meme7.jpg'
-import meme8 from '@/img/meme8.jpg'
-import meme9 from '@/img/meme9.jpg'
-import meme10 from '@/img/meme10.jpg'
-import meme11 from '@/img/meme11.jpg'
-import meme12 from '@/img/meme12.jpg'
-import meme13 from '@/img/meme13.jpg'
+import meme1 from "@/img/meme1.jpg";
+import meme2 from "@/img/meme2.jpg";
+import meme3 from "@/img/meme3.jpg";
+import meme4 from "@/img/meme4.jpg";
+import meme5 from "@/img/meme5.jpg";
+import meme6 from "@/img/meme6.jpg";
+import meme7 from "@/img/meme7.jpg";
+import meme8 from "@/img/meme8.jpg";
+import meme9 from "@/img/meme9.jpg";
+import meme10 from "@/img/meme10.jpg";
+import meme11 from "@/img/meme11.jpg";
+import meme12 from "@/img/meme12.jpg";
+import meme13 from "@/img/meme13.jpg";
 
-import funny1 from '@/img/funny1.jpg'
-
+import funny1 from "@/img/funny1.jpg";
 
 export default function Home() {
-  SwiperCore.use([Autoplay])
+  SwiperCore.use([Autoplay]);
 
   let scrl = useRef(null);
   const shiftN = 230;
@@ -84,13 +83,11 @@ export default function Home() {
       </Head>
 
       <Header />
-      <div className="flex bg-white min-h-screen pt-[100px]">
-    
+      <div className="flex bg-white min-h-screen pt-[60px] md:pt-[100px]">
         <div className="flex flex-row w-full">
-
           <div className="flex flex-1 flex-col items-center justify-center relative">
             <div className="flex flex-1 flex-col pb-18 max-w-md md:max-w-2xl">
-            <Notice />
+              <Notice />
               <div id="template_horizontal-image-slider">
                 <div className="default-banner-slider relative pt-[16px] mb-[1em] h-full">
                   <Swiper
@@ -123,8 +120,8 @@ export default function Home() {
                   <Link href="#">
                     <div className="relative flex-col justify-center w-32 md:w-48 space-y-2 border p-2 shadow-lg rounded">
                       <div className="relative block overflow-hidden bg-white shadow flex rounded">
-                        <img
-                          src="https://thediplomat.com/wp-content/uploads/2015/11/sizes/td-story-s-2/thediplomat_2015-11-11_15-17-05.jpg"
+                        <Image
+                          src={meme1}
                           alt=""
                           className="relative w-full"
                         />
@@ -171,464 +168,185 @@ export default function Home() {
                   </Link>
                 </div>
               </div> */}
-{/*  */}
+              {/*  */}
 
-              <div className='relative'>
+              <div className="relative">
                 <div className="my-4 mx-0 flex items-center justify-between">
-                  <h1 data-testid="title-pilihan-kitabisa" className="m-0 text-base text-gray-900 font-semibold">
-                    Pilihan Kitabisa
+                  <h1
+                    data-testid="title-pilihan-kitabisa"
+                    // className="m-0 text-lg text-gray-900 font-bold"
+                    className="mt-0 text-md md:text-lg text-gray-900 font-semibold md:font-bold"
+                  >
+                    Riddles
                   </h1>
                   <a>
                     <span
-                      data-testid="link-lihat-lainnya-pilihan-kitabisa"
-                      aria-hidden="true"
-                      className="m-0 text-sm text-blue-400"
+                      className="m-0 text-sm text-blue-400 cursor-pointer"
                     >
                       Lihat Lainnya
                     </span>
                   </a>
                 </div>
                 <div className="relative">
-                  
-                {scrollX !== 0 && (
-                  <div className=' top-[40%] left-0 '>
-                  <Image
-                    className="none absolute top-[40%] left-0 z-1 cursor-pointer"
-                    aria-hidden="true"
-                    src={arrowLeft}
-                    alt="arrow left"
-                    decoding="auto"
-                    fetchpriority="auto"
-                    onClick={() => slide(-shiftN)}
-                  />
-                  </div>
-                )}
-                {!scrolEnd && (
-                  <div className=' top-[40%] right-0'>
-                  <Image
-                    data-testid="arrow-right-pilihan-kitabisa"
-                    className="none absolute top-[40%] right-0 z-1 cursor-pointer"
-                    aria-hidden="true"
-                    alt="arrow right"
-                    src={arrowRight}
-                    decoding="auto"
-                    fetchpriority="auto"
-                    onClick={() => slide(+shiftN)}
-                  />
-                  </div>
-                )}
-                
-                
+                  {scrollX !== 0 && (
+                    <div className=" top-[40%] left-0 ">
+                      <Image
+                        className="none absolute top-[40%] left-0 z-10 cursor-pointer"
+                        src={arrowLeft}
+                        alt="arrow left"
+                        decoding="auto"
+                        fetchpriority="auto"
+                        onClick={() => slide(-shiftN)}
+                      />
+                    </div>
+                  )}
+                  {!scrolEnd && (
+                    <div className=" top-[40%] right-0">
+                      <Image
+                        data-testid="arrow-right-pilihan-kitabisa"
+                        className="none absolute top-[40%] right-0 z-10 cursor-pointer"
+                        alt="arrow right"
+                        src={arrowRight}
+                        decoding="auto"
+                        fetchpriority="auto"
+                        onClick={() => slide(+shiftN)}
+                      />
+                    </div>
+                  )}
+
                   {/*  */}
-                  <div className="mb-[1em] flex flex-row overflow-x-auto scroll-smooth" ref={scrl} onScroll={scrollCheck}>
-                    <div
-                      aria-hidden="true"
-                      data-testid="cardlink-pilihan-kitabisa"
-                      className="text‑inherit mt-0 mr-[1em] mb-[1em] cursor-pointer no-underline"
-                    >
-                      <div className="w-[150px]">
+                  <div
+                    className="mb-[1em] flex flex-row overflow-x-auto scroll-smooth"
+                    ref={scrl}
+                    onScroll={scrollCheck}
+                  >
+                    <div className="text‑inherit mt-0 mr-[1em] mb-[1em] cursor-pointer no-underline">
+                      <div className="w-[250px]">
                         <div
                           className="flex flex-col rounded-[4px]"
                           style={{
-                            boxShadow: 'rgba(152, 152, 152, 0.2) 0px 2px 8px 1px',
-                            border: '0.5px solid rgba(0, 0, 0, 0.1)',
+                            boxShadow:
+                              "rgba(152, 152, 152, 0.2) 0px 2px 8px 1px",
+                            border: "0.5px solid rgba(0, 0, 0, 0.1)",
                           }}
                         >
                           <figure className="relative m-0 flex flex-1 items-center justify-center">
-                            <img
+                            <Image
                               alt="Sedekah 1.000 Karpet Masjid ke Pelosok Negeri"
-                              srcSet="https://thediplomat.com/wp-content/uploads/2015/11/sizes/td-story-s-2/thediplomat_2015-11-11_15-17-05.jpg"
-                              src="https://thediplomat.com/wp-content/uploads/2015/11/sizes/td-story-s-2/thediplomat_2015-11-11_15-17-05.jpg"
+                              src={meme5}
                               width="100"
                               height="100"
-                              decoding="async"
-                              data-nimg="1"
-                              className="h-[85px] w-full rounded-t object-cover"
-                              loading="lazy"
-                              style={{ color: 'transparent' }}
+                              className="h-full w-full rounded object-cover"
+                              style={{ color: "transparent" }}
                             />
                           </figure>
-                          <div className="p-[0.5em]">
-                            <div className="min-h-[2.5em]">
-                              <span
-                                className="my-[0.25em] mx-[0em] overflow-hidden break-words text-sm font-semibold"
-                                style={{
-                                  display: '-webkit-box',
-                                  webkitLineClamp: 2,
-                                  webkitBoxOrient: 'vertical',
-                                }}
-                              >
-                                Sedekah 1.000 Karpet Masjid ke Pelosok Negeri
-                              </span>
-                            </div>
-                            <div className="my-[1em] mx-[0em]">
-                              <div className="my-[0.25em] mx-[0em] flex w-full items-center align-middle text-xs text-[rgba(0,0,0,0.8)] ">
-                                <span className="overflow-hidden text-ellipsis whitespace-nowrap">
-                                  Masjid Nusantara
-                                </span>
-                                <img
-                                  src="https://assets.kitabisa.cc/images/icons/icon__verified-org.svg"
-                                  width="100"
-                                  height="24"
-                                  fetchpriority="low"
-                                  decoding="auto"
-                                  alt="icon badges"
-                                  className="ml-[0.25em] h-3 w-[31px]"
-                                />
-                              </div>
-                            </div>
-                            <div className="my-[1em] mx-[0em]">
-                              <div
-                                data-testid="progressBar"
-                                className="style__Track-sc-__sc-15i3suc-0 clbckc"
-                              >
-                                <div
-                                  color="primary"
-                                  data-testid="progressBarFiller"
-                                  className="style__Filler-sc-__sc-15i3suc-1 bLoDes"
-                                ></div>
-                              </div>
-                            </div>
-                            <div className="flex flex-col">
-                              <span className="text-[10px] font-normal leading-[1.75em] text-[rgba(0,0,0,0.8)]">
-                                Terkumpul
-                              </span>
-                              <span className="text-[12px] font-bold leading-[1.75em]">
-                                Rp 2.266.904.021
-                              </span>
-                            </div>
-                          </div>
+                          
                         </div>
                       </div>
                     </div>
                     {/*  */}
-                    <div
-                      aria-hidden="true"
-                      data-testid="cardlink-pilihan-kitabisa"
-                      className="text‑inherit mt-0 mr-[1em] mb-[1em] cursor-pointer no-underline"
-                    >
-                      <div className="w-[150px]">
+                    <div className="text‑inherit mt-0 mr-[1em] mb-[1em] cursor-pointer no-underline">
+                      <div className="w-[250px]">
                         <div
                           className="flex flex-col rounded-[4px]"
                           style={{
-                            boxShadow: 'rgba(152, 152, 152, 0.2) 0px 2px 8px 1px',
-                            border: '0.5px solid rgba(0, 0, 0, 0.1)',
+                            boxShadow:
+                              "rgba(152, 152, 152, 0.2) 0px 2px 8px 1px",
+                            border: "0.5px solid rgba(0, 0, 0, 0.1)",
                           }}
                         >
                           <figure className="relative m-0 flex flex-1 items-center justify-center">
-                            <img
+                            <Image
                               alt="Sedekah 1.000 Karpet Masjid ke Pelosok Negeri"
-                              srcSet="https://thediplomat.com/wp-content/uploads/2015/11/sizes/td-story-s-2/thediplomat_2015-11-11_15-17-05.jpg"
-                              src="https://thediplomat.com/wp-content/uploads/2015/11/sizes/td-story-s-2/thediplomat_2015-11-11_15-17-05.jpg"
+                              src={meme6}
                               width="100"
                               height="100"
-                              decoding="async"
-                              data-nimg="1"
-                              className="h-[85px] w-full rounded-t object-cover"
-                              loading="lazy"
-                              style={{ color: 'transparent' }}
+                              className="h-full w-full rounded object-cover"
+                              style={{ color: "transparent" }}
                             />
                           </figure>
-                          <div className="p-[0.5em]">
-                            <div className="min-h-[2.5em]">
-                              <span
-                                className="my-[0.25em] mx-[0em] overflow-hidden break-words text-sm font-semibold"
-                                style={{
-                                  display: '-webkit-box',
-                                  webkitLineClamp: 2,
-                                  webkitBoxOrient: 'vertical',
-                                }}
-                              >
-                                Sedekah 1.000 Karpet Masjid ke Pelosok Negeri
-                              </span>
-                            </div>
-                            <div className="my-[1em] mx-[0em]">
-                              <div className="my-[0.25em] mx-[0em] flex w-full items-center align-middle text-xs text-[rgba(0,0,0,0.8)] ">
-                                <span className="overflow-hidden text-ellipsis whitespace-nowrap">
-                                  Masjid Nusantara
-                                </span>
-                                <img
-                                  src="https://assets.kitabisa.cc/images/icons/icon__verified-org.svg"
-                                  width="100"
-                                  height="24"
-                                  fetchpriority="low"
-                                  decoding="auto"
-                                  alt="icon badges"
-                                  className="ml-[0.25em] h-3 w-[31px]"
-                                />
-                              </div>
-                            </div>
-                            <div className="my-[1em] mx-[0em]">
-                              <div
-                                data-testid="progressBar"
-                                className="style__Track-sc-__sc-15i3suc-0 clbckc"
-                              >
-                                <div
-                                  color="primary"
-                                  data-testid="progressBarFiller"
-                                  className="style__Filler-sc-__sc-15i3suc-1 bLoDes"
-                                ></div>
-                              </div>
-                            </div>
-                            <div className="flex flex-col">
-                              <span className="text-[10px] font-normal leading-[1.75em] text-[rgba(0,0,0,0.8)]">
-                                Terkumpul
-                              </span>
-                              <span className="text-[12px] font-bold leading-[1.75em]">
-                                Rp 2.266.904.021
-                              </span>
-                            </div>
-                          </div>
+                          
                         </div>
                       </div>
                     </div>
                     {/*  */}
-                    <div
-                      aria-hidden="true"
-                      data-testid="cardlink-pilihan-kitabisa"
-                      className="text‑inherit mt-0 mr-[1em] mb-[1em] cursor-pointer no-underline"
-                    >
-                      <div className="w-[150px]">
+                    <div className="text‑inherit mt-0 mr-[1em] mb-[1em] cursor-pointer no-underline">
+                      <div className="w-[250px]">
                         <div
                           className="flex flex-col rounded-[4px]"
                           style={{
-                            boxShadow: 'rgba(152, 152, 152, 0.2) 0px 2px 8px 1px',
-                            border: '0.5px solid rgba(0, 0, 0, 0.1)',
+                            boxShadow:
+                              "rgba(152, 152, 152, 0.2) 0px 2px 8px 1px",
+                            border: "0.5px solid rgba(0, 0, 0, 0.1)",
                           }}
                         >
                           <figure className="relative m-0 flex flex-1 items-center justify-center">
-                            <img
+                            <Image
                               alt="Sedekah 1.000 Karpet Masjid ke Pelosok Negeri"
-                              srcSet="https://thediplomat.com/wp-content/uploads/2015/11/sizes/td-story-s-2/thediplomat_2015-11-11_15-17-05.jpg"
-                              src="https://thediplomat.com/wp-content/uploads/2015/11/sizes/td-story-s-2/thediplomat_2015-11-11_15-17-05.jpg"
+                              src={meme7}
                               width="100"
                               height="100"
-                              decoding="async"
-                              data-nimg="1"
-                              className="h-[85px] w-full rounded-t object-cover"
-                              loading="lazy"
-                              style={{ color: 'transparent' }}
+                              className="h-full w-full rounded object-cover"
+                              style={{ color: "transparent" }}
                             />
                           </figure>
-                          <div className="p-[0.5em]">
-                            <div className="min-h-[2.5em]">
-                              <span
-                                className="my-[0.25em] mx-[0em] overflow-hidden break-words text-sm font-semibold"
-                                style={{
-                                  display: '-webkit-box',
-                                  webkitLineClamp: 2,
-                                  webkitBoxOrient: 'vertical',
-                                }}
-                              >
-                                Sedekah 1.000 Karpet Masjid ke Pelosok Negeri
-                              </span>
-                            </div>
-                            <div className="my-[1em] mx-[0em]">
-                              <div className="my-[0.25em] mx-[0em] flex w-full items-center align-middle text-xs text-[rgba(0,0,0,0.8)] ">
-                                <span className="overflow-hidden text-ellipsis whitespace-nowrap">
-                                  Masjid Nusantara
-                                </span>
-                                <img
-                                  src="https://assets.kitabisa.cc/images/icons/icon__verified-org.svg"
-                                  width="100"
-                                  height="24"
-                                  fetchpriority="low"
-                                  decoding="auto"
-                                  alt="icon badges"
-                                  className="ml-[0.25em] h-3 w-[31px]"
-                                />
-                              </div>
-                            </div>
-                            <div className="my-[1em] mx-[0em]">
-                              <div
-                                data-testid="progressBar"
-                                className="style__Track-sc-__sc-15i3suc-0 clbckc"
-                              >
-                                <div
-                                  color="primary"
-                                  data-testid="progressBarFiller"
-                                  className="style__Filler-sc-__sc-15i3suc-1 bLoDes"
-                                ></div>
-                              </div>
-                            </div>
-                            <div className="flex flex-col">
-                              <span className="text-[10px] font-normal leading-[1.75em] text-[rgba(0,0,0,0.8)]">
-                                Terkumpul
-                              </span>
-                              <span className="text-[12px] font-bold leading-[1.75em]">
-                                Rp 2.266.904.021
-                              </span>
-                            </div>
-                          </div>
+                          
                         </div>
                       </div>
                     </div>
                     {/*  */}
-                    <div
-                      aria-hidden="true"
-                      data-testid="cardlink-pilihan-kitabisa"
-                      className="text‑inherit mt-0 mr-[1em] mb-[1em] cursor-pointer no-underline"
-                    >
-                      <div className="w-[150px]">
+                    <div className="text‑inherit mt-0 mr-[1em] mb-[1em] cursor-pointer no-underline">
+                      <div className="w-[250px]">
                         <div
                           className="flex flex-col rounded-[4px]"
                           style={{
-                            boxShadow: 'rgba(152, 152, 152, 0.2) 0px 2px 8px 1px',
-                            border: '0.5px solid rgba(0, 0, 0, 0.1)',
+                            boxShadow:
+                              "rgba(152, 152, 152, 0.2) 0px 2px 8px 1px",
+                            border: "0.5px solid rgba(0, 0, 0, 0.1)",
                           }}
                         >
                           <figure className="relative m-0 flex flex-1 items-center justify-center">
-                            <img
+                            <Image
                               alt="Sedekah 1.000 Karpet Masjid ke Pelosok Negeri"
-                              srcSet="https://thediplomat.com/wp-content/uploads/2015/11/sizes/td-story-s-2/thediplomat_2015-11-11_15-17-05.jpg"
-                              src="https://thediplomat.com/wp-content/uploads/2015/11/sizes/td-story-s-2/thediplomat_2015-11-11_15-17-05.jpg"
+                              src={meme5}
                               width="100"
                               height="100"
-                              decoding="async"
-                              data-nimg="1"
-                              className="h-[85px] w-full rounded-t object-cover"
-                              loading="lazy"
-                              style={{ color: 'transparent' }}
+                              className="h-full w-full rounded object-cover"
+                              style={{ color: "transparent" }}
                             />
                           </figure>
-                          <div className="p-[0.5em]">
-                            <div className="min-h-[2.5em]">
-                              <span
-                                className="my-[0.25em] mx-[0em] overflow-hidden break-words text-sm font-semibold"
-                                style={{
-                                  display: '-webkit-box',
-                                  webkitLineClamp: 2,
-                                  webkitBoxOrient: 'vertical',
-                                }}
-                              >
-                                Sedekah 1.000 Karpet Masjid ke Pelosok Negeri
-                              </span>
-                            </div>
-                            <div className="my-[1em] mx-[0em]">
-                              <div className="my-[0.25em] mx-[0em] flex w-full items-center align-middle text-xs text-[rgba(0,0,0,0.8)] ">
-                                <span className="overflow-hidden text-ellipsis whitespace-nowrap">
-                                  Masjid Nusantara
-                                </span>
-                                <img
-                                  src="https://assets.kitabisa.cc/images/icons/icon__verified-org.svg"
-                                  width="100"
-                                  height="24"
-                                  fetchpriority="low"
-                                  decoding="auto"
-                                  alt="icon badges"
-                                  className="ml-[0.25em] h-3 w-[31px]"
-                                />
-                              </div>
-                            </div>
-                            <div className="my-[1em] mx-[0em]">
-                              <div
-                                data-testid="progressBar"
-                                className="style__Track-sc-__sc-15i3suc-0 clbckc"
-                              >
-                                <div
-                                  color="primary"
-                                  data-testid="progressBarFiller"
-                                  className="style__Filler-sc-__sc-15i3suc-1 bLoDes"
-                                ></div>
-                              </div>
-                            </div>
-                            <div className="flex flex-col">
-                              <span className="text-[10px] font-normal leading-[1.75em] text-[rgba(0,0,0,0.8)]">
-                                Terkumpul
-                              </span>
-                              <span className="text-[12px] font-bold leading-[1.75em]">
-                                Rp 2.266.904.021
-                              </span>
-                            </div>
-                          </div>
+                          
                         </div>
                       </div>
                     </div>
                     {/*  */}
-                    <div
-                      aria-hidden="true"
-                      data-testid="cardlink-pilihan-kitabisa"
-                      className="text‑inherit mt-0 mr-[1em] mb-[1em] cursor-pointer no-underline"
-                    >
-                      <div className="w-[150px]">
+                    <div className="text‑inherit mt-0 mr-[1em] mb-[1em] cursor-pointer no-underline">
+                      <div className="w-[250px]">
                         <div
                           className="flex flex-col rounded-[4px]"
                           style={{
-                            boxShadow: 'rgba(152, 152, 152, 0.2) 0px 2px 8px 1px',
-                            border: '0.5px solid rgba(0, 0, 0, 0.1)',
+                            boxShadow:
+                              "rgba(152, 152, 152, 0.2) 0px 2px 8px 1px",
+                            border: "0.5px solid rgba(0, 0, 0, 0.1)",
                           }}
                         >
-                          <figure className="relative m-0 flex flex-1 items-center justify-center">
-                            <img
+                          <figure className="relative m-0 flex z-0 flex-1 items-center justify-center">
+                            <Image
                               alt="Sedekah 1.000 Karpet Masjid ke Pelosok Negeri"
-                              srcSet="https://thediplomat.com/wp-content/uploads/2015/11/sizes/td-story-s-2/thediplomat_2015-11-11_15-17-05.jpg"
-                              src="https://thediplomat.com/wp-content/uploads/2015/11/sizes/td-story-s-2/thediplomat_2015-11-11_15-17-05.jpg"
+                              src={meme8}
                               width="100"
                               height="100"
-                              decoding="async"
-                              data-nimg="1"
-                              className="h-[85px] w-full rounded-t object-cover"
-                              loading="lazy"
-                              style={{ color: 'transparent' }}
+                              className="h-full z-0 w-full rounded object-cover"
+                              style={{ color: "transparent" }}
                             />
                           </figure>
-                          <div className="p-[0.5em]">
-                            <div className="min-h-[2.5em]">
-                              <span
-                                className="my-[0.25em] mx-[0em] overflow-hidden break-words text-sm font-semibold"
-                                style={{
-                                  display: '-webkit-box',
-                                  webkitLineClamp: 2,
-                                  webkitBoxOrient: 'vertical',
-                                }}
-                              >
-                                Sedekah 1.000 Karpet Masjid ke Pelosok Negeri
-                              </span>
-                            </div>
-                            <div className="my-[1em] mx-[0em]">
-                              <div className="my-[0.25em] mx-[0em] flex w-full items-center align-middle text-xs text-[rgba(0,0,0,0.8)] ">
-                                <span className="overflow-hidden text-ellipsis whitespace-nowrap">
-                                  Masjid Nusantara
-                                </span>
-                                <img
-                                  src="https://assets.kitabisa.cc/images/icons/icon__verified-org.svg"
-                                  width="100"
-                                  height="24"
-                                  fetchpriority="low"
-                                  decoding="auto"
-                                  alt="icon badges"
-                                  className="ml-[0.25em] h-3 w-[31px]"
-                                />
-                              </div>
-                            </div>
-                            <div className="my-[1em] mx-[0em]">
-                              <div
-                                data-testid="progressBar"
-                                className="style__Track-sc-__sc-15i3suc-0 clbckc"
-                              >
-                                <div
-                                  color="primary"
-                                  data-testid="progressBarFiller"
-                                  className="style__Filler-sc-__sc-15i3suc-1 bLoDes"
-                                ></div>
-                              </div>
-                            </div>
-                            <div className="flex flex-col">
-                              <span className="text-[10px] font-normal leading-[1.75em] text-[rgba(0,0,0,0.8)]">
-                                Terkumpul
-                              </span>
-                              <span className="text-[12px] font-bold leading-[1.75em]">
-                                Rp 2.266.904.021
-                              </span>
-                            </div>
-                          </div>
+                          
                         </div>
                       </div>
                     </div>
                     {/*  */}
                     <div
                       data-testid="link-lihat-semua-pilihan-kitabisa"
-                      aria-hidden="true"
                       className="text‑inherit mt-0 mr-2 mb-4 cursor-pointer no-underline"
                     >
                       <div className="flex h-full w-[150px] flex-col justify-center text-center text-[#00aeef]">
@@ -654,7 +372,9 @@ export default function Home() {
                             ></path>
                           </svg>
                         </div>
-                        <span className="m-0 text-base font-bold">Lihat Semua</span>
+                        <span className="m-0 text-base font-bold">
+                          Lihat Semua
+                        </span>
                       </div>
                     </div>
                     {/*  */}
@@ -663,247 +383,133 @@ export default function Home() {
               </div>
 
               <div>
-              <h1 data-testid="title-pilih-kategori-favoritmu" class="mx-0 my-[1em] text-[16px] font-semibold leading-6 text-[#4a4a4a]">Pilih Kategori Favoritmu</h1>
-                <div className='flex w-full space-x-4'>
-                  <div className='w-3/6 bg-pink-200'></div>
-                
-                <div>
-                  <a
-                    data-testid="cardlink-pilih-kategori-favoritmu"
-                    className="text-tundora no-underline"
-                    href="/campaign/yukinfaqyatim"
-                    id="347492-347492"
-                  >
-                    <div className="my-[1em] mx-[0em] flex items-center bg-white leading-[1.25em]">
+                <h1
+                  data-testid="title-pilih-kategori-favoritmu"
+                  // class="mx-0 my-[1em] text-[16px] font-semibold leading-6 text-[#4a4a4a]"
+                  className="mt-5 text-md md:text-lg text-gray-900 font-semibold md:font-bold"
+                >
+                  Pilih Kategori Favoritmu
+                </h1>
+                <div className="flex w-full space-x-4">
+                  
+
+                  <div>
+                    <a
+                      data-testid="cardlink-pilih-kategori-favoritmu"
+                      className="text-tundora no-underline"
+                      href="/campaign/yukinfaqyatim"
+                      id="347492-347492"
+                    >
+                      <div className="my-[1em] mx-[0em] flex items-center w-full bg-white leading-[1.25em]">
                       <figure className="m-0 mr-5 flex aspect-[16/9] h-fit flex-1 items-center justify-center">
-                        <img
-                          alt="Infaq Yatim: Kebahagiaan untuk 500 anak-anak Yatim"
-                          srcSet="https://thediplomat.com/wp-content/uploads/2015/11/sizes/td-story-s-2/thediplomat_2015-11-11_15-17-05.jpg"
-                          src="https://thediplomat.com/wp-content/uploads/2015/11/sizes/td-story-s-2/thediplomat_2015-11-11_15-17-05.jpg"
-                          width="256"
-                          height="144"
-                          decoding="async"
-                          data-nimg="1"
-                          className="h-full w-full rounded object-fill"
-                          loading="lazy"
-                          style={{ color: 'transparent' }}
-                        />
-                      </figure>
-                      <div className="flex max-w-[45%] flex-1 flex-col justify-between">
-                        <span
-                          className="my-[0.25em] mx-[0em] overflow-hidden break-words text-xs font-semibold text-tundora"
-                          style={{
-                            display: '-webkit-box',
-                            webkitBoxOrient: 'vertical',
-                            webkitLineClamp: 2,
-                          }}
-                        >
-                          Infaq Yatim: Kebahagiaan untuk 500 anak-anak Yatim
-                        </span>
-                        <div className="my-[0.25em] mx-[0em] flex w-full items-center align-middle text-xs text-[rgba(0,0,0,0.9)]">
-                          <span className="overflow-hidden text-xs whitespace-nowrap">
-                            Yuk Peduli
-                          </span>
-                          <img
-                            className="ml-[0.25em] h-3"
-                            src="https://assets.kitabisa.cc/images/icons/icon__verified-org.svg"
-                            alt="icon__badge"
-                            width="31"
-                            height="12"
-                            fetchpriority="low"
-                            decoding="auto"
+                          <Image
+                            alt="Infaq Yatim: Kebahagiaan untuk 500 anak-anak Yatim"
+                            src={meme13}
+                            width="256"
+                            height="144"
+                            className="h-full w-full rounded object-fill"
+                            style={{ color: "transparent" }}
                           />
-                        </div>
-                        <div className="mx-[0em] my-[0.25em]">
-                          <div
-                            data-testid="progressBar"
-                            className="style__Track-sc-__sc-15i3suc-0 clbckc"
+                        </figure>
+                        <div className="flex w-2/3 max-w-[45%] flex-1 flex-col space-x-y-1 md:space-y-2">
+                          <span
+                            className="my-[0.25em] mx-[0em] overflow-hidden break-words text-sm md:text-lg leading-tight md:leading-tight font-semibold text-tundora"
+                            style={{
+                              display: "-webkit-box",
+                              webkitBoxOrient: "vertical",
+                              webkitLineClamp: 2,
+                            }}
                           >
-                            <div
-                              color="primary"
-                              data-testid="progressBarFiller"
-                              className="style__Filler-sc-__sc-15i3suc-1 bLoDes"
-                            ></div>
-                          </div>
-                        </div>
-                        <div className="my-[0.25em] mx-[0em] flex w-full justify-between">
-                          <div className="flex flex-col">
-                            <span className="text-[11px] text-gray-900">Terkumpul</span>
-                            <span className="text-sm font-bold">Rp 1.068.856.879</span>
-                          </div>
-                          <div className="flex flex-col text-right">
-                            <span className="text-xs font-normal text-gray-900">Sisa hari</span>
-                            <span className="text-sm">
-                              <strong> 1031 </strong>
-                            </span>
-                          </div>
+                            80 Funny Work Memes to Keep You Laughing Through the Week
+                          </span>
+                          <span className="text-xs md:text-lg leading-tight md:leading-tight break-words text-justify">
+                            Whether you're waiting for the weekend or commiserating about your job, these funny work memes will help you cope
+                          </span>
                         </div>
                       </div>
-                    </div>
-                    <div className="h-px bg-mercury"></div>
-                  </a>
-                  <a
-                    data-testid="cardlink-pilih-kategori-favoritmu"
-                    className="text-tundora no-underline"
-                    href="/campaign/yukinfaqyatim"
-                    id="347492-347492"
-                  >
-                    <div className="my-[1em] mx-[0em] flex items-center bg-white leading-[1.25em]">
+                      <div className="h-px bg-mercury"></div>
+                    </a>
+                    <a
+                      data-testid="cardlink-pilih-kategori-favoritmu"
+                      className="text-tundora no-underline"
+                      href="/campaign/yukinfaqyatim"
+                      id="347492-347492"
+                    >
+                      <div className="my-[1em] mx-[0em] flex items-center w-full bg-white leading-[1.25em]">
                       <figure className="m-0 mr-5 flex aspect-[16/9] h-fit flex-1 items-center justify-center">
-                        <img
-                          alt="Infaq Yatim: Kebahagiaan untuk 500 anak-anak Yatim"
-                          srcSet="https://thediplomat.com/wp-content/uploads/2015/11/sizes/td-story-s-2/thediplomat_2015-11-11_15-17-05.jpg"
-                          src="https://thediplomat.com/wp-content/uploads/2015/11/sizes/td-story-s-2/thediplomat_2015-11-11_15-17-05.jpg"
-                          width="256"
-                          height="144"
-                          decoding="async"
-                          data-nimg="1"
-                          className="h-full w-full rounded object-fill"
-                          loading="lazy"
-                          style={{ color: 'transparent' }}
-                        />
-                      </figure>
-                      <div className="flex max-w-[45%] flex-1 flex-col justify-between">
-                        <span
-                          className="my-[0.25em] mx-[0em] overflow-hidden break-words text-xs font-semibold text-tundora"
-                          style={{
-                            display: '-webkit-box',
-                            webkitBoxOrient: 'vertical',
-                            webkitLineClamp: 2,
-                          }}
-                        >
-                          Infaq Yatim: Kebahagiaan untuk 500 anak-anak Yatim
-                        </span>
-                        <div className="my-[0.25em] mx-[0em] flex w-full items-center align-middle text-xs text-[rgba(0,0,0,0.9)]">
-                          <span className="overflow-hidden text-xs whitespace-nowrap">
-                            Yuk Peduli
-                          </span>
-                          <img
-                            className="ml-[0.25em] h-3"
-                            src="https://assets.kitabisa.cc/images/icons/icon__verified-org.svg"
-                            alt="icon__badge"
-                            width="31"
-                            height="12"
-                            fetchpriority="low"
-                            decoding="auto"
+                          <Image
+                            alt="Infaq Yatim: Kebahagiaan untuk 500 anak-anak Yatim"
+                            src={meme11}
+                            width="256"
+                            height="144"
+                            className="h-full w-full rounded object-fill"
+                            style={{ color: "transparent" }}
                           />
-                        </div>
-                        <div className="mx-[0em] my-[0.25em]">
-                          <div
-                            data-testid="progressBar"
-                            className="style__Track-sc-__sc-15i3suc-0 clbckc"
+                        </figure>
+                        <div className="flex w-2/3 max-w-[45%] flex-1 flex-col space-x-y-1 md:space-y-2">
+                          <span
+                            className="my-[0.25em] mx-[0em] overflow-hidden break-words text-sm md:text-lg leading-tight md:leading-tight font-semibold text-tundora"
+                            style={{
+                              display: "-webkit-box",
+                              webkitBoxOrient: "vertical",
+                              webkitLineClamp: 2,
+                            }}
                           >
-                            <div
-                              color="primary"
-                              data-testid="progressBarFiller"
-                              className="style__Filler-sc-__sc-15i3suc-1 bLoDes"
-                            ></div>
-                          </div>
-                        </div>
-                        <div className="my-[0.25em] mx-[0em] flex w-full justify-between">
-                          <div className="flex flex-col">
-                            <span className="text-[11px] text-gray-900">Terkumpul</span>
-                            <span className="text-sm font-bold">Rp 1.068.856.879</span>
-                          </div>
-                          <div className="flex flex-col text-right">
-                            <span className="text-xs font-normal text-gray-900">Sisa hari</span>
-                            <span className="text-sm">
-                              <strong> 1031 </strong>
-                            </span>
-                          </div>
+                            80 Funny Work Memes to Keep You Laughing Through the Week
+                          </span>
+                          <span className="text-xs md:text-lg leading-tight md:leading-tight break-words text-justify">
+                            Whether you're waiting for the weekend or commiserating about your job, these funny work memes will help you cope
+                          </span>
                         </div>
                       </div>
-                    </div>
-                    <div className="h-px bg-mercury"></div>
-                  </a>
-                  <a
-                    data-testid="cardlink-pilih-kategori-favoritmu"
-                    className="text-tundora no-underline"
-                    href="/campaign/yukinfaqyatim"
-                    id="347492-347492"
-                  >
-                    <div className="my-[1em] mx-[0em] flex items-center bg-white leading-[1.25em]">
+                      <div className="h-px bg-mercury"></div>
+                    </a>
+                    <a
+                      data-testid="cardlink-pilih-kategori-favoritmu"
+                      className="text-tundora no-underline"
+                      href="/campaign/yukinfaqyatim"
+                      id="347492-347492"
+                    >
+                      <div className="my-[1em] mx-[0em] flex items-center w-full bg-white leading-[1.25em]">
                       <figure className="m-0 mr-5 flex aspect-[16/9] h-fit flex-1 items-center justify-center">
-                        <img
-                          alt="Infaq Yatim: Kebahagiaan untuk 500 anak-anak Yatim"
-                          srcSet="https://thediplomat.com/wp-content/uploads/2015/11/sizes/td-story-s-2/thediplomat_2015-11-11_15-17-05.jpg"
-                          src="https://thediplomat.com/wp-content/uploads/2015/11/sizes/td-story-s-2/thediplomat_2015-11-11_15-17-05.jpg"
-                          width="256"
-                          height="144"
-                          decoding="async"
-                          data-nimg="1"
-                          className="h-full w-full rounded object-fill"
-                          loading="lazy"
-                          style={{ color: 'transparent' }}
-                        />
-                      </figure>
-                      <div className="flex max-w-[45%] flex-1 flex-col justify-between">
-                        <span
-                          className="my-[0.25em] mx-[0em] overflow-hidden break-words text-xs font-semibold text-tundora"
-                          style={{
-                            display: '-webkit-box',
-                            webkitBoxOrient: 'vertical',
-                            webkitLineClamp: 2,
-                          }}
-                        >
-                          Infaq Yatim: Kebahagiaan untuk 500 anak-anak Yatim
-                        </span>
-                        <div className="my-[0.25em] mx-[0em] flex w-full items-center align-middle text-xs text-[rgba(0,0,0,0.9)]">
-                          <span className="overflow-hidden text-xs whitespace-nowrap">
-                            Yuk Peduli
-                          </span>
-                          <img
-                            className="ml-[0.25em] h-3"
-                            src="https://assets.kitabisa.cc/images/icons/icon__verified-org.svg"
-                            alt="icon__badge"
-                            width="31"
-                            height="12"
-                            fetchpriority="low"
-                            decoding="auto"
+                          <Image
+                            alt="Infaq Yatim: Kebahagiaan untuk 500 anak-anak Yatim"
+                            src={meme12}
+                            width="256"
+                            height="144"
+                            className="h-full w-full rounded object-fill"
+                            style={{ color: "transparent" }}
                           />
-                        </div>
-                        <div className="mx-[0em] my-[0.25em]">
-                          <div
-                            data-testid="progressBar"
-                            className="style__Track-sc-__sc-15i3suc-0 clbckc"
+                        </figure>
+                        <div className="flex w-2/3 max-w-[45%] flex-1 flex-col space-x-y-1 md:space-y-2">
+                          <span
+                            className="my-[0.25em] mx-[0em] overflow-hidden break-words text-sm md:text-lg leading-tight md:leading-tight font-semibold text-tundora"
+                            style={{
+                              display: "-webkit-box",
+                              webkitBoxOrient: "vertical",
+                              webkitLineClamp: 2,
+                            }}
                           >
-                            <div
-                              color="primary"
-                              data-testid="progressBarFiller"
-                              className="style__Filler-sc-__sc-15i3suc-1 bLoDes"
-                            ></div>
-                          </div>
-                        </div>
-                        <div className="my-[0.25em] mx-[0em] flex w-full justify-between">
-                          <div className="flex flex-col">
-                            <span className="text-[11px] text-gray-900">Terkumpul</span>
-                            <span className="text-sm font-bold">Rp 1.068.856.879</span>
-                          </div>
-                          <div className="flex flex-col text-right">
-                            <span className="text-xs font-normal text-gray-900">Sisa hari</span>
-                            <span className="text-sm">
-                              <strong> 1031 </strong>
-                            </span>
-                          </div>
+                            80 Funny Work Memes to Keep You Laughing Through the Week
+                          </span>
+                          <span className="text-xs md:text-lg leading-tight md:leading-tight break-words text-justify">
+                            Whether you're waiting for the weekend or commiserating about your job, these funny work memes will help you cope
+                          </span>
                         </div>
                       </div>
-                    </div>
-                    <div className="h-px bg-mercury"></div>
-                  </a>
-                </div>
+                      <div className="h-px bg-mercury"></div>
+                    </a>
+                  </div>
                 </div>
               </div>
 
               <div
-                aria-hidden="true"
-                data-testid="link-lihat-semua-pilih-kategori-favoritmu"
-                className="relative my-[1em] mx-auto w-[160px]  cursor-pointer rounded-[15px] bg-[#e7f5ff] p-[5px] text-center text-[12px] text-[#10a8e5]"
+                className="flex items-center justify-center px-3 py-2 space-x-1 md:space-x-3 my-[1em] mx-auto w-[160px] md:w-[190px] cursor-pointer rounded-full bg-[#e7f5ff]  text-center text-sm md:text-lg text-[#10a8e5]"
               >
-                Lihat Semua{' '}
-                <span className="absolute top-[-10px] right-[15px] translate-y-2/4">
+                <span>Lihat Semua</span>
+                <span className="">
                   <svg
-                    width="24px"
-                    height="24px"
+                    
                     viewBox="0 0 24 24"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
@@ -929,5 +535,5 @@ export default function Home() {
       </div>
       <Footer />
     </div>
-  )
+  );
 }

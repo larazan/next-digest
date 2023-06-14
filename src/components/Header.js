@@ -68,26 +68,26 @@ export default function Header() {
             
           </div>
           <div class="flex space-x-3 md:space-x-6 font-bold text-gray-900 items-center">
-            <Link href={'/'} class="hidden md:block">
+            <Link href={'/'} class="hidden md:block hover:text-[#FF6D42]">
               Home
             </Link>
-            <Link href="/" class="hidden md:block">
+            <Link href="/" class="hidden md:block hover:text-[#FF6D42]">
               Quotes
             </Link>
-            <Link href="/" class="hidden md:block">
+            <Link href="/" class="hidden md:block hover:text-[#FF6D42]">
               Riddles
             </Link>
-            <Link href="/" class="hidden md:block">
+            <Link href="/" class="hidden md:block hover:text-[#FF6D42]">
               Funny
             </Link>
            
-            <Link href="/blog" class="hidden md:block">
+            <Link href="/blog" class="hidden md:block hover:text-[#FF6D42]">
               Blog
             </Link>
             <Link
               href="https://shop.nowandme.com"
               target="_blank"
-              class="hidden md:block"
+              class="hidden md:block hover:text-[#FF6D42]"
             >
               Shop
             </Link>
@@ -122,24 +122,24 @@ export default function Header() {
                     <line x1="6" y1="6" x2="18" y2="18"></line>
                   </svg>
                 </div>
-                <ul class="flex mt-20 p-6 flex-col items-left gap-7 justify-between min-h-[250px]">
-                  <li>
-                    <Link href="/">Home</Link>
+                <ul class="flex mt-16 p-6 flex-col items-left gap-5 justify-between min-h-[250px]">
+                  <li className="text-2xl">
+                    <Link className="hover:text-[#FF6D42]" href="/">Home</Link>
                   </li>
-                  <li>
-                    <Link href="/home">Quotes</Link>
+                  <li className="text-2xl">
+                    <Link className="hover:text-[#FF6D42]" href="/home">Quotes</Link>
                   </li>
-                  <li>
-                    <Link href="/experts">Riddles</Link>
+                  <li className="text-2xl">
+                    <Link className="hover:text-[#FF6D42]" href="/experts">Riddles</Link>
                   </li>
-                  <li>
-                    <Link href="/experts">Funny</Link>
+                  <li className="text-2xl">
+                    <Link className="hover:text-[#FF6D42]" href="/experts">Funny</Link>
                   </li>
-                  <li>
-                    <Link href="/blog">Blog</Link>
+                  <li className="text-2xl">
+                    <Link className="hover:text-[#FF6D42]" href="/blog">Blog</Link>
                   </li>
-                  <li>
-                    <Link href="https://shop.nowandme.com" target="_blank">
+                  <li className="text-2xl">
+                    <Link className="hover:text-[#FF6D42]" href="https://shop.nowandme.com" target="_blank">
                       Shop
                     </Link>
                   </li>
