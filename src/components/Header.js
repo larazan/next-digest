@@ -71,10 +71,10 @@ export default function Header() {
             <Link href={'/'} class="hidden md:block hover:text-[#FF6D42]">
               Home
             </Link>
-            <Link href="/" class="hidden md:block hover:text-[#FF6D42]">
+            <Link href="/quotes" class="hidden md:block hover:text-[#FF6D42]">
               Quotes
             </Link>
-            <Link href="/" class="hidden md:block hover:text-[#FF6D42]">
+            <Link href="/riddles" class="hidden md:block hover:text-[#FF6D42]">
               Riddles
             </Link>
             <Link href="/" class="hidden md:block hover:text-[#FF6D42]">
@@ -127,19 +127,19 @@ export default function Header() {
                     <Link className="hover:text-[#FF6D42]" href="/">Home</Link>
                   </li>
                   <li className="text-2xl">
-                    <Link className="hover:text-[#FF6D42]" href="/home">Quotes</Link>
+                    <Link className="hover:text-[#FF6D42]" href="/quotes">Quotes</Link>
                   </li>
                   <li className="text-2xl">
-                    <Link className="hover:text-[#FF6D42]" href="/experts">Riddles</Link>
+                    <Link className="hover:text-[#FF6D42]" href="/riddles">Riddles</Link>
                   </li>
                   <li className="text-2xl">
-                    <Link className="hover:text-[#FF6D42]" href="/experts">Funny</Link>
+                    <Link className="hover:text-[#FF6D42]" href="/">Funny</Link>
                   </li>
                   <li className="text-2xl">
                     <Link className="hover:text-[#FF6D42]" href="/blog">Blog</Link>
                   </li>
                   <li className="text-2xl">
-                    <Link className="hover:text-[#FF6D42]" href="https://shop.nowandme.com" target="_blank">
+                    <Link className="hover:text-[#FF6D42]" href="/" target="_blank">
                       Shop
                     </Link>
                   </li>

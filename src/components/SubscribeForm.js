@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 
 const SubscribeForm = () => {
   return (
@@ -8,10 +9,9 @@ const SubscribeForm = () => {
                     Sign up for our newsletter
                   </h2>
                   <p class="mb-4 text-base text-gray-500 md:mb-6 dark:text-gray-400 md:text-center md:text-xl lg:px-20 xl:px-56">
-                    Do you want to get notified when a new component is added to
-                    Flowbite? Sign up for our newsletter and you will be among
-                    the first to find out about new features, components,
-                    versions, and tools.
+                    Sign up for our newsletter and you will be among
+                    the first to find out about new articles, quotes,
+                    riddles, and more.
                   </p>
                   <div class="mb-4">
                     <form
@@ -64,7 +64,7 @@ const SubscribeForm = () => {
                     </form>
                   </div>
                   <p class="text-sm text-gray-500 md:text-center dark:text-gray-400 font-normal">
-                    By subscribing, you agree with ConvertKit's{" "}
+                    By subscribing, you agree with{" "}
                     <a
                       rel="nofollow noopener noreferrer"
                       class="text-blue-600 dark-text-blue-400 hover:underline"
