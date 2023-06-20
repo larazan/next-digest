@@ -11,7 +11,7 @@ const QuoteLine = () => {
   SwiperCore.use([Autoplay]);
   return (
     <>
-      <div class="mt-20 mb-10  items-center">
+      <div className="mt-20 mb-10  items-center">
         <Swiper
           modules={[Pagination, A11y]}
           slidesPerView={1}
@@ -23,7 +23,7 @@ const QuoteLine = () => {
         >
           <SwiperSlide>
             <div className=" px-5">
-              <div class="font-semibold  text-2xl md:text-4xl max-w-[900px] md:leading-tight tracking-wide relative">
+              <div className="font-semibold  text-2xl md:text-4xl max-w-[900px] md:leading-tight tracking-wide relative">
                 <p>
                   <svg
                     width="38"
@@ -41,14 +41,14 @@ const QuoteLine = () => {
                   we can rebuild and find our way through the pain.
                 </p>
               </div>
-              <p class="mt-4 font-medium text-lg text-[#171717BF] max-w-[900px] w-full">
+              <p className="mt-4 font-medium text-lg text-[#171717BF] max-w-[900px] w-full">
                 – BRENÉ BROWN
               </p>
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div className=" px-5">
-              <div class="font-semibold  text-2xl md:text-4xl max-w-[900px] md:leading-tight tracking-wide relative">
+              <div className="font-semibold  text-2xl md:text-4xl max-w-[900px] md:leading-tight tracking-wide relative">
                 <p>
                   <svg
                     width="38"
@@ -66,7 +66,7 @@ const QuoteLine = () => {
                   we can rebuild and find our way through the pain.
                 </p>
               </div>
-              <p class="mt-4 font-medium text-lg text-[#171717BF] max-w-[900px] w-full">
+              <p className="mt-4 font-medium text-lg text-[#171717BF] max-w-[900px] w-full">
                 – BRENÉ BROWN
               </p>
             </div>

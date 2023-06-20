@@ -21,17 +21,17 @@ const Detail = () => {
 
         <Header />
         <div className="flex flex-col bg-white min-h-screen pt-16 md:pt-[100px]">
-          <div class="bg-[#FFE5DD] py-10 mb-4">
+          <div className="bg-[#FFE5DD] py-10 mb-4">
             
-            <h1 class="relative mx-3 md:mx-auto text-3xl md:text-5xl md:leading-[60px] max-w-3xl m-auto font-semibold text-center mt-4 sm:mt-6 mb-5 sm:mb-0">
+            <h1 className="relative mx-3 md:mx-auto text-3xl md:text-5xl md:leading-[60px] max-w-3xl m-auto font-semibold text-center mt-4 sm:mt-6 mb-5 sm:mb-0">
               When Live Wire Met Now&amp;Me: Interview with Aleesha Matharu
             </h1>
             <a
               href="https://nowandme.com/blog/author/annanyachaturvedi"
-              class="flex items-center justify-center sm:hidden"
+              className="flex items-center justify-center sm:hidden"
             >
               <div>
-                <div class="border-white rounded-full border-3 w-10 h-10 roundedShadow">
+                <div className="border-white rounded-full border-3 w-10 h-10 roundedShadow">
                   <span
                     style={{
                       boxSizing: "border-box",
@@ -84,7 +84,7 @@ const Detail = () => {
                       src="/blog/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fnowandme%2Fimage%2Fupload%2Fw_120%2Ch_120%2Cf_auto%2Fvxquzvedxqqtow8opzcz&amp;w=64&amp;q=100"
                       decoding="async"
                       data-nimg="intrinsic"
-                      class="rounded-full false"
+                      className="rounded-full false"
                       srcset="
                             /blog/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fnowandme%2Fimage%2Fupload%2Fw_120%2Ch_120%2Cf_auto%2Fvxquzvedxqqtow8opzcz&amp;w=32&amp;q=100 1x,
                             /blog/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fnowandme%2Fimage%2Fupload%2Fw_120%2Ch_120%2Cf_auto%2Fvxquzvedxqqtow8opzcz&amp;w=64&amp;q=100 2x
@@ -108,17 +108,17 @@ const Detail = () => {
                   </span>
                 </div>
               </div>
-              <p class="text-sm font-semibold text-[#404040] ml-2">
+              <p className="text-sm font-semibold text-[#404040] ml-2">
                 Annanya Chaturvedi
               </p>
             </a>
-            <div class="mt-4 sm:mt-6 text-center text-[#565656] flex justify-center items-center sm:divide-x relative sm:space-x-3 divide-[#CACACA]">
+            <div className="mt-4 sm:mt-6 text-center text-[#565656] flex justify-center items-center sm:divide-x relative sm:space-x-3 divide-[#CACACA]">
               <a
                 href="https://nowandme.com/blog/author/annanyachaturvedi"
-                class="items-center justify-center hidden font-medium sm:flex"
+                className="items-center justify-center hidden font-medium sm:flex"
               >
                 <div>
-                  <div class="border-white rounded-full border-3 hidden text-[20px] leading-9 text-center w-11 h-11 left-11 -top-6 roundedShadow sm:block">
+                  <div className="border-white rounded-full border-3 hidden text-[20px] leading-9 text-center w-11 h-11 left-11 -top-6 roundedShadow sm:block">
                     <span
                       style={{
                         boxSizing: "border-box",
@@ -171,7 +171,7 @@ const Detail = () => {
                         src="/blog/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fnowandme%2Fimage%2Fupload%2Fw_120%2Ch_120%2Cf_auto%2Fvxquzvedxqqtow8opzcz&amp;w=96&amp;q=100"
                         decoding="async"
                         data-nimg="intrinsic"
-                        class="rounded-full false"
+                        className="rounded-full false"
                         srcset="
                                 /blog/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fnowandme%2Fimage%2Fupload%2Fw_120%2Ch_120%2Cf_auto%2Fvxquzvedxqqtow8opzcz&amp;w=48&amp;q=100 1x,
                                 /blog/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fnowandme%2Fimage%2Fupload%2Fw_120%2Ch_120%2Cf_auto%2Fvxquzvedxqqtow8opzcz&amp;w=96&amp;q=100 2x
@@ -195,11 +195,11 @@ const Detail = () => {
                     </span>
                   </div>
                 </div>
-                <p class="text-sm font-semibold text-[#404040] sm:ml-5 hidden sm:block">
+                <p className="text-sm font-semibold text-[#404040] sm:ml-5 hidden sm:block">
                   Annanya Chaturvedi
                 </p>
               </a>
-              <div class="flex items-center pl-0 sm:pl-3 border-r pr-3 sm:pr-0 border-[#CACACA]">
+              <div className="flex items-center pl-0 sm:pl-3 border-r pr-3 sm:pr-0 border-[#CACACA]">
                 <svg
                   width="16"
                   height="16"
@@ -221,11 +221,11 @@ const Detail = () => {
                     </clipPath>
                   </defs>
                 </svg>
-                <p class="text-xs text-[#404040] leading-5 pl-2">
+                <p className="text-xs text-[#404040] leading-5 pl-2">
                   12 June 2023
                 </p>
               </div>
-              <div class="flex items-center pl-3">
+              <div className="flex items-center pl-3">
                 <svg
                   width="16"
                   height="16"
@@ -240,7 +240,7 @@ const Detail = () => {
                     fill="#404040"
                   ></path>
                 </svg>
-                <p class="text-xs text-[#404040] leading-5 pl-2">11 Mins</p>
+                <p className="text-xs text-[#404040] leading-5 pl-2">11 Mins</p>
               </div>
             </div>
           </div>

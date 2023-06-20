@@ -8,8 +8,14 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import SubscribeForm from "@/components/SubscribeForm";
 import QuoteRandom from "@/components/QuoteRandom";
+import Nav from "@/components/Nav";
 
 export default function Detail() {
+  const [showAnswer, setShowAnswer] = useState(false);
+  const toggleAnswer = () => {
+    setShowAnswer((prev) => !prev);
+  };
+
   return (
     <>
       <div className="">
@@ -20,40 +26,26 @@ export default function Detail() {
         </Head>
 
         <Header />
-        <div className="flex bg-white min-h-screen pt-[100px]">
-          <div className="flex flex-row w-full">
-            <div className="flex flex-1 flex-col items-center justify-center relative">
-              <div className="flex flex-1 flex-col pb-18 max-w-md md:max-w-2xl ">
-                <section className="w-full mx-auto  mt-10 md:mt-10 px-5 ">
-                  
-                 
-                  <div className="py-10  columns-1 ">
-                    <div className="mb-4 rounded block bg-white border group flex flex-col overflow-hidden justify-center shadow-md items-center cursor-zoom-in">
-                      <div className="flex-grow py-2 lg:py-4 md:py-4 px-4">
-                        <p className="leading-tight md:leading-snug text-black text-center text-xl md:text-xl lg:text-2xl">
-                          When we deny our emotion, it owns us. When we own our
-                          emotion, we can rebuild and find our way through the
-                          pain.
-                        </p>
-                        <div class=" px-2 py-4 flex justify-end">
-                          <button class=" flex justify-between space-x-6 md:space-x-2">
-                            <div class="flex space-x-2 ">
-                              <span class="flex items-center justify-center text-sm text-[#171717BF] font-semibold">
-                                Author
-                              </span>
-                            </div>
-                          </button>
-                        </div>
-                      </div>
-                    </div>
-                    
-                   
-                  </div>
-                </section>
-              </div>
-              <SubscribeForm />
+        <div className="flex flex-col bg-[#0074d9] min-h-screen pt-[100px]">
+          <div className="bg-[#0074d9] py-10 mb-4">
+            <h1 className="relative mx-3 md:mx-auto text-3xl md:text-5xl  md:leading-[60px] max-w-3xl m-auto text-white font-semibold text-center2 mt-4 sm:mt-6 mb-5 sm:mb-0">
+              A grandmother, two mothers, and two daughters went to a baseball
+              game together and bought one ticket each. How many tickets did
+              they buy in total?
+            </h1>
+
+            <div className="relative mx-3 md:mx-auto text-3xl md:text-5xl  md:leading-[60px] max-w-3xl m-auto text-[#fdfc3b] font-semibold text-center2 mt-4 sm:mt-6 mb-5 sm:mb-0">
+              <span>Three tickets </span>
             </div>
           </div>
+          <Nav 
+            // next={idNext}
+            // prev={idPrev}
+            // riddId={riddId}
+            // onClick={navClick}
+            toggleAnswer={toggleAnswer} 
+            // updatePosition={updatePosition}
+          />
         </div>
 
         <Footer />

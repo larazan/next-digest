@@ -26,17 +26,17 @@ export default function Quotes() {
             <div className="flex flex-1 flex-col items-center justify-center relative">
               <div className="flex flex-1 flex-col pb-18 max-w-md md:max-w-2xl ">
                 <section className="w-full mx-auto  mt-10 md:mt-10 px-5 ">
-                  <h5 class="font-semibold text-2xl md:text-3xl text-center ">
+                  <h5 className="font-semibold text-2xl md:text-3xl text-center ">
                     Quotes
                   </h5>
-                  <p class="mt-3 font-normal text-lg text-gray-700 text-center ">
+                  <p className="mt-3 font-normal text-lg text-gray-700 text-center ">
                     Browse through the most quotes.
                   </p>
-                  <div class="mt-4 relative flex items-center w-full h-12 rounded-lg focus-within:shadow-lg bg-white overflow-hidden border-2 border-gray-300">
-                    <div class="grid place-items-center h-full w-12 text-gray-300">
+                  <div className="mt-4 relative flex items-center w-full h-12 rounded-lg focus-within:shadow-lg bg-white overflow-hidden border-2 border-gray-300">
+                    <div className="grid place-items-center h-full w-12 text-gray-300">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        class="h-6 w-6"
+                        className="h-6 w-6"
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
@@ -51,7 +51,7 @@ export default function Quotes() {
                     </div>
 
                     <input
-                      class="peer h-full w-full outline-none text-sm text-gray-700 pr-2"
+                      className="peer h-full w-full outline-none text-sm text-gray-700 pr-2"
                       type="text"
                       id="search"
                       placeholder="Search something.."
@@ -66,10 +66,10 @@ export default function Quotes() {
                           emotion, we can rebuild and find our way through the
                           pain.
                         </p>
-                        <div class=" px-2 py-4 flex justify-end">
-                          <button class=" flex justify-between space-x-6 md:space-x-2">
-                            <div class="flex space-x-2 ">
-                              <span class="flex items-center justify-center text-sm text-[#171717BF] font-semibold">
+                        <div className=" px-2 py-4 flex justify-end">
+                          <button className=" flex justify-between space-x-6 md:space-x-2">
+                            <div className="flex space-x-2 ">
+                              <span className="flex items-center justify-center text-sm text-[#171717BF] font-semibold">
                                 Author
                               </span>
                             </div>
@@ -83,10 +83,10 @@ export default function Quotes() {
                         <p className="leading-tight md:leading-snug text-black text-center text-xl md:text-xl lg:text-2xl">
                         You’ll be on your way up! You’ll be seeing great sights! You’ll join the high fliers who soar to high heights.
                         </p>
-                        <div class=" px-2 py-4 flex justify-end">
-                          <button class=" flex justify-between space-x-6 md:space-x-2">
-                            <div class="flex space-x-2 ">
-                              <span class="flex items-center justify-center text-sm text-[#171717BF] font-semibold">
+                        <div className=" px-2 py-4 flex justify-end">
+                          <button className=" flex justify-between space-x-6 md:space-x-2">
+                            <div className="flex space-x-2 ">
+                              <span className="flex items-center justify-center text-sm text-[#171717BF] font-semibold">
                                 Author
                               </span>
                             </div>
@@ -100,10 +100,10 @@ export default function Quotes() {
                         <p className="leading-tight md:leading-snug text-black text-center text-xl md:text-xl lg:text-2xl">
                         It’s a troublesome world. All the people who are in it are troubled with troubles almost every minute. You ought to be thankful, a whole heaping lot, for the places and people you’re lucky you’re not.
                         </p>
-                        <div class=" px-2 py-4 flex justify-end">
-                          <button class=" flex justify-between space-x-6 md:space-x-2">
-                            <div class="flex space-x-2 ">
-                              <span class="flex items-center justify-center text-sm text-[#171717BF] font-semibold">
+                        <div className=" px-2 py-4 flex justify-end">
+                          <button className=" flex justify-between space-x-6 md:space-x-2">
+                            <div className="flex space-x-2 ">
+                              <span className="flex items-center justify-center text-sm text-[#171717BF] font-semibold">
                                 Author
                               </span>
                             </div>

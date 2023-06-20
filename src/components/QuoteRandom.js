@@ -2,8 +2,8 @@ import React from "react";
 
 const QuoteRandom = () => {
   return (
-    <div class="mt-20 mb-10 flex flex-col items-center px-5 md:px-2">
-      <div class="font-semibold text-2xl md:text-4xl max-w-[900px] md:leading-tight tracking-wide relative">
+    <div className="mt-20 mb-10 flex flex-col items-center px-5 md:px-2">
+      <div className="font-semibold text-2xl md:text-4xl max-w-[900px] md:leading-tight tracking-wide relative">
         
         <p>
           <svg
@@ -22,7 +22,7 @@ const QuoteRandom = () => {
           rebuild and find our way through the pain.
         </p>
       </div>
-      <p class="mt-4 font-medium text-lg text-[#171717BF] max-w-[900px] w-full">
+      <p className="mt-4 font-medium text-lg text-[#171717BF] max-w-[900px] w-full">
         – BRENÉ BROWN
       </p>
     </div>

@@ -10,7 +10,7 @@ export default function Footer() {
         <div className="px-4 py-6 sm:px-6 lg:col-span-3 lg:px-8">
           <div className="grid grid-cols-1 gap-10 sm:grid-cols-2">
             <div className="mt-6">
-              <div class="flex w-full flex-row space-x-2 justify-center sm:flex-wrap">
+              <div className="flex w-full flex-row space-x-2 justify-center sm:flex-wrap">
                 <Link
                   href="https://nowandme.sng.link/Dqsa0/srwb/7mon"
                   target="_blank"
@@ -19,7 +19,7 @@ export default function Footer() {
                   <svg
                     viewBox="0 0 540 156"
                     fill="none"
-                    class="w-full h-full sm:w-[180px] cursor-pointer"
+                    className="w-full h-full sm:w-[180px] cursor-pointer"
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
@@ -43,7 +43,7 @@ export default function Footer() {
                 >
                   <svg
                     viewBox="0 0 540 156"
-                    class="w-full h-full sm:w-[180px] cursor-pointer"
+                    className="w-full h-full sm:w-[180px] cursor-pointer"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
                   >
@@ -358,8 +358,8 @@ export default function Footer() {
           </div>
 
           <div className="pt-12">
-            <div class="py-0 sm:mb-0 mx-5 xl:mx-auto text-center border-gray-300 border-t-[0.5px]  max-w-7xl">
-              <p class="text-normal text-gray-700 my-6">©2023 Now&amp;Me Enterprises Pvt. Ltd. – All rights reserved.</p>
+            <div className="py-0 sm:mb-0 mx-5 xl:mx-auto text-center border-gray-300 border-t-[0.5px]  max-w-7xl">
+              <p className="text-normal text-gray-700 my-6">©2023 Now&amp;Me Enterprises Pvt. Ltd. – All rights reserved.</p>
             </div>
           </div>
         </div>

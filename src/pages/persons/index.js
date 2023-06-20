@@ -56,10 +56,10 @@ export default function Persons() {
             <div className="flex flex-1 flex-col items-center justify-center relative">
               <div className="flex flex-1 flex-col pb-18 max-w-md md:max-w-2xl ">
                 <section className="w-full mx-auto  mt-10 md:mt-10 px-5 ">
-                  <h5 class="font-semibold text-2xl md:text-3xl text-center ">
+                  <h5 className="font-semibold text-2xl md:text-3xl text-center ">
                     Person
                   </h5>
-                  <p class="mt-3 font-normal text-lg text-gray-700 text-center ">
+                  <p className="mt-3 font-normal text-lg text-gray-700 text-center ">
                     Browse through the most frequently asked questions.
                   </p>
                   <div className="px-8 z-9 md:container md:mx-auto md:px-0">
@@ -93,165 +93,165 @@ export default function Persons() {
                       </div>
                     </div>
 
-                    <div class="mt-8 bg-pink-200 grid lg:gap-12 sm:grid-cols-[repeat(4,140px)] grid-cols-[repeat(2,144px)] gap-6 align-top">
-                      <div class="flex justify-start flex-col text-center">
+                    <div className="mt-8 bg-pink-200 grid lg:gap-12 sm:grid-cols-[repeat(4,140px)] grid-cols-[repeat(2,144px)] gap-6 align-top">
+                      <div className="flex justify-start flex-col text-center">
                         <img
                           srcset="https://refine.ams3.cdn.digitaloceanspaces.com/website/static/about/images/team-avatars/civan.png 1500w"
                           src="https://refine.ams3.cdn.digitaloceanspaces.com/website/static/about/images/team-avatars/civan.png"
                           alt="Civan Özseyhan"
-                          class="w-full not-prose m-0 mb-6"
+                          className="w-full not-prose m-0 mb-6"
                         />
-                        <span class="text-xs leading-4 lg:text-base lg:leading-6 text-gray-900 dark:text-gray-0 font-semibold">
+                        <span className="text-xs leading-4 lg:text-base lg:leading-6 text-gray-900 dark:text-gray-0 font-semibold">
                           Civan Özseyhan
                         </span>
-                        <span class="text-xs leading-4 lg:text-base lg:leading-6 text-gray-500 dark:text-gray-400">
+                        <span className="text-xs leading-4 lg:text-base lg:leading-6 text-gray-500 dark:text-gray-400">
                           Co-Founder
                         </span>
-                        <span class="text-xs leading-4 lg:text-base lg:leading-6 text-gray-500 dark:text-gray-400">
+                        <span className="text-xs leading-4 lg:text-base lg:leading-6 text-gray-500 dark:text-gray-400">
                           CEO
                         </span>
                       </div>
-                      <div class="flex justify-start flex-col text-center">
+                      <div className="flex justify-start flex-col text-center">
                         <img
                           srcset="https://refine.ams3.cdn.digitaloceanspaces.com/website/static/about/images/team-avatars/omer.png 1500w"
                           src="https://refine.ams3.cdn.digitaloceanspaces.com/website/static/about/images/team-avatars/omer.png"
                           alt="Ömer Aplak"
-                          class="w-full not-prose m-0 mb-6"
+                          className="w-full not-prose m-0 mb-6"
                         />
-                        <span class="text-xs leading-4 lg:text-base lg:leading-6 text-gray-900 dark:text-gray-0 font-semibold">
+                        <span className="text-xs leading-4 lg:text-base lg:leading-6 text-gray-900 dark:text-gray-0 font-semibold">
                           Ömer Aplak
                         </span>
-                        <span class="text-xs leading-4 lg:text-base lg:leading-6 text-gray-500 dark:text-gray-400">
+                        <span className="text-xs leading-4 lg:text-base lg:leading-6 text-gray-500 dark:text-gray-400">
                           Co-Founder
                         </span>
-                        <span class="text-xs leading-4 lg:text-base lg:leading-6 text-gray-500 dark:text-gray-400">
+                        <span className="text-xs leading-4 lg:text-base lg:leading-6 text-gray-500 dark:text-gray-400">
                           CTO
                         </span>
                       </div>
-                      <div class="flex justify-start flex-col text-center">
+                      <div className="flex justify-start flex-col text-center">
                         <img
                           srcset="https://refine.ams3.cdn.digitaloceanspaces.com/website/static/about/images/team-avatars/eren.png 1500w"
                           src="https://refine.ams3.cdn.digitaloceanspaces.com/website/static/about/images/team-avatars/eren.png"
                           alt="Eren Erkalkan"
-                          class="w-full not-prose m-0 mb-6"
+                          className="w-full not-prose m-0 mb-6"
                         />
-                        <span class="text-xs leading-4 lg:text-base lg:leading-6 text-gray-900 dark:text-gray-0 font-semibold">
+                        <span className="text-xs leading-4 lg:text-base lg:leading-6 text-gray-900 dark:text-gray-0 font-semibold">
                           Eren Erkalkan
                         </span>
-                        <span class="text-xs leading-4 lg:text-base lg:leading-6 text-gray-500 dark:text-gray-400">
+                        <span className="text-xs leading-4 lg:text-base lg:leading-6 text-gray-500 dark:text-gray-400">
                           Co-Founder
                         </span>
-                        <span class="text-xs leading-4 lg:text-base lg:leading-6 text-gray-500 dark:text-gray-400">
+                        <span className="text-xs leading-4 lg:text-base lg:leading-6 text-gray-500 dark:text-gray-400">
                           Head of Product
                         </span>
                       </div>
-                      <div class="flex justify-start flex-col text-center">
+                      <div className="flex justify-start flex-col text-center">
                         <img
                           srcset="https://refine.ams3.cdn.digitaloceanspaces.com/website/static/about/images/team-avatars/batuhan.png 1500w"
                           src="https://refine.ams3.cdn.digitaloceanspaces.com/website/static/about/images/team-avatars/batuhan.png"
                           alt="Batuhan Özgür Özdemir"
-                          class="w-full not-prose m-0 mb-6"
+                          className="w-full not-prose m-0 mb-6"
                         />
-                        <span class="text-xs leading-4 lg:text-base lg:leading-6 text-gray-900 dark:text-gray-0 font-semibold">
+                        <span className="text-xs leading-4 lg:text-base lg:leading-6 text-gray-900 dark:text-gray-0 font-semibold">
                           Batuhan Özgür Özdemir
                         </span>
-                        <span class="text-xs leading-4 lg:text-base lg:leading-6 text-gray-500 dark:text-gray-400">
+                        <span className="text-xs leading-4 lg:text-base lg:leading-6 text-gray-500 dark:text-gray-400">
                           Tech Lead
                         </span>
                       </div>
-                      <div class="flex justify-start flex-col text-center">
+                      <div className="flex justify-start flex-col text-center">
                         <img
                           srcset="https://refine.ams3.cdn.digitaloceanspaces.com/website/static/about/images/team-avatars/ali.png 1500w"
                           src="https://refine.ams3.cdn.digitaloceanspaces.com/website/static/about/images/team-avatars/ali.png"
                           alt="Ali Emir Şen"
-                          class="w-full not-prose m-0 mb-6"
+                          className="w-full not-prose m-0 mb-6"
                         />
-                        <span class="text-xs leading-4 lg:text-base lg:leading-6 text-gray-900 dark:text-gray-0 font-semibold">
+                        <span className="text-xs leading-4 lg:text-base lg:leading-6 text-gray-900 dark:text-gray-0 font-semibold">
                           Ali Emir Şen
                         </span>
-                        <span class="text-xs leading-4 lg:text-base lg:leading-6 text-gray-500 dark:text-gray-400">
+                        <span className="text-xs leading-4 lg:text-base lg:leading-6 text-gray-500 dark:text-gray-400">
                           Frontend Team Lead
                         </span>
                       </div>
-                      <div class="flex justify-start flex-col text-center">
+                      <div className="flex justify-start flex-col text-center">
                         <img
                           srcset="https://refine.ams3.cdn.digitaloceanspaces.com/website/static/about/images/team-avatars/yildiray.png 1500w"
                           src="https://refine.ams3.cdn.digitaloceanspaces.com/website/static/about/images/team-avatars/yildiray.png"
                           alt="Yıldıray Ünlü"
-                          class="w-full not-prose m-0 mb-6"
+                          className="w-full not-prose m-0 mb-6"
                         />
-                        <span class="text-xs leading-4 lg:text-base lg:leading-6 text-gray-900 dark:text-gray-0 font-semibold">
+                        <span className="text-xs leading-4 lg:text-base lg:leading-6 text-gray-900 dark:text-gray-0 font-semibold">
                           Yıldıray Ünlü
                         </span>
-                        <span class="text-xs leading-4 lg:text-base lg:leading-6 text-gray-500 dark:text-gray-400">
+                        <span className="text-xs leading-4 lg:text-base lg:leading-6 text-gray-500 dark:text-gray-400">
                           Backend Team Lead
                         </span>
                       </div>
-                      <div class="flex justify-start flex-col text-center">
+                      <div className="flex justify-start flex-col text-center">
                         <img
                           srcset="https://refine.ams3.cdn.digitaloceanspaces.com/website/static/about/images/team-avatars/salih.png 1500w"
                           src="https://refine.ams3.cdn.digitaloceanspaces.com/website/static/about/images/team-avatars/salih.png"
                           alt="Salih Özdemir"
-                          class="w-full not-prose m-0 mb-6"
+                          className="w-full not-prose m-0 mb-6"
                         />
-                        <span class="text-xs leading-4 lg:text-base lg:leading-6 text-gray-900 dark:text-gray-0 font-semibold">
+                        <span className="text-xs leading-4 lg:text-base lg:leading-6 text-gray-900 dark:text-gray-0 font-semibold">
                           Salih Özdemir
                         </span>
-                        <span class="text-xs leading-4 lg:text-base lg:leading-6 text-gray-500 dark:text-gray-400">
+                        <span className="text-xs leading-4 lg:text-base lg:leading-6 text-gray-500 dark:text-gray-400">
                           Software Developer
                         </span>
                       </div>
-                      <div class="flex justify-start flex-col text-center">
+                      <div className="flex justify-start flex-col text-center">
                         <img
                           srcset="https://refine.ams3.cdn.digitaloceanspaces.com/website/static/about/images/team-avatars/alican.png 1500w"
                           src="https://refine.ams3.cdn.digitaloceanspaces.com/website/static/about/images/team-avatars/alican.png"
                           alt="Alican Erdurmaz"
-                          class="w-full not-prose m-0 mb-6"
+                          className="w-full not-prose m-0 mb-6"
                         />
-                        <span class="text-xs leading-4 lg:text-base lg:leading-6 text-gray-900 dark:text-gray-0 font-semibold">
+                        <span className="text-xs leading-4 lg:text-base lg:leading-6 text-gray-900 dark:text-gray-0 font-semibold">
                           Alican Erdurmaz
                         </span>
-                        <span class="text-xs leading-4 lg:text-base lg:leading-6 text-gray-500 dark:text-gray-400">
+                        <span className="text-xs leading-4 lg:text-base lg:leading-6 text-gray-500 dark:text-gray-400">
                           Software Developer
                         </span>
                       </div>
-                      <div class="flex justify-start flex-col text-center">
+                      <div className="flex justify-start flex-col text-center">
                         <img
                           srcset="https://refine.ams3.cdn.digitaloceanspaces.com/website/static/about/images/team-avatars/necati.png 1500w"
                           src="https://refine.ams3.cdn.digitaloceanspaces.com/website/static/about/images/team-avatars/necati.png"
                           alt="Necati Ozmen"
-                          class="w-full not-prose m-0 mb-6"
+                          className="w-full not-prose m-0 mb-6"
                         />
-                        <span class="text-xs leading-4 lg:text-base lg:leading-6 text-gray-900 dark:text-gray-0 font-semibold">
+                        <span className="text-xs leading-4 lg:text-base lg:leading-6 text-gray-900 dark:text-gray-0 font-semibold">
                           Necati Ozmen
                         </span>
-                        <span class="text-xs leading-4 lg:text-base lg:leading-6 text-gray-500 dark:text-gray-400">
+                        <span className="text-xs leading-4 lg:text-base lg:leading-6 text-gray-500 dark:text-gray-400">
                           Head of Growth
                         </span>
                       </div>
-                      <div class="flex justify-start flex-col text-center">
+                      <div className="flex justify-start flex-col text-center">
                         <img
                           srcset="https://refine.ams3.cdn.digitaloceanspaces.com/website/static/about/images/team-avatars/recep.png 1500w"
                           src="https://refine.ams3.cdn.digitaloceanspaces.com/website/static/about/images/team-avatars/recep.png"
                           alt="Recep Kütük"
-                          class="w-full not-prose m-0 mb-6"
+                          className="w-full not-prose m-0 mb-6"
                         />
-                        <span class="text-xs leading-4 lg:text-base lg:leading-6 text-gray-900 dark:text-gray-0 font-semibold">
+                        <span className="text-xs leading-4 lg:text-base lg:leading-6 text-gray-900 dark:text-gray-0 font-semibold">
                           Recep Kütük
                         </span>
-                        <span class="text-xs leading-4 lg:text-base lg:leading-6 text-gray-500 dark:text-gray-400">
+                        <span className="text-xs leading-4 lg:text-base lg:leading-6 text-gray-500 dark:text-gray-400">
                           Senior Product Designer
                         </span>
                       </div>
-                      <div class="flex justify-start flex-col text-center ">
-                        <div class="w-full not-prose m-0 mb-6 ">
+                      <div className="flex justify-start flex-col text-center ">
+                        <div className="w-full not-prose m-0 mb-6 ">
                           <svg
                             width="192"
                             height="180"
                             viewBox="0 0 192 240"
                             fill="none"
                             xmlns="http://www.w3.org/2000/svg"
-                            class="w-full"
+                            className="w-full"
                           >
                             <circle
                               cx="96"

@@ -21,15 +21,15 @@ export default function About() {
           <div className="flex flex-1 flex-col items-center justify-center relative">
             <div className="flex flex-1 flex-col pb-20  max-w-md md:max-w-2xl ">
               <section className="w-full mx-auto  mt-10 md:mt-10 px-5 ">
-                <h5 class="font-semibold md:font-bold text-2xl md:text-3xl text-center ">
+                <h5 className="font-semibold md:font-bold text-2xl md:text-3xl text-center ">
                   About
                 </h5>
-                <p class=" mt-4 text-xl font-semibold text-gray-700">
+                <p className=" mt-4 text-xl font-semibold text-gray-700">
                   Now&amp;Me is a safe space for people, from all walks of life,
                   to take their <i>“first step”</i> towards accepting their
                   feelings and talking about them.
                 </p>
-                <article class="mx-auto mt-10 prose-previewify">
+                <article className="mx-auto mt-10 prose-previewify">
                   
                   <p className="text-2xl">
                     <strong>Address</strong>

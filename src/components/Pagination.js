@@ -4,10 +4,10 @@ import Link from "next/link";
 export default function Pagination() {
   return (
     <>
-      <div class="flex items-center justify-center mt-12 mb-10 space-x-2">
+      <div className="flex items-center justify-center mt-12 mb-10 space-x-2">
         <button
           disabled=""
-          class="border border-[#E4E4E4] rounded p-1 text-[#191919] disabled:text-[#A3A3A3] disabled:cursor-not-allowed"
+          className="border border-[#E4E4E4] rounded p-1 text-[#191919] disabled:text-[#A3A3A3] disabled:cursor-not-allowed"
           aria-label="go to previous page"
         >
           <svg
@@ -25,31 +25,31 @@ export default function Pagination() {
           </svg>
         </button>
         <Link
-          class="rounded p-1 w-8 h-8 text-center text-sm font-medium flex justify-center items-center text-white bg-orange-500"
+          className="rounded p-1 w-8 h-8 text-center text-sm font-medium flex justify-center items-center text-white bg-orange-500"
           href="/blog?category=All%20Categories&amp;page=1"
         >
           1
         </Link>
         <Link
-          class="rounded p-1 w-8 h-8 text-center text-sm font-medium flex justify-center items-center border border-[#E4E4E4]"
+          className="rounded p-1 w-8 h-8 text-center text-sm font-medium flex justify-center items-center border border-[#E4E4E4]"
           href="/blog?category=All%20Categories&amp;page=2"
         >
           2
         </Link>
         <Link
-          class="rounded p-1 w-8 h-8 text-center text-sm font-medium flex justify-center items-center border border-[#E4E4E4]"
+          className="rounded p-1 w-8 h-8 text-center text-sm font-medium flex justify-center items-center border border-[#E4E4E4]"
           href="/blog?category=All%20Categories&amp;page=3"
         >
           3
         </Link>
         <Link
-          class="rounded p-1 w-8 h-8 text-center text-sm font-medium flex justify-center items-center border border-[#E4E4E4]"
+          className="rounded p-1 w-8 h-8 text-center text-sm font-medium flex justify-center items-center border border-[#E4E4E4]"
           href="/blog?category=All%20Categories&amp;page=4"
         >
           4
         </Link>
         <Link
-          class="rounded p-1 w-8 h-8 text-center text-sm font-medium flex justify-center items-center border border-[#E4E4E4]"
+          className="rounded p-1 w-8 h-8 text-center text-sm font-medium flex justify-center items-center border border-[#E4E4E4]"
           href="/blog?category=All%20Categories&amp;page=5"
         >
           5
@@ -75,13 +75,13 @@ export default function Pagination() {
           ></path>
         </svg>
         <Link
-          class="rounded p-1 w-8 h-8 text-center text-sm font-medium flex justify-center items-center border border-[#E4E4E4]"
+          className="rounded p-1 w-8 h-8 text-center text-sm font-medium flex justify-center items-center border border-[#E4E4E4]"
           href="/blog?category=All%20Categories&amp;page=29"
         >
           29
         </Link>
         <button
-          class="border border-[#E4E4E4] rounded p-1 text-[#191919] disabled:text-[#A3A3A3] disabled:cursor-not-allowed"
+          className="border border-[#E4E4E4] rounded p-1 text-[#191919] disabled:text-[#A3A3A3] disabled:cursor-not-allowed"
           aria-label="go to next page"
         >
           <svg

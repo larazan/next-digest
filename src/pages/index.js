@@ -379,7 +379,7 @@ export default function Home() {
               <div>
                 <h1
                   data-testid="title-pilih-kategori-favoritmu"
-                  // class="mx-0 my-[1em] text-[16px] font-semibold leading-6 text-[#4a4a4a]"
+                  // className="mx-0 my-[1em] text-[16px] font-semibold leading-6 text-[#4a4a4a]"
                   className="mt-5 text-md md:text-lg text-gray-900 font-semibold md:font-bold"
                 >
                   Blog
@@ -459,31 +459,31 @@ export default function Home() {
                       <div className="h-px bg-mercury"></div>
                     </a>
                     {/*  */}
-                    <div class="flex min-w-0 flex-1 flex-col">
-                      <div class="flex flex-row text-gray-33 dark:text-gray-cc md:justify-start">
-                        <div class="flex flex-row flex-wrap items-center font-polysans text-11 uppercase leading-130 tracking-15 text-gray-33 dark:text-gray-cc">
+                    <div className="flex min-w-0 flex-1 flex-col">
+                      <div className="flex flex-row text-gray-33 dark:text-gray-cc md:justify-start">
+                        <div className="flex flex-row flex-wrap items-center font-polysans text-11 uppercase leading-130 tracking-15 text-gray-33 dark:text-gray-cc">
                           <a
-                            class="relative z-10 mr-8 font-bold hover:shadow-underline-inherit"
+                            className="relative z-10 mr-8 font-bold hover:shadow-underline-inherit"
                             href="/authors/sean-hollister"
                           >
                             Sean Hollister
                           </a>
                           <a
-                            class="relative z-10 mr-8 font-bold hover:shadow-underline-inherit"
+                            className="relative z-10 mr-8 font-bold hover:shadow-underline-inherit"
                             href="/2023/6/14/23761257/the-first-sneak-peek-at-the-babylon-5-animated-movie"
                           >
                             <time
-                              class="flex items-center font-normal"
-                              datetime="2023-06-14T19:33:31.303Z"
+                              className="flex items-center font-normal"
+                              dateTime="2023-06-14T19:33:31.303Z"
                             >
                               2:33 AM GMT+7
                             </time>
                           </a>
                         </div>
-                        <div class="relative z-10 flex flex-row items-center md:flex-row">
+                        <div className="relative z-10 flex flex-row items-center md:flex-row">
                           <button aria-label="Copy link">
                             <svg
-                              class="fill-gray-63 transition hover:fill-black dark:hover:fill-white"
+                              className="fill-gray-63 transition hover:fill-black dark:hover:fill-white"
                               width="20"
                               height="20"
                               fill="none"
@@ -496,11 +496,11 @@ export default function Home() {
                           </button>
                         </div>
                       </div>
-                      <div class="flex flex-col space-y-2 font-polysans text-black dark:text-gray-ef leading-tight bg-pink-200">
-                        <div class="inline pr-4 text-[17px] font-bold md:text-[17px]">
+                      <div className="flex flex-col space-y-2 font-polysans text-black dark:text-gray-ef leading-tight bg-pink-200">
+                        <div className="inline pr-4 text-[17px] font-bold md:text-[17px]">
                           The first sneak peek at the Babylon 5 animated movie.
                         </div>
-                        <p class="duet--article--dangerously-set-cms-markup inline font-fkroman text-gray-33 dark:text-gray-ef [&amp;_a]:relative [&amp;_a]:z-10  [&amp;_a:hover]:text-blurple [&amp;_a:hover]:shadow-underline-blurple dark:[&amp;_a:hover]:text-franklin dark:[&amp;_a:hover]:shadow-underline-franklin [&amp;_a]:shadow-underline-blurple dark:[&amp;_a]:shadow-underline-franklin">
+                        <p className="duet--article--dangerously-set-cms-markup inline font-fkroman text-gray-33 dark:text-gray-ef [&amp;_a]:relative [&amp;_a]:z-10  [&amp;_a:hover]:text-blurple [&amp;_a:hover]:shadow-underline-blurple dark:[&amp;_a:hover]:text-franklin dark:[&amp;_a:hover]:shadow-underline-franklin [&amp;_a]:shadow-underline-blurple dark:[&amp;_a]:shadow-underline-franklin">
                           A full trailer, release date, and what sounds like
                           preorders are coming tomorrow,{" "}
                           <a href="https://twitter.com/straczynski/status/1669011815446249475?s=46&amp;t=g01btXivdkkmtc6rgtfM-w">
@@ -518,18 +518,18 @@ export default function Home() {
                         </p>
                         <br />
                       </div>
-                      <div class="pt-0 flex w-full mx-auto justify-center items-center bg-orange-200">
-                        <div class="min-h-[270px] quickpost mb-0 w-full md:max-w-[460px] relative z-10 overflow-x-hidden md:max-w-full">
+                      <div className="pt-0 flex w-full mx-auto justify-center items-center bg-orange-200">
+                        <div className="min-h-[270px] quickpost mb-0 w-full md:max-w-[460px] relative z-10 overflow-x-hidden md:max-w-full">
                           <div>
                             <div
-                              class="aspect-w-16 aspect-h-9 flex w-[550px] my-[10px] overflow-y-hidden"
+                              className="aspect-w-16 aspect-h-9 flex w-[550px] my-[10px] overflow-y-hidden"
                             >
                               <iframe
                                 id="twitter-widget-0"
-                                frameborder="0"
+                                frameBorder="0"
                                 allowtransparency="true"
-                                allowfullscreen="true"
-                                class="static overflow-y-hidden w-[445px] h-[638px] flex-1"
+                                allowFullScreen="true"
+                                className="static overflow-y-hidden w-[445px] h-[638px] flex-1"
                                 // style={{ position: 'static', visibility: 'visible', width: '445px', height: '638px', display: 'block', flexGrow: 1 }}
                                 title="Twitter Tweet"
                                 src="https://platform.twitter.com/embed/Tweet.html?dnt=false&amp;embedId=twitter-widget-0&amp;features=eyJ0ZndfdGltZWxpbmVfbGlzdCI6eyJidWNrZXQiOltdLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X2ZvbGxvd2VyX2NvdW50X3N1bnNldCI6eyJidWNrZXQiOnRydWUsInZlcnNpb24iOm51bGx9LCJ0ZndfdHdlZXRfZWRpdF9iYWNrZW5kIjp7ImJ1Y2tldCI6Im9uIiwidmVyc2lvbiI6bnVsbH0sInRmd19yZWZzcmNfc2Vzc2lvbiI6eyJidWNrZXQiOiJvbiIsInZlcnNpb24iOm51bGx9LCJ0ZndfZm9zbnJfc29mdF9pbnRlcnZlbnRpb25zX2VuYWJsZWQiOnsiYnVja2V0Ijoib24iLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X21peGVkX21lZGlhXzE1ODk3Ijp7ImJ1Y2tldCI6InRyZWF0bWVudCIsInZlcnNpb24iOm51bGx9LCJ0ZndfZXhwZXJpbWVudHNfY29va2llX2V4cGlyYXRpb24iOnsiYnVja2V0IjoxMjA5NjAwLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X3Nob3dfYmlyZHdhdGNoX3Bpdm90c19lbmFibGVkIjp7ImJ1Y2tldCI6Im9uIiwidmVyc2lvbiI6bnVsbH0sInRmd19kdXBsaWNhdGVfc2NyaWJlc190b19zZXR0aW5ncyI6eyJidWNrZXQiOiJvbiIsInZlcnNpb24iOm51bGx9LCJ0ZndfdXNlX3Byb2ZpbGVfaW1hZ2Vfc2hhcGVfZW5hYmxlZCI6eyJidWNrZXQiOiJvbiIsInZlcnNpb24iOm51bGx9LCJ0ZndfdmlkZW9faGxzX2R5bmFtaWNfbWFuaWZlc3RzXzE1MDgyIjp7ImJ1Y2tldCI6InRydWVfYml0cmF0ZSIsInZlcnNpb24iOm51bGx9LCJ0ZndfbGVnYWN5X3RpbWVsaW5lX3N1bnNldCI6eyJidWNrZXQiOnRydWUsInZlcnNpb24iOm51bGx9LCJ0ZndfdHdlZXRfZWRpdF9mcm9udGVuZCI6eyJidWNrZXQiOiJvbiIsInZlcnNpb24iOm51bGx9fQ%3D%3D&amp;frame=false&amp;hideCard=false&amp;hideThread=false&amp;id=1669011815446249475&amp;lang=en&amp;origin=https%3A%2F%2Fwww.theverge.com%2F&amp;sessionId=ab51efdc2d73433f8566ff9c73cb337ea43e15f3&amp;siteScreenName=verge&amp;theme=dark&amp;widgetsVersion=aaf4084522e3a%3A1674595607486&amp;width=550px"
@@ -539,7 +539,7 @@ export default function Home() {
                             <script
                               async=""
                               src="https://platform.twitter.com/widgets.js"
-                              charset="utf-8"
+                              charSet="utf-8"
                             ></script>
                             
                           </div>
