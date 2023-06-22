@@ -62,7 +62,7 @@ const Detail = () => {
                         maxWidth: "100%",
                       }}
                     >
-                      <img
+                      <Image
                         alt=""
                         aria-hidden="true"
                         src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2732%27%20height=%2732%27/%3e"
@@ -124,7 +124,7 @@ const Detail = () => {
                           maxWidth: "100%",
                         }}
                       >
-                        <img
+                        <Image
                           alt=""
                           aria-hidden="true"
                           src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2740%27%20height=%2740%27/%3e"
@@ -318,7 +318,7 @@ const Detail = () => {
                       raw and emotional. Even though I try to give them a
                       chance, it&apos;s tough for me to work with those pieces. It&apos;s
                       really difficult to reject those pieces and sometimes I
-                      end up saying things like "things will get better" to
+                      end up saying things like &quot;things will get better&quot; to
                       provide some comfort to them. However, later on, I do feel
                       guilty because I don&apos;t feel like I&apos;m actually helping
                       them. I believe my job falls into a gray area where it&apos;s

@@ -2,7 +2,7 @@ import React, { useState, useRef } from "react";
 import Link from "next/link";
 import Head from "next/head";
 import Image from "next/image";
-import TweetEmbed from 'react-tweet-embed'
+import TweetEmbed from "react-tweet-embed";
 import styles from "../styles/Home.module.css";
 import { Navigation, Pagination, Scrollbar, A11y } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -101,16 +101,16 @@ export default function Home() {
                     pagination={{ clickable: true }}
                   >
                     <SwiperSlide>
-                      <Image src={banner} />
+                      <Image src={banner} alt="" />
                     </SwiperSlide>
                     <SwiperSlide>
-                      <Image src={kado} />
+                      <Image src={kado} alt="" />
                     </SwiperSlide>
                     <SwiperSlide>
-                      <Image src={amanah} />
+                      <Image src={amanah} alt="" />
                     </SwiperSlide>
                     <SwiperSlide>
-                      <Image src={kebaikan} />
+                      <Image src={kebaikan} alt="" />
                     </SwiperSlide>
                   </Swiper>
                 </div>
@@ -130,7 +130,7 @@ export default function Home() {
 
                       <div className="flex text-center2 pt-1 md:pt-1 text-sm capitalize">
                         <span className="text-[12px] font-semibold text-gray-800">
-                          600 Yatim Dhuafa Ingin Jadi Penghafal Al-Qur'an
+                          600 Yatim Dhuafa Ingin Jadi Penghafal Al-Qur&apos;an
                         </span>
                       </div>
 
@@ -414,7 +414,7 @@ export default function Home() {
                             Week
                           </span>
                           <span className="text-xs md:text-lg leading-tight md:leading-tight break-words text-justify">
-                            Whether you're waiting for the weekend or
+                            Whether you&apos;re waiting for the weekend or
                             commiserating about your job, these funny work memes
                             will help you cope
                           </span>
@@ -450,7 +450,7 @@ export default function Home() {
                             Week
                           </span>
                           <span className="text-xs md:text-lg leading-tight md:leading-tight break-words text-justify">
-                            Whether you're waiting for the weekend or
+                            Whether you&apos;re waiting for the weekend or
                             commiserating about your job, these funny work memes
                             will help you cope
                           </span>
@@ -519,7 +519,7 @@ export default function Home() {
                         <br />
                       </div>
                       <div className="pt-0 flex w-full mx-auto justify-center items-center bg-orange-200">
-                        <div className="min-h-[270px] quickpost mb-0 w-full md:max-w-[460px] relative z-10 overflow-x-hidden md:max-w-full">
+                        <div className="min-h-[270px] quickpost mb-0 w-full  relative z-10 overflow-x-hidden md:max-w-full">
                           <div>
                             <div
                               className="aspect-w-16 aspect-h-9 flex w-[550px] my-[10px] overflow-y-hidden"
@@ -530,7 +530,7 @@ export default function Home() {
                                 allowtransparency="true"
                                 allowFullScreen="true"
                                 className="static overflow-y-hidden w-[445px] h-[638px] flex-1"
-                                // style={{ position: 'static', visibility: 'visible', width: '445px', height: '638px', display: 'block', flexGrow: 1 }}
+                                // style={{ position: &apos;static&apos;, visibility: &apos;visible&apos;, width: &apos;445px&apos;, height: &apos;638px&apos;, display: &apos;block&apos;, flexGrow: 1 }}
                                 title="Twitter Tweet"
                                 src="https://platform.twitter.com/embed/Tweet.html?dnt=false&amp;embedId=twitter-widget-0&amp;features=eyJ0ZndfdGltZWxpbmVfbGlzdCI6eyJidWNrZXQiOltdLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X2ZvbGxvd2VyX2NvdW50X3N1bnNldCI6eyJidWNrZXQiOnRydWUsInZlcnNpb24iOm51bGx9LCJ0ZndfdHdlZXRfZWRpdF9iYWNrZW5kIjp7ImJ1Y2tldCI6Im9uIiwidmVyc2lvbiI6bnVsbH0sInRmd19yZWZzcmNfc2Vzc2lvbiI6eyJidWNrZXQiOiJvbiIsInZlcnNpb24iOm51bGx9LCJ0ZndfZm9zbnJfc29mdF9pbnRlcnZlbnRpb25zX2VuYWJsZWQiOnsiYnVja2V0Ijoib24iLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X21peGVkX21lZGlhXzE1ODk3Ijp7ImJ1Y2tldCI6InRyZWF0bWVudCIsInZlcnNpb24iOm51bGx9LCJ0ZndfZXhwZXJpbWVudHNfY29va2llX2V4cGlyYXRpb24iOnsiYnVja2V0IjoxMjA5NjAwLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X3Nob3dfYmlyZHdhdGNoX3Bpdm90c19lbmFibGVkIjp7ImJ1Y2tldCI6Im9uIiwidmVyc2lvbiI6bnVsbH0sInRmd19kdXBsaWNhdGVfc2NyaWJlc190b19zZXR0aW5ncyI6eyJidWNrZXQiOiJvbiIsInZlcnNpb24iOm51bGx9LCJ0ZndfdXNlX3Byb2ZpbGVfaW1hZ2Vfc2hhcGVfZW5hYmxlZCI6eyJidWNrZXQiOiJvbiIsInZlcnNpb24iOm51bGx9LCJ0ZndfdmlkZW9faGxzX2R5bmFtaWNfbWFuaWZlc3RzXzE1MDgyIjp7ImJ1Y2tldCI6InRydWVfYml0cmF0ZSIsInZlcnNpb24iOm51bGx9LCJ0ZndfbGVnYWN5X3RpbWVsaW5lX3N1bnNldCI6eyJidWNrZXQiOnRydWUsInZlcnNpb24iOm51bGx9LCJ0ZndfdHdlZXRfZWRpdF9mcm9udGVuZCI6eyJidWNrZXQiOiJvbiIsInZlcnNpb24iOm51bGx9fQ%3D%3D&amp;frame=false&amp;hideCard=false&amp;hideThread=false&amp;id=1669011815446249475&amp;lang=en&amp;origin=https%3A%2F%2Fwww.theverge.com%2F&amp;sessionId=ab51efdc2d73433f8566ff9c73cb337ea43e15f3&amp;siteScreenName=verge&amp;theme=dark&amp;widgetsVersion=aaf4084522e3a%3A1674595607486&amp;width=550px"
                                 data-tweet-id="1669011815446249475"
@@ -575,7 +575,7 @@ export default function Home() {
                             Week
                           </span>
                           <span className="text-xs md:text-lg leading-tight md:leading-tight break-words text-justify">
-                            Whether you're waiting for the weekend or
+                            Whether you&apos;re waiting for the weekend or
                             commiserating about your job, these funny work memes
                             will help you cope
                           </span>

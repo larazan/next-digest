@@ -44,7 +44,7 @@ export default function Blog() {
 
                   <div>
                     <div className="pt-6">
-                      <Image src={funny1} />
+                      <Image src={funny1} alt="" />
                     </div>
                     <div className="flex w-full space-x-4">
                       <div>
@@ -76,7 +76,7 @@ export default function Blog() {
                                 the Week
                               </span>
                               <span className="text-xs md:text-lg leading-tight md:leading-tight break-words text-justify">
-                                Whether you're waiting for the weekend or
+                                Whether you&apos;re waiting for the weekend or
                                 commiserating about your job, these funny work
                                 memes will help you cope
                               </span>
@@ -112,7 +112,7 @@ export default function Blog() {
                                 the Week
                               </span>
                               <span className="text-xs md:text-lg leading-tight md:leading-tight break-words text-justify">
-                                Whether you're waiting for the weekend or
+                                Whether you&apos;re waiting for the weekend or
                                 commiserating about your job, these funny work
                                 memes will help you cope
                               </span>
@@ -149,7 +149,7 @@ export default function Blog() {
                                 the Week
                               </span>
                               <span className="text-xs md:text-lg leading-tight md:leading-tight break-words text-justify">
-                                Whether you're waiting for the weekend or
+                                Whether you&apos;re waiting for the weekend or
                                 commiserating about your job, these funny work
                                 memes will help you cope
                               </span>
