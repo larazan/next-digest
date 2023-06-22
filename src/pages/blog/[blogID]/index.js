@@ -79,32 +79,7 @@ const Detail = () => {
                         }}
                       />
                     </span>
-                    <img
-                      alt="Profile picture for @annanyachaturvedi"
-                      src="/blog/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fnowandme%2Fimage%2Fupload%2Fw_120%2Ch_120%2Cf_auto%2Fvxquzvedxqqtow8opzcz&amp;w=64&amp;q=100"
-                      decoding="async"
-                      data-nimg="intrinsic"
-                      className="rounded-full false"
-                      srcset="
-                            /blog/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fnowandme%2Fimage%2Fupload%2Fw_120%2Ch_120%2Cf_auto%2Fvxquzvedxqqtow8opzcz&amp;w=32&amp;q=100 1x,
-                            /blog/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fnowandme%2Fimage%2Fupload%2Fw_120%2Ch_120%2Cf_auto%2Fvxquzvedxqqtow8opzcz&amp;w=64&amp;q=100 2x
-                        "
-                      style={{
-                        position: "absolute",
-                        inset: "0px",
-                        boxSizing: "border-box",
-                        padding: "0px",
-                        border: "none",
-                        margin: "auto",
-                        display: "block",
-                        width: "0px",
-                        height: "0px",
-                        minWidth: "100%",
-                        maxWidth: "100%",
-                        minHeight: "100%",
-                        maxHeight: "100%",
-                      }}
-                    />
+                   
                   </span>
                 </div>
               </div>
@@ -166,32 +141,7 @@ const Detail = () => {
                           }}
                         />
                       </span>
-                      <img
-                        alt="Profile picture for @annanyachaturvedi"
-                        src="/blog/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fnowandme%2Fimage%2Fupload%2Fw_120%2Ch_120%2Cf_auto%2Fvxquzvedxqqtow8opzcz&amp;w=96&amp;q=100"
-                        decoding="async"
-                        data-nimg="intrinsic"
-                        className="rounded-full false"
-                        srcset="
-                                /blog/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fnowandme%2Fimage%2Fupload%2Fw_120%2Ch_120%2Cf_auto%2Fvxquzvedxqqtow8opzcz&amp;w=48&amp;q=100 1x,
-                                /blog/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fnowandme%2Fimage%2Fupload%2Fw_120%2Ch_120%2Cf_auto%2Fvxquzvedxqqtow8opzcz&amp;w=96&amp;q=100 2x
-                            "
-                        style={{
-                          position: "absolute",
-                          inset: "0px",
-                          boxSizing: "border-box",
-                          padding: "0px",
-                          border: "none",
-                          margin: "auto",
-                          display: "block",
-                          width: "0px",
-                          height: "0px",
-                          minWidth: "100%",
-                          maxWidth: "100%",
-                          minHeight: "100%",
-                          maxHeight: "100%",
-                        }}
-                      />
+                      
                     </span>
                   </div>
                 </div>
@@ -362,16 +312,16 @@ const Detail = () => {
                       </p>
                     </blockquote>
                     <p>
-                      Many people write to me because they don't have anyone to
+                      Many people write to me because they don&apos;t have anyone to
                       talk to. But when I read their writings, I find it hard to
-                      use them because they're not written well or they're too
+                      use them because they&apos;re not written well or they&apos;re too
                       raw and emotional. Even though I try to give them a
-                      chance, it's tough for me to work with those pieces. It's
+                      chance, it&apos;s tough for me to work with those pieces. It&apos;s
                       really difficult to reject those pieces and sometimes I
                       end up saying things like "things will get better" to
                       provide some comfort to them. However, later on, I do feel
-                      guilty because I don't feel like I'm actually helping
-                      them. I believe my job falls into a gray area where it's
+                      guilty because I don&apos;t feel like I&apos;m actually helping
+                      them. I believe my job falls into a gray area where it&apos;s
                       hard to determine what exactly I should do. But sometimes
                       people just need to hear the right words, and I try my
                       best to offer them that.
@@ -384,7 +334,7 @@ const Detail = () => {
                       over time?
                     </h3>
                     <p>
-                      Absolutely, over time I’ve managed to give its own voice
+                      Absolutely, over time I&apos;ve managed to give its own voice
                       to LiveWire. Initially, when I took over, there was an age
                       limit of 28 for submitting pieces and I thought that was
                       really ageist because anyone could have an interesting
@@ -398,23 +348,23 @@ const Detail = () => {
                         life.
                       </strong>{" "}
                       Recently, a 60-year-old man wrote a couple of poems for
-                      us. As far as it’s good creative content that resonates
-                      and works, it’s all that matters.
+                      us. As far as it&apos;s good creative content that resonates
+                      and works, it&apos;s all that matters.
                     </p>
                     <p>
                       It also serves as a gateway for students to talk to their
-                      parents. We’ve got young adults writing stories of great
+                      parents. We&apos;ve got young adults writing stories of great
                       heartache for us.
                       <strong>
                         A lot of people go anonymously but a lot of them are
-                        okay to put their name on it, and I think that’s so
+                        okay to put their name on it, and I think that&apos;s so
                         courageous
                       </strong>
                       , talking about your family history in ways that people
                       can relate to it. Some stories that come out are just
                       horrible, teachers bullying kids, kids bullying kids. I
-                      feel it’s very important to get these voices out there
-                      because a lot of them don’t understand that they did this
+                      feel it&apos;s very important to get these voices out there
+                      because a lot of them don&apos;t understand that they did this
                       and that they were perpetrators in school. Even if they
                       were not the bully in question, they were allowing for
                       this to happen, and we need to keep them in check.
@@ -440,7 +390,7 @@ const Detail = () => {
                     </p>
                     <hr />
                     <h3>
-                      LiveWire doesn’t shy away from calling out those in
+                      LiveWire doesn&apos;t shy away from calling out those in
                       authority and starting important conversations while
                       raising uncomfortable questions. It is the sort of woke
                       platform that everyone wished for, throughout time, but
@@ -448,35 +398,35 @@ const Detail = () => {
                       houses, the idea got lost somewhere. I, personally felt
                       that the news or the opinion pieces that I earlier used to
                       come across narrated just one side of the story, and so I
-                      couldn’t resonate with any of it, but your work is an
+                      couldn&apos;t resonate with any of it, but your work is an
                       epitome of the contrary. What and how do you think
                       LiveWire and The Wire has managed to do differently and
                       emerge as what it is today?
                     </h3>
                     <p>
-                      We’re lucky that with The Wire family, we’re an
+                      We&apos;re lucky that with The Wire family, we&apos;re an
                       independent media company with no bosses except for the
-                      three founding editors. We’re 80% donor-funded which means
+                      three founding editors. We&apos;re 80% donor-funded which means
                       that no one is telling us what to do, our readers are
-                      sending us money. If it’s a story, it’s a story without
-                      any check, it’s us making the call, that if a particular
+                      sending us money. If it&apos;s a story, it&apos;s a story without
+                      any check, it&apos;s us making the call, that if a particular
                       thing needs to be represented and put out. These are
                       stories that need to be told and someone has to say it.
-                      It’s important that someone points it out especially when
-                      the narrative that’s being sold is very different from the
+                      It&apos;s important that someone points it out especially when
+                      the narrative that&apos;s being sold is very different from the
                       actual happenings. So, the independent media houses
                       including <em>The Quint</em>, <em>The Scroll</em> and the{" "}
                       <em>News Laundry</em>, the <em>News Minute</em> provide
                       these alternative spaces.
                     </p>
                     <p>
-                      I’d rather read my news, get my facts right from
+                      I&apos;d rather read my news, get my facts right from
                       legitimate websites than watching television news or
                       rather entertainment in form of a sick joke, that has been
                       playing on for so long. There is no talk of a pandemic,
                       and
                       <strong>
-                        it’s really scary and the fact that they are not
+                        it&apos;s really scary and the fact that they are not
                         portraying that sense of urgency on television due to
                         which our numbers keep on rising of which we dont have
                         the infrastructure for.

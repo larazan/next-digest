@@ -46,7 +46,7 @@ export default function Terms() {
                       <p>
                         <strong>Affiliate</strong> means an entity that
                         controls, is controlled by or is under common control
-                        with a party, where "control" means ownership of 50% or
+                        with a party, where &quot;control&quot; means ownership of 50% or
                         more of the shares, equity interest or other securities
                         entitled to vote for election of directors or other
                         managing authority.
@@ -65,8 +65,8 @@ export default function Terms() {
                     </li>
                     <li>
                       <p>
-                        <strong>Company</strong> (referred to as either "the
-                        Company", "We", "Us" or "Our" in this Agreement) refers
+                        <strong>Company</strong> (referred to as either &quot;the
+                        Company&quot;, &quot;We&quot;, &quot;Us&quot; or &quot;Our&quot; in this Agreement) refers
                         to CraftEnterprises, Elizabethton TN
                       </p>
                     </li>
@@ -107,7 +107,7 @@ export default function Terms() {
                     <li>
                       <p>
                         <strong>Terms and Conditions</strong> (also referred as
-                        "Terms") mean these Terms and Conditions that form the
+                          &quot;Terms&quot;) mean these Terms and Conditions that form the
                         entire agreement between You and the Company regarding
                         the use of the Service.
                       </p>
@@ -276,9 +276,9 @@ export default function Terms() {
                   <h2>Fair use</h2>
                   <p>
                     We may get in touch with you or temporarily lock your
-                    account if we think you're abusing our "unlimited" plans.
-                    We've added a soft limit at 10.000 entries which is
-                    realistic. Please get in touch if you think we've made a
+                    account if we think you&apos;re abusing our &quot;unlimited&quot; plans.
+                    We&apos;ve added a soft limit at 10.000 entries which is
+                    realistic. Please get in touch if you think we&apos;ve made a
                     mistake or if you require more entries.
                   </p>
                   <h2>Content</h2>
@@ -311,7 +311,7 @@ export default function Terms() {
                   <h3>Content Restrictions</h3>
                   <p>
                     The Company is not responsible for the content of the
-                    Service's users. You expressly understand and agree that You
+                    Service&apos;s users. You expressly understand and agree that You
                     are solely responsible for the Content and for all activity
                     that occurs under your account, whether done so by You or
                     any third person using Your account.
@@ -420,7 +420,7 @@ export default function Terms() {
                   </p>
                   <p>
                     You may be held accountable for damages (including costs and
-                    attorneys' fees) for misrepresenting that any Content is
+                    attorneys&apos; fees) for misrepresenting that any Content is
                     infringing Your copyright.
                   </p>
                   <h3>
@@ -437,7 +437,7 @@ export default function Terms() {
                     <li>
                       An electronic or physical signature of the person
                       authorized to act on behalf of the owner of the
-                      copyright's interest.
+                      copyright&apos;s interest.
                     </li>
                     <li>
                       A description of the copyrighted work that You claim has
@@ -460,7 +460,7 @@ export default function Terms() {
                       A statement by You, made under penalty of perjury, that
                       the above information in Your notice is accurate and that
                       You are the copyright owner or authorized to act on the
-                      copyright owner's behalf.
+                      copyright owner&apos;s behalf.
                     </li>
                   </ul>
                   <p>
@@ -512,7 +512,7 @@ export default function Terms() {
                     liability of the Company and any of its suppliers under any
                     provision of this Terms and Your exclusive remedy for all of
                     the foregoing shall be limited to the amount actually paid
-                    by You through the Service or 100 USD if You haven't
+                    by You through the Service or 100 USD if You haven&apos;t
                     purchased anything through the Service.
                   </p>
                   <p>
@@ -534,12 +534,12 @@ export default function Terms() {
                     Some states do not allow the exclusion of implied warranties
                     or limitation of liability for incidental or consequential
                     damages, which means that some of the above limitations may
-                    not apply. In these states, each party's liability will be
+                    not apply. In these states, each party&apos;s liability will be
                     limited to the greatest extent permitted by law.
                   </p>
-                  <h2>"AS IS" and "AS AVAILABLE" Disclaimer</h2>
+                  <h2>&quot;AS IS&quot; and &quot;AS AVAILABLE&quot; Disclaimer</h2>
                   <p>
-                    The Service is provided to You "AS IS" and "AS AVAILABLE"
+                    The Service is provided to You &quot;AS IS&quot; and &quot;AS AVAILABLE&quot;
                     and with all faults and defects without warranty of any
                     kind. To the maximum extent permitted under applicable law,
                     the Company, on its own behalf and on behalf of its
@@ -561,7 +561,7 @@ export default function Terms() {
                   </p>
                   <p>
                     Without limiting the foregoing, neither the Company nor any
-                    of the company's provider makes any representation or
+                    of the company&apos;s provider makes any representation or
                     warranty of any kind, express or implied: (i) as to the
                     operation or availability of the Service, or the
                     information, content, and materials or products included
@@ -604,7 +604,7 @@ export default function Terms() {
                   <h2>United States Federal Government End Use Provisions</h2>
                   <p>
                     If You are a U.S. federal government end user, our Service
-                    is a "Commercial Item" as that term is defined at 48 C.F.R.
+                    is a &quot;Commercial Item&quot; as that term is defined at 48 C.F.R.
                     §2.101.
                   </p>
                   <h2>United States Legal Compliance</h2>
@@ -612,7 +612,7 @@ export default function Terms() {
                     You represent and warrant that (i) You are not located in a
                     country that is subject to the United States government
                     embargo, or that has been designated by the United States
-                    government as a "terrorist supporting" country, and (ii) You
+                    government as a &quot;terrorist supporting&quot; country, and (ii) You
                     are not listed on any United States government list of
                     prohibited or restricted parties.
                   </p>
@@ -629,7 +629,7 @@ export default function Terms() {
                   <p>
                     Except as provided herein, the failure to exercise a right
                     or to require performance of an obligation under this Terms
-                    shall not effect a party's ability to exercise such right or
+                    shall not effect a party&apos;s ability to exercise such right or
                     require such performance at any time thereafter nor shall be
                     the waiver of a breach constitute a waiver of any subsequent
                     breach.
@@ -645,7 +645,7 @@ export default function Terms() {
                   <p>
                     We reserve the right, at Our sole discretion, to modify or
                     replace these Terms at any time. If a revision is material
-                    We will make reasonable efforts to provide at least 30 days'
+                    We will make reasonable efforts to provide at least 30 days&apos;
                     notice prior to any new terms taking effect. What
                     constitutes a material change will be determined at Our sole
                     discretion.

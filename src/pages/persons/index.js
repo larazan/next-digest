@@ -68,9 +68,10 @@ export default function Persons() {
                       <div className="flex items-center justify-between pt-2 ">
                         <div className="top-0 py-3 flex overflow-x-auto scrollbars-hidden">
                           <div className="flex  space-x-3">
-                            {abjad.map((huruf) => (
+                            {abjad.map((huruf,i) => (
                               <Link href={`/authors/${huruf}`}>
                                 <div
+                                key={i}
                                   className={` px-4 py-2 border border-gray-300 cursor-pointer ${
                                     alpha === huruf
                                       ? "bg-orange-600 text-white border-orange-700"

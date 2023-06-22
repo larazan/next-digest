@@ -43,7 +43,7 @@ export default function About() {
                   <p className="py-4">
                     If you have any complaints or issues, please seek contact
                     with us first. We do not intend to harm users and
-                    businesses. We'd love to avoid (unnecessary) legal trouble.
+                    businesses. We&apos;d love to avoid (unnecessary) legal trouble.
                   </p>
                   <p>
                     You can send an email to(mailto:
