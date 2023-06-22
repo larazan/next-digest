@@ -8,6 +8,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import SubscribeForm from "@/components/SubscribeForm";
 import QuoteRandom from "@/components/QuoteRandom";
+import Pagination from "@/components/Pagination";
 
 export default function Persons() {
   const [alpha, setAlpha] = useState("a");
@@ -55,7 +56,7 @@ export default function Persons() {
           <div className="flex flex-row w-full">
             <div className="flex flex-1 flex-col items-center justify-center relative">
               <div className="flex flex-1 flex-col pb-18 max-w-md md:max-w-2xl ">
-                <section className="w-full mx-auto  mt-10 md:mt-10 px-5 ">
+                <section className="w-full mx-auto  mt-2 md:mt-2 px-5 ">
                   <h5 className="font-semibold text-2xl md:text-3xl text-center ">
                     Person
                   </h5>
@@ -89,190 +90,119 @@ export default function Persons() {
 
                     <div className="">
                       <div className="flex justify-between">
-                        <h1 className="text-xl font-bold uppercase">{alpha}</h1>
+                        <h1 className="text-md font-bold uppercase">{alpha}</h1>
                       </div>
                     </div>
 
-                    <div className="mt-8 bg-pink-200 grid lg:gap-12 sm:grid-cols-[repeat(4,140px)] grid-cols-[repeat(2,144px)] gap-6 align-top">
-                      <div className="flex justify-start flex-col text-center">
-                        <img
-                          srcset="https://refine.ams3.cdn.digitaloceanspaces.com/website/static/about/images/team-avatars/civan.png 1500w"
-                          src="https://refine.ams3.cdn.digitaloceanspaces.com/website/static/about/images/team-avatars/civan.png"
-                          alt="Civan Özseyhan"
-                          className="w-full not-prose m-0 mb-6"
-                        />
-                        <span className="text-xs leading-4 lg:text-base lg:leading-6 text-gray-900 dark:text-gray-0 font-semibold">
-                          Civan Özseyhan
-                        </span>
-                        <span className="text-xs leading-4 lg:text-base lg:leading-6 text-gray-500 dark:text-gray-400">
-                          Co-Founder
-                        </span>
-                        <span className="text-xs leading-4 lg:text-base lg:leading-6 text-gray-500 dark:text-gray-400">
-                          CEO
-                        </span>
-                      </div>
-                      <div className="flex justify-start flex-col text-center">
-                        <img
-                          srcset="https://refine.ams3.cdn.digitaloceanspaces.com/website/static/about/images/team-avatars/omer.png 1500w"
-                          src="https://refine.ams3.cdn.digitaloceanspaces.com/website/static/about/images/team-avatars/omer.png"
-                          alt="Ömer Aplak"
-                          className="w-full not-prose m-0 mb-6"
-                        />
-                        <span className="text-xs leading-4 lg:text-base lg:leading-6 text-gray-900 dark:text-gray-0 font-semibold">
-                          Ömer Aplak
-                        </span>
-                        <span className="text-xs leading-4 lg:text-base lg:leading-6 text-gray-500 dark:text-gray-400">
-                          Co-Founder
-                        </span>
-                        <span className="text-xs leading-4 lg:text-base lg:leading-6 text-gray-500 dark:text-gray-400">
-                          CTO
-                        </span>
-                      </div>
-                      <div className="flex justify-start flex-col text-center">
-                        <img
-                          srcset="https://refine.ams3.cdn.digitaloceanspaces.com/website/static/about/images/team-avatars/eren.png 1500w"
-                          src="https://refine.ams3.cdn.digitaloceanspaces.com/website/static/about/images/team-avatars/eren.png"
-                          alt="Eren Erkalkan"
-                          className="w-full not-prose m-0 mb-6"
-                        />
-                        <span className="text-xs leading-4 lg:text-base lg:leading-6 text-gray-900 dark:text-gray-0 font-semibold">
-                          Eren Erkalkan
-                        </span>
-                        <span className="text-xs leading-4 lg:text-base lg:leading-6 text-gray-500 dark:text-gray-400">
-                          Co-Founder
-                        </span>
-                        <span className="text-xs leading-4 lg:text-base lg:leading-6 text-gray-500 dark:text-gray-400">
-                          Head of Product
-                        </span>
-                      </div>
-                      <div className="flex justify-start flex-col text-center">
-                        <img
-                          srcset="https://refine.ams3.cdn.digitaloceanspaces.com/website/static/about/images/team-avatars/batuhan.png 1500w"
-                          src="https://refine.ams3.cdn.digitaloceanspaces.com/website/static/about/images/team-avatars/batuhan.png"
-                          alt="Batuhan Özgür Özdemir"
-                          className="w-full not-prose m-0 mb-6"
-                        />
-                        <span className="text-xs leading-4 lg:text-base lg:leading-6 text-gray-900 dark:text-gray-0 font-semibold">
-                          Batuhan Özgür Özdemir
-                        </span>
-                        <span className="text-xs leading-4 lg:text-base lg:leading-6 text-gray-500 dark:text-gray-400">
-                          Tech Lead
-                        </span>
-                      </div>
-                      <div className="flex justify-start flex-col text-center">
-                        <img
-                          srcset="https://refine.ams3.cdn.digitaloceanspaces.com/website/static/about/images/team-avatars/ali.png 1500w"
-                          src="https://refine.ams3.cdn.digitaloceanspaces.com/website/static/about/images/team-avatars/ali.png"
-                          alt="Ali Emir Şen"
-                          className="w-full not-prose m-0 mb-6"
-                        />
-                        <span className="text-xs leading-4 lg:text-base lg:leading-6 text-gray-900 dark:text-gray-0 font-semibold">
-                          Ali Emir Şen
-                        </span>
-                        <span className="text-xs leading-4 lg:text-base lg:leading-6 text-gray-500 dark:text-gray-400">
-                          Frontend Team Lead
-                        </span>
-                      </div>
-                      <div className="flex justify-start flex-col text-center">
-                        <img
-                          srcset="https://refine.ams3.cdn.digitaloceanspaces.com/website/static/about/images/team-avatars/yildiray.png 1500w"
-                          src="https://refine.ams3.cdn.digitaloceanspaces.com/website/static/about/images/team-avatars/yildiray.png"
-                          alt="Yıldıray Ünlü"
-                          className="w-full not-prose m-0 mb-6"
-                        />
-                        <span className="text-xs leading-4 lg:text-base lg:leading-6 text-gray-900 dark:text-gray-0 font-semibold">
-                          Yıldıray Ünlü
-                        </span>
-                        <span className="text-xs leading-4 lg:text-base lg:leading-6 text-gray-500 dark:text-gray-400">
-                          Backend Team Lead
-                        </span>
-                      </div>
-                      <div className="flex justify-start flex-col text-center">
-                        <img
-                          srcset="https://refine.ams3.cdn.digitaloceanspaces.com/website/static/about/images/team-avatars/salih.png 1500w"
-                          src="https://refine.ams3.cdn.digitaloceanspaces.com/website/static/about/images/team-avatars/salih.png"
-                          alt="Salih Özdemir"
-                          className="w-full not-prose m-0 mb-6"
-                        />
-                        <span className="text-xs leading-4 lg:text-base lg:leading-6 text-gray-900 dark:text-gray-0 font-semibold">
-                          Salih Özdemir
-                        </span>
-                        <span className="text-xs leading-4 lg:text-base lg:leading-6 text-gray-500 dark:text-gray-400">
-                          Software Developer
-                        </span>
-                      </div>
-                      <div className="flex justify-start flex-col text-center">
-                        <img
-                          srcset="https://refine.ams3.cdn.digitaloceanspaces.com/website/static/about/images/team-avatars/alican.png 1500w"
-                          src="https://refine.ams3.cdn.digitaloceanspaces.com/website/static/about/images/team-avatars/alican.png"
-                          alt="Alican Erdurmaz"
-                          className="w-full not-prose m-0 mb-6"
-                        />
-                        <span className="text-xs leading-4 lg:text-base lg:leading-6 text-gray-900 dark:text-gray-0 font-semibold">
-                          Alican Erdurmaz
-                        </span>
-                        <span className="text-xs leading-4 lg:text-base lg:leading-6 text-gray-500 dark:text-gray-400">
-                          Software Developer
-                        </span>
-                      </div>
-                      <div className="flex justify-start flex-col text-center">
-                        <img
-                          srcset="https://refine.ams3.cdn.digitaloceanspaces.com/website/static/about/images/team-avatars/necati.png 1500w"
-                          src="https://refine.ams3.cdn.digitaloceanspaces.com/website/static/about/images/team-avatars/necati.png"
-                          alt="Necati Ozmen"
-                          className="w-full not-prose m-0 mb-6"
-                        />
-                        <span className="text-xs leading-4 lg:text-base lg:leading-6 text-gray-900 dark:text-gray-0 font-semibold">
-                          Necati Ozmen
-                        </span>
-                        <span className="text-xs leading-4 lg:text-base lg:leading-6 text-gray-500 dark:text-gray-400">
-                          Head of Growth
-                        </span>
-                      </div>
-                      <div className="flex justify-start flex-col text-center">
-                        <img
-                          srcset="https://refine.ams3.cdn.digitaloceanspaces.com/website/static/about/images/team-avatars/recep.png 1500w"
-                          src="https://refine.ams3.cdn.digitaloceanspaces.com/website/static/about/images/team-avatars/recep.png"
-                          alt="Recep Kütük"
-                          className="w-full not-prose m-0 mb-6"
-                        />
-                        <span className="text-xs leading-4 lg:text-base lg:leading-6 text-gray-900 dark:text-gray-0 font-semibold">
-                          Recep Kütük
-                        </span>
-                        <span className="text-xs leading-4 lg:text-base lg:leading-6 text-gray-500 dark:text-gray-400">
-                          Senior Product Designer
-                        </span>
-                      </div>
-                      <div className="flex justify-start flex-col text-center ">
-                        <div className="w-full not-prose m-0 mb-6 ">
-                          <svg
-                            width="192"
-                            height="180"
-                            viewBox="0 0 192 240"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                            className="w-full"
-                          >
-                            <circle
-                              cx="96"
-                              cy="144"
-                              r="96"
-                              fill="#DEE5ED"
-                            ></circle>
-                            <path
-                              fill-rule="evenodd"
-                              clip-rule="evenodd"
-                              d="M86.0375 0C89.993 0.000141682 93.5693 0.414287 95.9995 0.883849C98.4297 0.414287 102.006 0.000141682 105.962 0C105.963 0 105.964 0 105.966 0C112.73 0.000242305 120.602 1.21148 125.747 5.42682C131.646 10.2594 136.835 16.1805 141.013 20.9481L141.013 20.9482C144.067 24.4329 146.58 27.3014 148.437 28.6784C143.899 28.1113 143.048 28.9147 143.19 29.3873C146.451 33.9241 152.747 44.5858 151.84 50.9374C151.722 51.7623 151.615 52.5321 151.515 53.2534C150.648 59.4753 150.284 62.0955 147.869 65.3988C148.129 65.3988 148.412 65.3757 148.708 65.3515L148.708 65.3515C151.154 65.152 154.462 64.8822 152.691 77.0245C152.691 77.8447 152.692 78.605 152.692 79.3108C152.698 85.8031 152.7 87.6925 152.094 89.3614C151.846 90.0463 151.495 90.6942 151 91.6078L150.989 91.6276C149.514 94.3497 146.215 99.0945 144.75 101.127C143.899 107.554 141.204 122.053 137.234 128.632C133.263 135.21 129.056 141.108 127.449 143.235C128.678 149.804 138.595 165.692 168.431 176.694C174.22 178.829 179.326 180.833 183.825 182.823C168.915 216.503 135.202 240 95.9995 240C56.7975 240 23.0836 216.503 8.17381 182.823C12.6735 180.833 17.779 178.829 23.5677 176.694C53.4039 165.692 63.3209 149.804 64.5499 143.235C62.9427 141.108 58.7358 135.21 54.7652 128.632C50.7946 122.053 48.1003 107.554 47.2495 101.127C45.7841 99.0945 42.4848 94.3497 41.01 91.6276L40.9994 91.6081C40.5043 90.6943 40.1533 90.0464 39.9047 89.3614C39.2989 87.6924 39.3007 85.803 39.3068 79.3106C39.3075 78.6048 39.3082 77.8447 39.3082 77.0245C37.5371 64.8822 40.8447 65.152 43.2907 65.3515L43.2909 65.3515C43.5866 65.3757 43.8697 65.3988 44.1297 65.3988C41.7153 62.0955 41.3506 59.4754 40.4845 53.2535C40.3841 52.5321 40.277 51.7623 40.1591 50.9374C39.2515 44.5858 45.5477 33.9241 48.8093 29.3873C48.9511 28.9147 48.1003 28.1113 43.5625 28.6784C45.4187 27.3014 47.9324 24.4329 50.9861 20.9482C55.1641 16.1806 60.3528 10.2595 66.2515 5.42682C71.3967 1.21148 79.2691 0.000242305 86.0335 0C86.0348 0 86.0362 0 86.0375 0Z"
-                              fill="#474E6B"
-                            ></path>
-                          </svg>
+                    <div className="py-10  columns-2 md:columns-4 lg:columns-6 ">
+                      <div className="mb-4 rounded bg-[#f4f2ef] border group flex flex-col overflow-hidden justify-center shadow-md items-center cursor-zoom-in">
+                        <div className="flex-grow py-2 lg:py-4 md:py-4 px-4">
+                          <div className="flex justify-center items-center">
+                            <div className="rounded-full p-4 border bg-white">
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 24 24"
+                                fill="currentColor"
+                                className="w-16 h-16"
+                              >
+                                <path
+                                  fillRule="evenodd"
+                                  d="M7.5 6a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM3.751 20.105a8.25 8.25 0 0116.498 0 .75.75 0 01-.437.695A18.683 18.683 0 0112 22.5c-2.786 0-5.433-.608-7.812-1.7a.75.75 0 01-.437-.695z"
+                                  clipRule="evenodd"
+                                />
+                              </svg>
+                            </div>
+                          </div>
+                          <p className="leading-tight py-1 md:leading-tight text-black font-semibold text-center text-md md:text-md lg:text-2xl">
+                            Alexis Mcalister
+                          </p>
+                          <div className="text-sm text-center">
+                            football player
+                          </div>
                         </div>
-                        
+                      </div>
+                      <div className="mb-4 rounded bg-[#f4f2ef] border group flex flex-col overflow-hidden justify-center shadow-md items-center cursor-zoom-in">
+                        <div className="flex-grow py-2 lg:py-4 md:py-4 px-4">
+                          <div className="flex justify-center items-center">
+                            <div className="rounded-full p-4 border bg-white">
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 24 24"
+                                fill="currentColor"
+                                className="w-16 h-16"
+                              >
+                                <path
+                                  fillRule="evenodd"
+                                  d="M7.5 6a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM3.751 20.105a8.25 8.25 0 0116.498 0 .75.75 0 01-.437.695A18.683 18.683 0 0112 22.5c-2.786 0-5.433-.608-7.812-1.7a.75.75 0 01-.437-.695z"
+                                  clipRule="evenodd"
+                                />
+                              </svg>
+                            </div>
+                          </div>
+                          <p className="leading-tight py-1 md:leading-tight text-black font-semibold text-center text-md md:text-md lg:text-2xl">
+                            Alexis Mcalister
+                          </p>
+                          <div className="text-sm text-center">
+                            football player
+                          </div>
+                        </div>
+                      </div>
+                      <div className="mb-4 rounded bg-[#f4f2ef] border group flex flex-col overflow-hidden justify-center shadow-md items-center cursor-zoom-in">
+                        <div className="flex-grow py-2 lg:py-4 md:py-4 px-4">
+                          <div className="flex justify-center items-center">
+                            <div className="rounded-full p-4 border bg-white">
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 24 24"
+                                fill="currentColor"
+                                className="w-16 h-16"
+                              >
+                                <path
+                                  fillRule="evenodd"
+                                  d="M7.5 6a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM3.751 20.105a8.25 8.25 0 0116.498 0 .75.75 0 01-.437.695A18.683 18.683 0 0112 22.5c-2.786 0-5.433-.608-7.812-1.7a.75.75 0 01-.437-.695z"
+                                  clipRule="evenodd"
+                                />
+                              </svg>
+                            </div>
+                          </div>
+                          <p className="leading-tight py-1 md:leading-tight text-black font-semibold text-center text-md md:text-md lg:text-2xl">
+                            Alexis Mcalister
+                          </p>
+                          <div className="text-sm text-center">
+                            football player
+                          </div>
+                        </div>
+                      </div>
+                      <div className="mb-4 rounded bg-[#f4f2ef] border group flex flex-col overflow-hidden justify-center shadow-md items-center cursor-zoom-in">
+                        <div className="flex-grow py-2 lg:py-4 md:py-4 px-4">
+                          <div className="flex justify-center items-center">
+                            <div className="rounded-full p-4 border bg-white">
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 24 24"
+                                fill="currentColor"
+                                className="w-16 h-16"
+                              >
+                                <path
+                                  fillRule="evenodd"
+                                  d="M7.5 6a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM3.751 20.105a8.25 8.25 0 0116.498 0 .75.75 0 01-.437.695A18.683 18.683 0 0112 22.5c-2.786 0-5.433-.608-7.812-1.7a.75.75 0 01-.437-.695z"
+                                  clipRule="evenodd"
+                                />
+                              </svg>
+                            </div>
+                          </div>
+                          <p className="leading-tight py-1 md:leading-tight text-black font-semibold text-center text-md md:text-md lg:text-2xl">
+                            Alexis Mcalister
+                          </p>
+                          <div className="text-sm text-center">
+                            football player
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </section>
-
+                <Pagination />
                 <QuoteRandom />
               </div>
               <SubscribeForm />

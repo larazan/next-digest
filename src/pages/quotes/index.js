@@ -9,6 +9,7 @@ import Footer from "@/components/Footer";
 import SubscribeForm from "@/components/SubscribeForm";
 import QuoteRandom from "@/components/QuoteRandom";
 import Pagination from "@/components/Pagination";
+import Tag from "@/components/Tag";
 
 export default function Quotes() {
   return (
@@ -25,7 +26,7 @@ export default function Quotes() {
           <div className="flex flex-row w-full">
             <div className="flex flex-1 flex-col items-center justify-center relative">
               <div className="flex flex-1 flex-col pb-18 max-w-md md:max-w-2xl ">
-                <section className="w-full mx-auto  mt-10 md:mt-10 px-5 ">
+                <section className="w-full mx-auto  mt-2 md:mt-2 px-5 ">
                   <h5 className="font-semibold text-2xl md:text-3xl text-center ">
                     Quotes
                   </h5>
@@ -57,6 +58,7 @@ export default function Quotes() {
                       placeholder="Search something.."
                     />
                   </div>
+                  <Tag />
                   <div className="py-10  columns-1 md:columns-2 lg:columns-3 ">
                     <div className="mb-4 rounded bg-white border group flex flex-col overflow-hidden justify-center shadow-md items-center cursor-zoom-in">
                       <div className="flex-grow py-2 lg:py-4 md:py-4 px-4">
