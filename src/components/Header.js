@@ -77,7 +77,7 @@ export default function Header() {
             <Link href="/riddles" className="hidden md:block hover:text-[#FF6D42]">
               Riddles
             </Link>
-            <Link href="/" className="hidden md:block hover:text-[#FF6D42]">
+            <Link href="/funny" className="hidden md:block hover:text-[#FF6D42]">
               Funny
             </Link>
            

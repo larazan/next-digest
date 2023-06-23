@@ -319,7 +319,7 @@ export default function Footer() {
                   <ul className="space-y-2 text-md font-mabrybold">
                     <li>
                       <Link
-                        href="#"
+                        href="/quotes"
                         className="font-bold text-gray-900 transition hover:text-[#FF6D42]"
                       >
                         Quotes
@@ -328,7 +328,7 @@ export default function Footer() {
 
                     <li>
                       <Link
-                        href="#"
+                        href="/riddles"
                         className="font-bold text-gray-900 transition hover:text-[#FF6D42]"
                       >
                         Riddles
@@ -337,7 +337,7 @@ export default function Footer() {
 
                     <li>
                       <Link
-                        href="#"
+                        href="/funny"
                         className="font-bold text-gray-900 transition hover:text-[#FF6D42]"
                       >
                         Funny
