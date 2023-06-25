@@ -75,7 +75,7 @@ const Funny = () => {
                                   <Ava username={'Sarah Zulkiflee'} size={35} />
                                   <div class="text-xs">
                                     <p class="text-sm font-semibold">
-                                      Sarah "KZ" Zulkiflee
+                                      Sarah &quot;KZ&quot; Zulkiflee
                                     </p>
                                   </div>
                                 </div>
@@ -106,7 +106,7 @@ const Funny = () => {
                                 <Ava username={'Sarah Zulkiflee'} size={35} />
                                   <div class="text-xs">
                                     <p class="text-sm font-semibold">
-                                      Sarah "KZ" Zulkiflee
+                                      Sarah &quot;KZ&quot; Zulkiflee
                                     </p>
                                   </div>
                                 </div>
@@ -137,7 +137,7 @@ const Funny = () => {
                                 <Ava username={'Sarah Zulkiflee'} size={35} />
                                   <div class="text-xs">
                                     <p class="text-sm font-semibold">
-                                      Sarah "KZ" Zulkiflee
+                                      Sarah &quot;KZ&quot; Zulkiflee
                                     </p>
                                   </div>
                                 </div>
@@ -168,7 +168,7 @@ const Funny = () => {
                                   <Ava username={'Sarah Zulkiflee'} size={35} />
                                   <div class="text-xs">
                                     <p class="text-sm font-semibold">
-                                      Sarah "KZ" Zulkiflee
+                                      Sarah &quot;KZ&quot; Zulkiflee
                                     </p>
                                   </div>
                                 </div>
