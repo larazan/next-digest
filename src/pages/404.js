@@ -1,7 +1,9 @@
 import React from 'react'
 
-export const Empat = () => {
+const Empat = () => {
   return (
     <div>404</div>
   )
 }
+
+export default Empat

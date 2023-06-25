@@ -1,7 +1,9 @@
 import React from 'react'
 
-export const Jokes = () => {
+const Jokes = () => {
   return (
-    <div>index</div>
+    <div>Jokes</div>
   )
 }
+
+export default Jokes
