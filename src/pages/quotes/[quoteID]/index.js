@@ -29,7 +29,7 @@ export default function Detail() {
                     <div className="flex justify-end space-x-2">
                       <button>
                         <div className="flex rounded py-1.5 px-2 bg-[#1877f2] hover:bg-[#1877f2]  fill-[#1877f2] hover:fill-white  items-center justify-between space-x-1 hover:shadow-blue-500/50 ">
-                          <span className="text-white font-mabrybold">
+                          <span className="text-white text-sm font-semibold">
                             Facebook
                           </span>
                           <svg
@@ -48,7 +48,7 @@ export default function Detail() {
                       </button>
                       <button>
                         <div className="flex rounded py-1.5 px-2 bg-[#1d9bf0] hover:bg-[#1d9bf0] fill-[#1d9bf0] hover:fill-white  items-center justify-between space-x-1 hover:shadow-sky-500/50">
-                          <span className="text-white font-mabrybold">
+                          <span className="text-white text-sm font-semibold">
                             Twitter
                           </span>
                           <svg
@@ -78,13 +78,13 @@ export default function Detail() {
                             />
                           </svg>
 
-                          <span className="text-white font-mabry">
+                          <span className="text-white text-sm font-semibold">
                             Copy url
                           </span>
                         </div>
                       </button>
                     </div>
-                    <div className="flex space-x-2">
+                    <div className="hidden md:flex space-x-2">
                       <button
                         className="bg-green-500 hover:bg-green-400 px-2 py-1 font-extralight text-white inline-flex items-center space-x-1 rounded "
                         // onClick={likeHandler}
@@ -99,7 +99,7 @@ export default function Detail() {
                           <path d="M11.645 20.91l-.007-.003-.022-.012a15.247 15.247 0 01-.383-.218 25.18 25.18 0 01-4.244-3.17C4.688 15.36 2.25 12.174 2.25 8.25 2.25 5.322 4.714 3 7.688 3A5.5 5.5 0 0112 5.052 5.5 5.5 0 0116.313 3c2.973 0 5.437 2.322 5.437 5.25 0 3.925-2.438 7.111-4.739 9.256a25.175 25.175 0 01-4.244 3.17 15.247 15.247 0 01-.383.219l-.022.012-.007.004-.003.001a.752.752 0 01-.704 0l-.003-.001z" />
                         </svg>
 
-                        <span className=""> Likes</span>
+                        <span className="text-sm font-semibold"> Likes</span>
                       </button>
                       <button
                         className="bg-orange-500 hover:bg-orange-400 px-2 py-1.5 font-extralight text-white inline-flex items-center space-x-1 rounded "
@@ -114,12 +114,12 @@ export default function Detail() {
                           <path d="M9 2a2 2 0 00-2 2v8a2 2 0 002 2h6a2 2 0 002-2V6.414A2 2 0 0016.414 5L14 2.586A2 2 0 0012.586 2H9z" />
                           <path d="M3 8a2 2 0 012-2v10h8a2 2 0 01-2 2H5a2 2 0 01-2-2V8z" />
                         </svg>
-                        <span className="">Copy</span>
+                        <span className="text-sm font-semibold">Copy</span>
                       </button>
                     </div>
                   </div>
 
-                  <div className="py-7  columns-1 ">
+                  <div className="py-4 md:py-6  columns-1 ">
                     <div className="mb-4 rounded bg-white border group flex flex-col overflow-hidden justify-center shadow-md items-center cursor-zoom-in">
                       <div className="flex-grow py-2 lg:py-4 md:py-4 px-4">
                         <svg
@@ -149,6 +149,39 @@ export default function Detail() {
                           </button>
                         </div>
                       </div>
+                    </div>
+                    <div className="flex md:hidden space-x-2">
+                      <button
+                        className="bg-green-500 hover:bg-green-400 px-2 py-1 font-extralight text-white inline-flex items-center space-x-1 rounded "
+                        // onClick={likeHandler}
+                        title="Like Quote"
+                      >
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 24 24"
+                          fill="currentColor"
+                          className="w-4 h-4"
+                        >
+                          <path d="M11.645 20.91l-.007-.003-.022-.012a15.247 15.247 0 01-.383-.218 25.18 25.18 0 01-4.244-3.17C4.688 15.36 2.25 12.174 2.25 8.25 2.25 5.322 4.714 3 7.688 3A5.5 5.5 0 0112 5.052 5.5 5.5 0 0116.313 3c2.973 0 5.437 2.322 5.437 5.25 0 3.925-2.438 7.111-4.739 9.256a25.175 25.175 0 01-4.244 3.17 15.247 15.247 0 01-.383.219l-.022.012-.007.004-.003.001a.752.752 0 01-.704 0l-.003-.001z" />
+                        </svg>
+
+                        <span className="text-sm font-semibold"> Likes</span>
+                      </button>
+                      <button
+                        className="bg-orange-500 hover:bg-orange-400 px-2 py-1.5 font-extralight text-white inline-flex items-center space-x-1 rounded "
+                        title="Copy to clipboard"
+                      >
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          className="h-4 w-4"
+                          viewBox="0 0 20 20"
+                          fill="currentColor"
+                        >
+                          <path d="M9 2a2 2 0 00-2 2v8a2 2 0 002 2h6a2 2 0 002-2V6.414A2 2 0 0016.414 5L14 2.586A2 2 0 0012.586 2H9z" />
+                          <path d="M3 8a2 2 0 012-2v10h8a2 2 0 01-2 2H5a2 2 0 01-2-2V8z" />
+                        </svg>
+                        <span className="text-sm font-semibold">Copy</span>
+                      </button>
                     </div>
                   </div>
                 </section>

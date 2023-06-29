@@ -26,7 +26,7 @@ export default function Detail() {
         </Head>
 
         <Header />
-        <div className="flex flex-col bg-[#0074d9] min-h-screen pt-[100px]">
+        <div className="flex flex-col bg-[#0074d9] min-h-screen pt-16 md:pt-[100px]">
           <div className="bg-[#0074d9] py-10 mb-4">
             <h1 className="relative mx-3 md:mx-auto text-3xl md:text-5xl  md:leading-[60px] max-w-3xl m-auto text-white font-semibold text-center2 mt-4 sm:mt-6 mb-5 sm:mb-0">
               A grandmother, two mothers, and two daughters went to a baseball

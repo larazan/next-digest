@@ -65,7 +65,7 @@ const Nav = ({
                 showing={true}
               />
               <div className="flex justify-end space-x-2 w-full items-center leading-none text-white text-base">
-                <button className="p-3 tombol hover:bg-blue-900" onClick={answerClick}>
+                <button className="p-3 tombol hover:bg-blue-900 hover:bg-opacity-50" onClick={answerClick}>
                   <span className="font-semibold">Answer</span>
                 </button>
                 {arrows.map((a) => (
@@ -76,7 +76,7 @@ const Nav = ({
                     <div 
                         // key={a.arrow}
                         // type="button"
-                        className={`p-2 tombol ${a.url === undefined ? '' : 'hover:bg-blue-900'} `}
+                        className={`p-2 tombol ${a.url === undefined ? '' : 'hover:bg-blue-900 hover:bg-opacity-50'} `}
                         // onClick={clickHandler(a.arrow)}
                         // disabled={!move[a.arrow]}
                     >

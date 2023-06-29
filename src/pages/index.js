@@ -403,7 +403,7 @@ export default function Home() {
                             style={{ color: "transparent" }}
                           />
                         </figure>
-                        <div className="flex w-2/3 max-w-[45%] flex-1 flex-col space-x-y-1 md:space-y-2">
+                        <div className="flex w-2/3 max-w-[45%] flex-1 flex-col space-y-1 md:space-y-2">
                           <span
                             className="my-[0.25em] mx-[0em] overflow-hidden break-words text-sm md:text-lg leading-tight md:leading-tight font-semibold text-tundora"
                             style={{
@@ -442,9 +442,7 @@ export default function Home() {
                         <div className="flex w-2/3 max-w-[45%] flex-1 flex-col space-x-y-1 md:space-y-2">
                           <span
                             className="my-[0.25em] mx-[0em] overflow-hidden break-words text-sm md:text-lg leading-tight md:leading-tight font-semibold text-tundora"
-                            style={{
-                              display: "-webkit-box",
-                            }}
+                            
                           >
                             80 Funny Work Memes to Keep You Laughing Through the
                             Week
@@ -459,92 +457,29 @@ export default function Home() {
                       <div className="h-px bg-mercury"></div>
                     </a>
                     {/*  */}
-                    <div className="flex min-w-0 flex-1 flex-col">
-                      <div className="flex flex-row text-gray-33 dark:text-gray-cc md:justify-start">
-                        <div className="flex flex-row flex-wrap items-center font-polysans text-11 uppercase leading-130 tracking-15 text-gray-33 dark:text-gray-cc">
-                          <a
-                            className="relative z-10 mr-8 font-bold hover:shadow-underline-inherit"
-                            href="/authors/sean-hollister"
+                    <div className="flex min-w-0 flex-1 flex-col py-2">
+                     <div className="w-full rounded p-4 bg-[##14ada8]">
+                        <div className="flex flex-col space-y-1 md:space-y-2">
+                        <span
+                            className="my-[0.25em] mx-[0em] overflow-hidden break-words text-sm md:text-lg leading-tight md:leading-tight font-semibold text-tundora"
+                            style={{
+                              display: "-webkit-box",
+                            }}
                           >
-                            Sean Hollister
-                          </a>
-                          <a
-                            className="relative z-10 mr-8 font-bold hover:shadow-underline-inherit"
-                            href="/2023/6/14/23761257/the-first-sneak-peek-at-the-babylon-5-animated-movie"
-                          >
-                            <time
-                              className="flex items-center font-normal"
-                              dateTime="2023-06-14T19:33:31.303Z"
-                            >
-                              2:33 AM GMT+7
-                            </time>
-                          </a>
+                            80 Funny Work Memes to Keep You Laughing Through the
+                            Week
+                          </span>
+                          <span className="text-xs md:text-lg leading-tight md:leading-tight break-words text-justify">
+                            Whether you&apos;re waiting for the weekend or
+                            commiserating about your job, these funny work memes
+                            will help you cope
+                          </span>
                         </div>
-                        <div className="relative z-10 flex flex-row items-center md:flex-row">
-                          <button aria-label="Copy link">
-                            <svg
-                              className="fill-gray-63 transition hover:fill-black dark:hover:fill-white"
-                              width="20"
-                              height="20"
-                              fill="none"
-                              viewBox="0 0 40 40"
-                              xmlns="http://www.w3.org/2000/svg"
-                            >
-                              <title>Link</title>
-                              <path d="M16.9691 32.9499C14.2358 35.6832 9.78321 35.6832 7.04996 32.9499C4.31671 30.2166 4.31665 25.764 7.04996 23.0307L12.5606 17.52C15.294 14.7867 19.7465 14.7867 22.4798 17.52C22.704 17.7383 22.8315 18.037 22.8337 18.3499C22.8359 18.6628 22.7125 18.9634 22.4912 19.1846C22.2702 19.4059 21.9693 19.5293 21.6568 19.5271C21.3439 19.5249 21.0449 19.3975 20.8266 19.1732C18.9805 17.3271 16.0599 17.3271 14.2137 19.1732L8.70306 24.6839C6.85694 26.53 6.85694 29.4507 8.70306 31.2968C10.5492 33.1429 13.4698 33.1426 15.3159 31.2968L20.551 26.0614V26.0617C20.7693 25.8375 21.0683 25.71 21.3811 25.7078C21.694 25.7056 21.9946 25.829 22.2159 26.0503C22.4368 26.2716 22.5602 26.5722 22.5581 26.885C22.5559 27.1979 22.4284 27.4966 22.2042 27.7149L16.9691 32.9499ZM27.4394 22.4796C24.706 25.2129 20.2535 25.2129 17.5202 22.4796V22.4799C17.296 22.2616 17.1685 21.9629 17.1663 21.65C17.1644 21.3372 17.2875 21.0366 17.5088 20.8153C17.7301 20.5941 18.0307 20.4707 18.3435 20.4728C18.6564 20.475 18.9551 20.6025 19.1734 20.8267C21.0195 22.6728 23.9401 22.6728 25.7863 20.8267L31.2969 15.316C33.1431 13.4699 33.1431 10.5493 31.2969 8.70316C29.4508 6.85704 26.5302 6.85704 24.6841 8.70316L19.449 13.9382C19.2307 14.1625 18.9317 14.2902 18.6189 14.2924C18.306 14.2946 18.0054 14.1712 17.7841 13.9499C17.5629 13.7286 17.4395 13.428 17.4417 13.1149C17.4438 12.802 17.5713 12.503 17.7958 12.285L23.0309 7.04999C25.7642 4.31667 30.2168 4.31667 32.95 7.04999C35.6833 9.7833 35.6834 14.2359 32.95 16.9691L27.4394 22.4798L27.4394 22.4796Z"></path>
-                            </svg>
-                          </button>
+                        <div className="pt-2 ">
+                        <TweetEmbed tweetId="1674296643380826115" className="w-1/2 md:w-full" />
                         </div>
-                      </div>
-                      <div className="flex flex-col space-y-2 font-polysans text-black dark:text-gray-ef leading-tight bg-pink-200">
-                        <div className="inline pr-4 text-[17px] font-bold md:text-[17px]">
-                          The first sneak peek at the Babylon 5 animated movie.
-                        </div>
-                        <p className="duet--article--dangerously-set-cms-markup inline font-fkroman text-gray-33 dark:text-gray-ef [&amp;_a]:relative [&amp;_a]:z-10  [&amp;_a:hover]:text-blurple [&amp;_a:hover]:shadow-underline-blurple dark:[&amp;_a:hover]:text-franklin dark:[&amp;_a:hover]:shadow-underline-franklin [&amp;_a]:shadow-underline-blurple dark:[&amp;_a]:shadow-underline-franklin">
-                          A full trailer, release date, and what sounds like
-                          preorders are coming tomorrow,{" "}
-                          <a href="https://twitter.com/straczynski/status/1669011815446249475?s=46&amp;t=g01btXivdkkmtc6rgtfM-w">
-                            tweets series creator J. Michael Straczynski
-                          </a>
-                          . Here’s{" "}
-                          <a href="/2023/5/10/23718851/babylon-5-the-road-home-animated-movie-synopsis-cast">
-                            everything else
-                          </a>{" "}
-                          <a href="/2023/5/3/23708919/babylon-5-secret-project-jms-straczynski">
-                            we know
-                          </a>{" "}
-                          about<strong> </strong>
-                          <em>Babylon 5: The Road Home.</em>
-                        </p>
-                        <br />
-                      </div>
-                      <div className="pt-0 flex w-full mx-auto justify-center items-center bg-orange-200">
-                        <div className="min-h-[270px] quickpost mb-0 w-full  relative z-10 overflow-x-hidden md:max-w-full">
-                          <div>
-                            <div
-                              className="aspect-w-16 aspect-h-9 flex w-[550px] my-[10px] overflow-y-hidden"
-                            >
-                              <iframe
-                                id="twitter-widget-0"
-                                frameBorder="0"
-                                allowtransparency="true"
-                                allowFullScreen="true"
-                                className="static overflow-y-hidden w-[445px] h-[638px] flex-1"
-                                // style={{ position: &apos;static&apos;, visibility: &apos;visible&apos;, width: &apos;445px&apos;, height: &apos;638px&apos;, display: &apos;block&apos;, flexGrow: 1 }}
-                                title="Twitter Tweet"
-                                src="https://platform.twitter.com/embed/Tweet.html?dnt=false&amp;embedId=twitter-widget-0&amp;features=eyJ0ZndfdGltZWxpbmVfbGlzdCI6eyJidWNrZXQiOltdLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X2ZvbGxvd2VyX2NvdW50X3N1bnNldCI6eyJidWNrZXQiOnRydWUsInZlcnNpb24iOm51bGx9LCJ0ZndfdHdlZXRfZWRpdF9iYWNrZW5kIjp7ImJ1Y2tldCI6Im9uIiwidmVyc2lvbiI6bnVsbH0sInRmd19yZWZzcmNfc2Vzc2lvbiI6eyJidWNrZXQiOiJvbiIsInZlcnNpb24iOm51bGx9LCJ0ZndfZm9zbnJfc29mdF9pbnRlcnZlbnRpb25zX2VuYWJsZWQiOnsiYnVja2V0Ijoib24iLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X21peGVkX21lZGlhXzE1ODk3Ijp7ImJ1Y2tldCI6InRyZWF0bWVudCIsInZlcnNpb24iOm51bGx9LCJ0ZndfZXhwZXJpbWVudHNfY29va2llX2V4cGlyYXRpb24iOnsiYnVja2V0IjoxMjA5NjAwLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X3Nob3dfYmlyZHdhdGNoX3Bpdm90c19lbmFibGVkIjp7ImJ1Y2tldCI6Im9uIiwidmVyc2lvbiI6bnVsbH0sInRmd19kdXBsaWNhdGVfc2NyaWJlc190b19zZXR0aW5ncyI6eyJidWNrZXQiOiJvbiIsInZlcnNpb24iOm51bGx9LCJ0ZndfdXNlX3Byb2ZpbGVfaW1hZ2Vfc2hhcGVfZW5hYmxlZCI6eyJidWNrZXQiOiJvbiIsInZlcnNpb24iOm51bGx9LCJ0ZndfdmlkZW9faGxzX2R5bmFtaWNfbWFuaWZlc3RzXzE1MDgyIjp7ImJ1Y2tldCI6InRydWVfYml0cmF0ZSIsInZlcnNpb24iOm51bGx9LCJ0ZndfbGVnYWN5X3RpbWVsaW5lX3N1bnNldCI6eyJidWNrZXQiOnRydWUsInZlcnNpb24iOm51bGx9LCJ0ZndfdHdlZXRfZWRpdF9mcm9udGVuZCI6eyJidWNrZXQiOiJvbiIsInZlcnNpb24iOm51bGx9fQ%3D%3D&amp;frame=false&amp;hideCard=false&amp;hideThread=false&amp;id=1669011815446249475&amp;lang=en&amp;origin=https%3A%2F%2Fwww.theverge.com%2F&amp;sessionId=ab51efdc2d73433f8566ff9c73cb337ea43e15f3&amp;siteScreenName=verge&amp;theme=dark&amp;widgetsVersion=aaf4084522e3a%3A1674595607486&amp;width=550px"
-                                data-tweet-id="1669011815446249475"
-                              ></iframe>
-                            </div>
-                            <script
-                              async=""
-                              src="https://platform.twitter.com/widgets.js"
-                              charSet="utf-8"
-                            ></script>
-                            
-                          </div>
-                        </div>
-                      </div>
+                     </div>
+                      
                     </div>
                     {/*  */}
                     <a
