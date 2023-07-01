@@ -3,7 +3,7 @@ import React from "react";
 const QuoteRandom = () => {
   return (
     <div className="mt-20 mb-10 flex flex-col items-center px-5 md:px-2">
-      <div className="font-semibold text-2xl md:text-4xl max-w-[900px] md:leading-tight tracking-wide relative">
+      <div className="font-semibold text-2xl md:text-4xl max-w-[900px] text-gray-800 md:leading-tight tracking-wide relative">
         
         <p>
           <svg

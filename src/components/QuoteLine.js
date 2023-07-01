@@ -23,7 +23,7 @@ const QuoteLine = () => {
         >
           <SwiperSlide>
             <div className=" px-5">
-              <div className="font-semibold  text-2xl md:text-4xl max-w-[900px] md:leading-tight tracking-wide relative">
+              <div className="font-semibold  text-2xl md:text-4xl max-w-[900px] text-gray-800 md:leading-tight tracking-wide relative">
                 <p>
                   <svg
                     width="38"
@@ -48,7 +48,7 @@ const QuoteLine = () => {
           </SwiperSlide>
           <SwiperSlide>
             <div className=" px-5">
-              <div className="font-semibold  text-2xl md:text-4xl max-w-[900px] md:leading-tight tracking-wide relative">
+              <div className="font-semibold  text-2xl md:text-4xl max-w-[900px] text-gray-900 md:leading-tight tracking-wide relative">
                 <p>
                   <svg
                     width="38"

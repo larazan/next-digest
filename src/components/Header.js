@@ -25,7 +25,7 @@ export default function Header() {
     <>
       <header className="fixed z-50 w-full px-10 py-1.5 items-center transition duration-300 ease-out bg-opacity-10 backdrop-filter backdrop-blur">
         <div className="flex items-center justify-between mx-auto max-w-7xl">
-          <div className="flex items-center">
+          <div className="flex items-center text-gray-800">
             <Link href={'/'}>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
