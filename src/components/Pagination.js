@@ -31,25 +31,25 @@ export default function Pagination() {
           1
         </Link>
         <Link
-          className="rounded p-1 w-8 h-8 text-center text-sm font-medium flex justify-center items-center border border-[#E4E4E4]"
+          className="rounded p-1 w-8 h-8 text-center text-sm font-medium flex justify-center items-center text-gray-900 border border-[#E4E4E4]"
           href="/blog?category=All%20Categories&amp;page=2"
         >
           2
         </Link>
         <Link
-          className="rounded p-1 w-8 h-8 text-center text-sm font-medium flex justify-center items-center border border-[#E4E4E4]"
+          className="rounded p-1 w-8 h-8 text-center text-sm font-medium flex justify-center items-center text-gray-900 border border-[#E4E4E4]"
           href="/blog?category=All%20Categories&amp;page=3"
         >
           3
         </Link>
         <Link
-          className="rounded p-1 w-8 h-8 text-center text-sm font-medium flex justify-center items-center border border-[#E4E4E4]"
+          className="rounded p-1 w-8 h-8 text-center text-sm font-medium flex justify-center items-center text-gray-900 border border-[#E4E4E4]"
           href="/blog?category=All%20Categories&amp;page=4"
         >
           4
         </Link>
         <Link
-          className="rounded p-1 w-8 h-8 text-center text-sm font-medium flex justify-center items-center border border-[#E4E4E4]"
+          className="rounded p-1 w-8 h-8 text-center text-sm font-medium hidden md:flex justify-center items-center text-gray-900 border border-[#E4E4E4]"
           href="/blog?category=All%20Categories&amp;page=5"
         >
           5
@@ -75,7 +75,7 @@ export default function Pagination() {
           ></path>
         </svg>
         <Link
-          className="rounded p-1 w-8 h-8 text-center text-sm font-medium flex justify-center items-center border border-[#E4E4E4]"
+          className="rounded p-1 w-8 h-8 text-center text-sm font-medium flex justify-center items-center text-gray-900 border border-[#E4E4E4]"
           href="/blog?category=All%20Categories&amp;page=29"
         >
           29

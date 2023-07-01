@@ -57,7 +57,7 @@ export default function Persons() {
             <div className="flex flex-1 flex-col items-center justify-center relative">
               <div className="flex flex-1 flex-col pb-18 max-w-md md:max-w-2xl ">
                 <section className="w-full mx-auto  mt-2 md:mt-2 px-5 ">
-                  <h5 className="font-semibold text-2xl md:text-3xl text-center ">
+                  <h5 className="font-semibold text-2xl md:text-3xl text-center text-gray-800">
                     Person
                   </h5>
                   <p className="mt-3 font-normal text-lg text-gray-700 text-center ">
@@ -75,7 +75,7 @@ export default function Persons() {
                                 className={`px-2.5 py-1 md:px-4 md:py-2 border border-gray-300 cursor-pointer ${
                                   alpha === huruf
                                     ? "bg-orange-600 text-white border-orange-700"
-                                    : "bg-white hover:bg-gray-200"
+                                    : "bg-white text-gray-800 hover:bg-gray-200"
                                 }  font-normal`}
                               >
                                 <span className="text-sm font-semibold uppercase">
@@ -99,7 +99,7 @@ export default function Persons() {
                       <div className="mb-4 rounded bg-[#f4f2ef] border group flex flex-col overflow-hidden justify-center shadow-md items-center cursor-zoom-in">
                         <div className="flex-grow py-2 lg:py-4 md:py-4 px-4">
                           <div className="flex justify-center items-center">
-                            <div className="rounded-full p-4 border bg-white">
+                            <div className="rounded-full p-4 border bg-white text-gray-800">
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 viewBox="0 0 24 24"

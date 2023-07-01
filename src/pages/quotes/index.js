@@ -27,7 +27,7 @@ export default function Quotes() {
             <div className="flex flex-1 flex-col items-center justify-center relative">
               <div className="flex flex-1 flex-col pb-18 max-w-md md:max-w-2xl ">
                 <section className="w-full mx-auto  mt-2 md:mt-2 px-5 ">
-                  <h5 className="font-semibold md:font-bold text-2xl md:text-3xl text-center ">
+                  <h5 className="font-semibold md:font-bold text-2xl md:text-3xl text-center text-gray-800">
                     Quotes
                   </h5>
                   <p className="mt-3 font-normal text-lg text-gray-700 text-center ">
@@ -52,7 +52,7 @@ export default function Quotes() {
                     </div>
 
                     <input
-                      className="peer h-full w-full outline-none text-sm text-gray-700 pr-2"
+                      className="peer h-full w-full outline-none text-sm text-gray-700 pr-2 bg-white"
                       type="text"
                       id="search"
                       placeholder="Search something.."

@@ -26,7 +26,7 @@ export default function Riddles() {
             <div className="flex flex-1 flex-col items-center justify-center relative">
               <div className="flex flex-1 flex-col pb-18 max-w-md md:max-w-2xl ">
                 <section className="w-full mx-auto  mt-2 md:mt-2 px-5 ">
-                  <h5 className="font-semibold md:font-bold text-2xl md:text-3xl text-center ">
+                  <h5 className="font-semibold md:font-bold text-2xl md:text-3xl text-center text-gray-800">
                     Riddles
                   </h5>
                   <p className="mt-3 font-normal text-lg text-gray-700 text-center ">

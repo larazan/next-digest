@@ -43,8 +43,9 @@ export default function Blog() {
                   </p>
 
                   <div>
-                    <div className="pt-6">
+                    <div className="py-6">
                       <Image src={funny1} alt="" />
+                      
                     </div>
                     <div className="flex w-full space-x-4">
                       <div>
@@ -53,16 +54,16 @@ export default function Blog() {
                       href="/"
                     >
                       <div className="my-[1em] mx-[0em] flex items-center w-full bg-white leading-[1.25em]">
-                        <figure className="m-0 mr-2 md:mr-5 flex aspect-[10/9] h-fit flex-1 items-center justify-center">
+                        <figure className="m-0 mr-2 md:mr-5 flex aspect-[10/9] md:aspect-[16/9] h-fit flex-1 items-center justify-center">
                           <Image
                             alt=""
                             src={meme13}
                             
-                            className="h-full w-full rounded object-fill"
+                            className="h-full w-full rounded object-cover"
                             style={{ color: "transparent" }}
                           />
                         </figure>
-                        <div className="flex w-2/3 md:max-w-[45%] flex-1 flex-col space-y-1 md:space-y-2">
+                        <div className="flex w-2/3 md:max-w-[55%] flex-1 flex-col space-y-1 md:space-y-2">
                           <span
                             className="my-[0.25em] mx-[0em] overflow-hidden break-words text-md md:text-lg leading-tight md:leading-tight font-semibold"
                           >
@@ -84,16 +85,16 @@ export default function Blog() {
                       href="/"
                     >
                       <div className="my-[1em] mx-[0em] flex items-center w-full bg-white leading-[1.25em]">
-                        <figure className="m-0 mr-2 md:mr-5 flex aspect-[10/9] h-fit flex-1 items-center justify-center">
+                        <figure className="m-0 mr-2 md:mr-5 flex aspect-[10/9] md:aspect-[16/9] h-fit flex-1 items-center justify-center">
                           <Image
                             alt=""
                             src={meme12}
                             
-                            className="h-full w-full rounded object-fill"
+                            className="h-full w-full rounded object-cover"
                             style={{ color: "transparent" }}
                           />
                         </figure>
-                        <div className="flex w-2/3 md:max-w-[45%] flex-1 flex-col space-y-1 md:space-y-2">
+                        <div className="flex w-2/3 md:max-w-[55%] flex-1 flex-col space-y-1 md:space-y-2">
                           <span
                             className="my-[0.25em] mx-[0em] overflow-hidden break-words text-md md:text-lg leading-tight md:leading-tight font-semibold"
                           >
@@ -115,16 +116,16 @@ export default function Blog() {
                       href="/"
                     >
                       <div className="my-[1em] mx-[0em] flex items-center w-full bg-white leading-[1.25em]">
-                        <figure className="m-0 mr-2 md:mr-5 flex aspect-[10/9] h-fit flex-1 items-center justify-center">
+                        <figure className="m-0 mr-2 md:mr-5 flex aspect-[10/9] md:aspect-[16/9] h-fit flex-1 items-center justify-center">
                           <Image
                             alt=""
                             src={meme11}
                             
-                            className="h-full w-full rounded object-fill"
+                            className="h-full w-full rounded object-cover"
                             style={{ color: "transparent" }}
                           />
                         </figure>
-                        <div className="flex w-2/3 md:max-w-[45%] flex-1 flex-col space-y-1 md:space-y-2">
+                        <div className="flex w-2/3 md:max-w-[55%] flex-1 flex-col space-y-1 md:space-y-2">
                           <span
                             className="my-[0.25em] mx-[0em] overflow-hidden break-words text-md md:text-lg leading-tight md:leading-tight font-semibold"
                           >
