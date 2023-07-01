@@ -4,10 +4,9 @@ export default function Footer() {
   return (
     <>
       <footer
-        aria-label="Site Footer"
         className="bg-white lg:grid lg:grid-cols-5"
       >
-        <div className="px-4 py-6 sm:px-6 lg:col-span-3 lg:px-8">
+        <div className="px-4 py-2 md:py-6 sm:px-6 lg:col-span-3 lg:px-8">
           <div className="grid grid-cols-1 gap-10 sm:grid-cols-2">
             <div className="mt-6">
               <div className="flex w-full flex-row space-x-2 justify-center sm:flex-wrap">
@@ -264,7 +263,7 @@ export default function Footer() {
 
             <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
               <div>
-                <nav aria-label="Footer Navigation - Services" className="mt-6">
+                <nav aria-label="Footer Navigation - Services" className="mt-0 md:mt-6">
                   <ul className="space-y-2 text-md font-mabrybold">
                     <li>
                       <Link
@@ -315,7 +314,7 @@ export default function Footer() {
               </div>
 
               <div>
-                <nav aria-label="Footer Navigation - Company" className="mt-6">
+                <nav aria-label="Footer Navigation - Company" className="mt-0 md:mt-6">
                   <ul className="space-y-2 text-md font-mabrybold">
                     <li>
                       <Link
@@ -357,9 +356,9 @@ export default function Footer() {
             </div>
           </div>
 
-          <div className="pt-12">
-            <div className="py-0 sm:mb-0 mx-5 xl:mx-auto text-center border-gray-300 border-t-[0.5px]  max-w-7xl">
-              <p className="text-normal text-gray-700 my-6">©2023 Now&amp;Me Enterprises Pvt. Ltd. – All rights reserved.</p>
+          <div className="pt-6 md:pt-12">
+            <div className="py-0 sm:mb-0 mx-2 md:mx-5 xl:mx-auto text-center border-gray-300 border-t-[0.5px]  max-w-7xl">
+              <p className="text-normal text-gray-700 my-3 md:my-6">©2023 Now&amp;Me Enterprises Pvt. Ltd. – All rights reserved.</p>
             </div>
           </div>
         </div>

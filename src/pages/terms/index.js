@@ -16,7 +16,7 @@ export default function Terms() {
       </Head>
 
       <Header />
-      <div className="flex bg-white min-h-screen pt-[100px]">
+      <div className="flex bg-white min-h-screen pt-16 md:pt-[100px]">
         <div className="flex flex-row w-full">
           <div className="flex flex-1 flex-col items-center justify-center relative">
             <div className="flex flex-1 flex-col pb-20  max-w-md md:max-w-2xl ">
@@ -25,7 +25,7 @@ export default function Terms() {
                   Terms of Service
                 </h5>
 
-                <article className="mx-auto mt-12 prose md:mt-24 prose-previewify">
+                <article className="mx-auto mt-12 prose md:mt-24 md:prose-previewify">
                   <p>Last updated: Dec 9, 2022</p>
                   <p>
                     Please read these terms and conditions carefully before

@@ -11,7 +11,7 @@ export default function Notice() {
   return (
     <>
       {show ? (
-        <div className="flex items-start text-orange-500 max-w-2xl px-6 py-4 bg-orange-400 bg-opacity-10 text-sm sm:text-base rounded-lg sm:rounded-xl">
+        <div className="flex w-full items-start text-orange-500 md:max-w-2xl px-6 py-4 bg-orange-400 bg-opacity-10 text-sm sm:text-base rounded-lg sm:rounded-xl">
           <span>
             ⓘ Now&amp;Me is not a crisis or suicide helpline. If you or anyone
             you know requires immediate help, please reach out to the nearest

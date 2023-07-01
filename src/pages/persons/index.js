@@ -52,7 +52,7 @@ export default function Persons() {
         </Head>
 
         <Header />
-        <div className="flex bg-white min-h-screen pt-[100px]">
+        <div className="flex bg-white min-h-screen pt-16 md:pt-[100px]">
           <div className="flex flex-row w-full">
             <div className="flex flex-1 flex-col items-center justify-center relative">
               <div className="flex flex-1 flex-col pb-18 max-w-md md:max-w-2xl ">
@@ -63,39 +63,39 @@ export default function Persons() {
                   <p className="mt-3 font-normal text-lg text-gray-700 text-center ">
                     Browse through the most frequently asked questions.
                   </p>
-                  <div className="px-8 z-9 md:container md:mx-auto md:px-0">
-                    <div>
-                      <div className="flex items-center justify-between pt-2 ">
-                        <div className="top-0 py-3 flex overflow-x-auto scrollbars-hidden">
-                          <div className="flex  space-x-3">
-                            {abjad.map((huruf,i) => (
-                              <Link href={`/authors/${huruf}`} key={i}>
-                                <div
-                                
-                                  className={` px-4 py-2 border border-gray-300 cursor-pointer ${
-                                    alpha === huruf
-                                      ? "bg-orange-600 text-white border-orange-700"
-                                      : "bg-white hover:bg-gray-200"
-                                  }  font-normal`}
-                                >
-                                  <span className="text-sm font-semibold uppercase">
-                                    {huruf}
-                                  </span>
-                                </div>
-                              </Link>
-                            ))}
-                          </div>
+                  <div className="w-full mx-auto md:container md:mx-auto md:px-0">
+                    
+                    <div className="flex w-[350px] md:w-full pt-2 ">
+                      <div className="top-0 py-3 w-full flex overflow-x-auto scrollbars-hidden">
+                        <div className="flex  space-x-1.5 md:space-x-3">
+                          {abjad.map((huruf,i) => (
+                            <Link href={`/authors/${huruf}`} key={i}>
+                              <div
+                              
+                                className={`px-2.5 py-1 md:px-4 md:py-2 border border-gray-300 cursor-pointer ${
+                                  alpha === huruf
+                                    ? "bg-orange-600 text-white border-orange-700"
+                                    : "bg-white hover:bg-gray-200"
+                                }  font-normal`}
+                              >
+                                <span className="text-sm font-semibold uppercase">
+                                  {huruf}
+                                </span>
+                              </div>
+                            </Link>
+                          ))}
                         </div>
                       </div>
                     </div>
+                    
 
-                    <div className="">
-                      <div className="flex justify-between">
-                        <h1 className="text-md font-bold uppercase">{alpha}</h1>
-                      </div>
+                    
+                    <div className="flex justify-between">
+                      <h1 className="text-md font-bold uppercase">{alpha}</h1>
                     </div>
+                    
 
-                    <div className="py-10  columns-2 md:columns-4 lg:columns-6 ">
+                    <div className="py-6 md:py-10  columns-2 md:columns-4 lg:columns-6 ">
                       <div className="mb-4 rounded bg-[#f4f2ef] border group flex flex-col overflow-hidden justify-center shadow-md items-center cursor-zoom-in">
                         <div className="flex-grow py-2 lg:py-4 md:py-4 px-4">
                           <div className="flex justify-center items-center">

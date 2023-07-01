@@ -48,115 +48,98 @@ export default function Blog() {
                     </div>
                     <div className="flex w-full space-x-4">
                       <div>
-                        <a
-                          data-testid="cardlink-pilih-kategori-favoritmu"
-                          className="text-tundora no-underline"
-                          href="/campaign/yukinfaqyatim"
-                          id="347492-347492"
-                        >
-                          <div className="my-[1em] mx-[0em] flex items-center w-full bg-white leading-[1.25em]">
-                            <figure className="m-0 mr-5 flex aspect-[16/9] h-fit flex-1 items-center justify-center">
-                              <Image
-                                alt="Infaq Yatim: Kebahagiaan untuk 500 anak-anak Yatim"
-                                src={meme13}
-                                width="256"
-                                height="144"
-                                className="h-full w-full rounded object-fill"
-                                style={{ color: "transparent" }}
-                              />
-                            </figure>
-                            <div className="flex w-2/3 max-w-[45%] flex-1 flex-col space-x-y-1 md:space-y-2">
-                              <span
-                                className="my-[0.25em] mx-[0em] overflow-hidden break-words text-sm md:text-lg leading-tight md:leading-tight font-semibold text-tundora"
-                                style={{
-                                  display: "-webkit-box",
-                                }}
-                              >
-                                80 Funny Work Memes to Keep You Laughing Through
-                                the Week
-                              </span>
-                              <span className="text-xs md:text-lg leading-tight md:leading-tight break-words text-justify">
-                                Whether you&apos;re waiting for the weekend or
-                                commiserating about your job, these funny work
-                                memes will help you cope
-                              </span>
-                            </div>
-                          </div>
-                          <div className="h-px bg-mercury"></div>
-                        </a>
-                        <a
-                          data-testid="cardlink-pilih-kategori-favoritmu"
-                          className="text-tundora no-underline"
-                          href="/campaign/yukinfaqyatim"
-                          id="347492-347492"
-                        >
-                          <div className="my-[1em] mx-[0em] flex items-center w-full bg-white leading-[1.25em]">
-                            <figure className="m-0 mr-5 flex aspect-[16/9] h-fit flex-1 items-center justify-center">
-                              <Image
-                                alt="Infaq Yatim: Kebahagiaan untuk 500 anak-anak Yatim"
-                                src={meme11}
-                                width="100%"
-                                height="100%"
-                                className="h-full w-full rounded object-fill"
-                                style={{ color: "transparent" }}
-                              />
-                            </figure>
-                            <div className="flex w-2/3 max-w-[45%] flex-1 flex-col space-x-y-1 md:space-y-2">
-                              <span
-                                className="my-[0.25em] mx-[0em] overflow-hidden break-words text-sm md:text-lg leading-tight md:leading-tight font-semibold text-tundora"
-                                style={{
-                                  display: "-webkit-box",
-                                }}
-                              >
-                                80 Funny Work Memes to Keep You Laughing Through
-                                the Week
-                              </span>
-                              <span className="text-xs md:text-lg leading-tight md:leading-tight break-words text-justify">
-                                Whether you&apos;re waiting for the weekend or
-                                commiserating about your job, these funny work
-                                memes will help you cope
-                              </span>
-                            </div>
-                          </div>
-                          <div className="h-px bg-mercury"></div>
-                        </a>
+                      <a
+                      className="text-tundora no-underline"
+                      href="/"
+                    >
+                      <div className="my-[1em] mx-[0em] flex items-center w-full bg-white leading-[1.25em]">
+                        <figure className="m-0 mr-2 md:mr-5 flex aspect-[10/9] h-fit flex-1 items-center justify-center">
+                          <Image
+                            alt=""
+                            src={meme13}
+                            
+                            className="h-full w-full rounded object-fill"
+                            style={{ color: "transparent" }}
+                          />
+                        </figure>
+                        <div className="flex w-2/3 md:max-w-[45%] flex-1 flex-col space-y-1 md:space-y-2">
+                          <span
+                            className="my-[0.25em] mx-[0em] overflow-hidden break-words text-md md:text-lg leading-tight md:leading-tight font-semibold"
+                          >
+                            80 Funny Work Memes to Keep You Laughing Through the
+                            Week
+                          </span>
+                          <span className="text-sm md:text-lg leading-tight md:leading-tight tracking-tight break-words text-justify">
+                            Whether you&apos;re waiting for the weekend or
+                            commiserating about your job, these funny work memes
+                            will help you cope
+                          </span>
+                        </div>
+                      </div>
+                      <div className="h-px bg-mercury"></div>
+                    </a>
 
-                        <a
-                          data-testid="cardlink-pilih-kategori-favoritmu"
-                          className="text-tundora no-underline"
-                          href="/campaign/yukinfaqyatim"
-                          id="347492-347492"
-                        >
-                          <div className="my-[1em] mx-[0em] flex items-center w-full bg-white leading-[1.25em]">
-                            <figure className="m-0 mr-5 flex aspect-[16/9] h-fit flex-1 items-center justify-center">
-                              <Image
-                                alt="Infaq Yatim: Kebahagiaan untuk 500 anak-anak Yatim"
-                                src={meme12}
-                                width="256"
-                                height="144"
-                                className="h-full w-full rounded object-fill"
-                                style={{ color: "transparent" }}
-                              />
-                            </figure>
-                            <div className="flex w-2/3 max-w-[45%] flex-1 flex-col space-x-y-1 md:space-y-2">
-                              <span
-                                className="my-[0.25em] mx-[0em] overflow-hidden break-words text-sm md:text-lg leading-tight md:leading-tight font-semibold text-tundora"
-                                style={{
-                                  display: "-webkit-box",
-                                }}
-                              >
-                                80 Funny Work Memes to Keep You Laughing Through
-                                the Week
-                              </span>
-                              <span className="text-xs md:text-lg leading-tight md:leading-tight break-words text-justify">
-                                Whether you&apos;re waiting for the weekend or
-                                commiserating about your job, these funny work
-                                memes will help you cope
-                              </span>
-                            </div>
-                          </div>
-                          <div className="h-px bg-mercury"></div>
-                        </a>
+                    <a
+                      className="text-tundora no-underline"
+                      href="/"
+                    >
+                      <div className="my-[1em] mx-[0em] flex items-center w-full bg-white leading-[1.25em]">
+                        <figure className="m-0 mr-2 md:mr-5 flex aspect-[10/9] h-fit flex-1 items-center justify-center">
+                          <Image
+                            alt=""
+                            src={meme12}
+                            
+                            className="h-full w-full rounded object-fill"
+                            style={{ color: "transparent" }}
+                          />
+                        </figure>
+                        <div className="flex w-2/3 md:max-w-[45%] flex-1 flex-col space-y-1 md:space-y-2">
+                          <span
+                            className="my-[0.25em] mx-[0em] overflow-hidden break-words text-md md:text-lg leading-tight md:leading-tight font-semibold"
+                          >
+                            80 Funny Work Memes to Keep You Laughing Through the
+                            Week
+                          </span>
+                          <span className="text-sm md:text-lg leading-tight md:leading-tight tracking-tight break-words text-justify">
+                            Whether you&apos;re waiting for the weekend or
+                            commiserating about your job, these funny work memes
+                            will help you cope
+                          </span>
+                        </div>
+                      </div>
+                      <div className="h-px bg-mercury"></div>
+                    </a>
+
+                    <a
+                      className="text-tundora no-underline"
+                      href="/"
+                    >
+                      <div className="my-[1em] mx-[0em] flex items-center w-full bg-white leading-[1.25em]">
+                        <figure className="m-0 mr-2 md:mr-5 flex aspect-[10/9] h-fit flex-1 items-center justify-center">
+                          <Image
+                            alt=""
+                            src={meme11}
+                            
+                            className="h-full w-full rounded object-fill"
+                            style={{ color: "transparent" }}
+                          />
+                        </figure>
+                        <div className="flex w-2/3 md:max-w-[45%] flex-1 flex-col space-y-1 md:space-y-2">
+                          <span
+                            className="my-[0.25em] mx-[0em] overflow-hidden break-words text-md md:text-lg leading-tight md:leading-tight font-semibold"
+                          >
+                            80 Funny Work Memes to Keep You Laughing Through the
+                            Week
+                          </span>
+                          <span className="text-sm md:text-lg leading-tight md:leading-tight tracking-tight break-words text-justify">
+                            Whether you&apos;re waiting for the weekend or
+                            commiserating about your job, these funny work memes
+                            will help you cope
+                          </span>
+                        </div>
+                      </div>
+                      <div className="h-px bg-mercury"></div>
+                    </a>
                       </div>
                     </div>
                   </div>
