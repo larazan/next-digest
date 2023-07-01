@@ -48,7 +48,7 @@ export default function Blog() {
                     </div>
                     <div className="flex w-full space-x-4">
                       <div>
-                      <a
+                      <Link
                       className="text-tundora no-underline"
                       href="/"
                     >
@@ -77,9 +77,9 @@ export default function Blog() {
                         </div>
                       </div>
                       <div className="h-px bg-mercury"></div>
-                    </a>
+                    </Link>
 
-                    <a
+                    <Link
                       className="text-tundora no-underline"
                       href="/"
                     >
@@ -108,9 +108,9 @@ export default function Blog() {
                         </div>
                       </div>
                       <div className="h-px bg-mercury"></div>
-                    </a>
+                    </Link>
 
-                    <a
+                    <Link
                       className="text-tundora no-underline"
                       href="/"
                     >
@@ -139,7 +139,7 @@ export default function Blog() {
                         </div>
                       </div>
                       <div className="h-px bg-mercury"></div>
-                    </a>
+                    </Link>
                       </div>
                     </div>
                   </div>

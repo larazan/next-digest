@@ -180,11 +180,11 @@ export default function Home() {
                   >
                     Riddles
                   </h1>
-                  <a>
+                  <Link href={"/"}>
                     <span className="m-0 text-sm text-blue-400 cursor-pointer">
                       Lihat Lainnya
                     </span>
-                  </a>
+                  </Link>
                 </div>
                 <div className="relative">
                   {scrollX !== 0 && (
@@ -385,7 +385,7 @@ export default function Home() {
                 </h1>
                 <div className="flex w-full space-x-4">
                   <div>
-                    <a
+                    <Link
                       className="text-tundora no-underline"
                       href="/"
                     >
@@ -414,8 +414,8 @@ export default function Home() {
                         </div>
                       </div>
                       <div className="h-px bg-mercury"></div>
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       className="text-tundora no-underline"
                       href="/"
                     >
@@ -444,7 +444,7 @@ export default function Home() {
                         </div>
                       </div>
                       <div className="h-px bg-mercury"></div>
-                    </a>
+                    </Link>
                     {/*  */}
                     <div className="flex min-w-0 flex-1 flex-col py-2">
                      <div className="w-full rounded p-4 bg-[##14ada8]">
@@ -470,7 +470,7 @@ export default function Home() {
                      <div className="h-px bg-mercury"></div>
                     </div>
                     {/*  */}
-                    {/* <a
+                    {/* <Link
                       data-testid="cardlink-pilih-kategori-favoritmu"
                       className="text-tundora no-underline"
                       href="/campaign/yukinfaqyatim"
@@ -505,8 +505,8 @@ export default function Home() {
                         </div>
                       </div>
                       <div className="h-px bg-mercury"></div>
-                    </a> */}
-                    <a
+                    </Link> */}
+                    <Link
                       className="text-tundora no-underline"
                       href="/"
                     >
@@ -535,7 +535,7 @@ export default function Home() {
                         </div>
                       </div>
                       <div className="h-px bg-mercury"></div>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
