@@ -9,6 +9,7 @@ import Footer from "@/components/Footer";
 import SubscribeForm from "@/components/SubscribeForm";
 import AccordionItem from "@/components/AccordionItem";
 import QuoteRandom from "@/components/QuoteRandom";
+import GoTop from "@/components/GoTop";
 
 export default function Faqs() {
 
@@ -75,6 +76,7 @@ export default function Faqs() {
         </Head>
 
         <Header />
+        <GoTop />
         <div className="flex bg-white min-h-screen pt-16 md:pt-[100px]">
           <div className="flex flex-row w-full">
             <div className="flex flex-1 flex-col items-center justify-center relative">

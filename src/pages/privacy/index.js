@@ -5,6 +5,7 @@ import Notice from "@/components/Notice";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import SubscribeForm from "@/components/SubscribeForm";
+import GoTop from "@/components/GoTop";
 
 export default function Privacy() {
   return (
@@ -16,6 +17,7 @@ export default function Privacy() {
       </Head>
 
       <Header />
+      <GoTop />
       <div className="flex bg-white min-h-screen pt-16 md:pt-[100px]">
         <div className="flex flex-row w-full">
           <div className="flex flex-1 flex-col items-center justify-center relative">

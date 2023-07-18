@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const SubscribeForm = () => {
   return (
-    <aside className="py-8 md:py-16 bg-gray-50 lg:py-20 dark:bg-gray-800 border-t border-b border-gray-100 dark:border-gray-700">
+    <div className="py-8 md:py-16 bg-gray-50 lg:py-20 dark:bg-gray-800 border-t border-b border-gray-100 dark:border-gray-700">
       <div className="px-4 mx-auto max-w-8xl">
         <h2 className="mb-4 text-3xl md:text-4xl font-bold tracking-tight text-gray-900 md:font-extrabold lg:leading-none dark:text-white md:text-center lg:mb-7">
           Sign up for our newsletter
@@ -82,7 +82,7 @@ const SubscribeForm = () => {
           .
         </p>
       </div>
-    </aside>
+    </div>
   );
 };
 

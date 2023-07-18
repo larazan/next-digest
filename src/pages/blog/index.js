@@ -15,6 +15,7 @@ import meme12 from "@/img/meme12.jpg";
 import meme13 from "@/img/meme13.jpg";
 
 import funny1 from "@/img/funny1.jpg";
+import GoTop from "@/components/GoTop";
 
 export default function Blog() {
 
@@ -28,6 +29,7 @@ export default function Blog() {
         </Head>
 
         <Header />
+        <GoTop />
         <div className="flex bg-white min-h-screen pt-14 md:pt-[100px]">
           <div className="flex flex-row w-full">
             <div className="flex flex-1 flex-col items-center justify-center relative">

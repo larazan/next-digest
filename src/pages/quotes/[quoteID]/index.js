@@ -150,6 +150,13 @@ export default function Detail() {
                         </div>
                       </div>
                     </div>
+                    <div className="flex flex-wrap space-x-1 text-base md:text-sm font-mabry text-gray-500 px-2 md:px-4 py-2">
+                  <span> Tags: </span>
+                  <div className="flex flex-wrap space-x-1 w-60">
+                  <a href="#" class="m-1 flex flex-wrap items-center text-xs  md:text-xs text-slate-500 border border-gray-300 py-1 px-2 rounded-md bg-gray-200 capitalize ">action</a>
+                  <a href="#" class="m-1 flex flex-wrap items-center text-xs  md:text-xs text-slate-500 border border-gray-300 py-1 px-2 rounded-md bg-gray-200 capitalize ">adventure</a>
+                  </div>
+                  </div>
                     <div className="flex md:hidden space-x-2">
                       <button
                         className="bg-green-500 hover:bg-green-400 px-2 py-1 font-extralight text-white inline-flex items-center space-x-1 rounded "

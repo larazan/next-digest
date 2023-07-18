@@ -10,6 +10,7 @@ import Footer from "@/components/Footer";
 import SubscribeForm from "@/components/SubscribeForm";
 
 import pravatar from "@/img/pravatar.jpg";
+import GoTop from "@/components/GoTop";
 
 const Detail = () => {
   return (
@@ -22,6 +23,7 @@ const Detail = () => {
         </Head>
 
         <Header />
+        <GoTop />
         <div className="flex flex-col bg-white min-h-screen pt-16 md:pt-[100px]">
           <div className="bg-[#FFE5DD] py-10 mb-4">
             

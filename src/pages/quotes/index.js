@@ -10,6 +10,7 @@ import SubscribeForm from "@/components/SubscribeForm";
 import QuoteRandom from "@/components/QuoteRandom";
 import Pagination from "@/components/Pagination";
 import Tag from "@/components/Tag";
+import GoTop from "@/components/GoTop";
 
 export default function Quotes() {
   return (
@@ -22,6 +23,7 @@ export default function Quotes() {
         </Head>
 
         <Header />
+        <GoTop />
         <div className="flex bg-white min-h-screen pt-16 md:pt-[100px]">
           <div className="flex flex-row w-full">
             <div className="flex flex-1 flex-col items-center justify-center relative">

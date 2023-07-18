@@ -11,6 +11,7 @@ import QuoteRandom from "@/components/QuoteRandom";
 import Pagination from "@/components/Pagination";
 
 import ada from "@/img/ada.jpg"
+import GoTop from "@/components/GoTop";
 
 export default function Detail() {
 
@@ -24,6 +25,7 @@ export default function Detail() {
         </Head>
 
         <Header />
+        <GoTop />
         <div className="flex flex-col bg-white min-h-screen pt-16 md:pt-[100px]">
         <div className="bg-[#FFE5DD] py-10 mb-4">
             
