@@ -8,7 +8,7 @@ import SearchModal from "./SearchModal";
 export default function Header() {
   const [adsModalOpen, setAdsModalOpen] = useState(false);
   const [searchModalOpen, setSearchModalOpen] = useState(false);
-  const [openMenu, setOpenMenu] = useState(false)
+  const [openMenu, setOpenMenu] = useState(false);
 
   const clickMenu = () => {
     setOpenMenu(!openMenu);
@@ -23,10 +23,10 @@ export default function Header() {
 
   return (
     <>
-      <header className="fixed z-50 w-full px-10 py-1.5 items-center transition duration-300 ease-out bg-opacity-10 backdrop-filter backdrop-blur">
+      <header className="fixed z-50 w-full px-10 py-1.5 items-center transition duration-300 ease-out bg-opacity-10 backdrop-filter backdrop-blur border-b">
         <div className="flex items-center justify-between mx-auto max-w-7xl">
-          <div className="flex items-center text-gray-800">
-            <Link href={'/'}>
+          <div className="flex w-1/12 items-center text-gray-800">
+            <Link href={"/"}>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="40.000000pt"
@@ -65,35 +65,83 @@ export default function Header() {
                 </g>
               </svg>
             </Link>
-            
           </div>
-          <div className="flex space-x-3 md:space-x-6 font-bold text-gray-900 items-center">
-            <Link href={'/'} className="hidden md:block hover:text-[#FF6D42]">
-              Home
-            </Link>
-            <Link href="/quotes" className="hidden md:block hover:text-[#FF6D42]">
-              Quotes
-            </Link>
-            <Link href="/riddles" className="hidden md:block hover:text-[#FF6D42]">
-              Riddles
-            </Link>
-            <Link href="/funny" className="hidden md:block hover:text-[#FF6D42]">
-              Funny
-            </Link>
-           
-            <Link href="/blog" className="hidden md:block hover:text-[#FF6D42]">
-              Blog
-            </Link>
+          <div className="w-6/12 ml-auto2 hidden lg:block">
+            <form className="flex items-center relative">
+              <input
+                className="flex h-10 border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 w-full  rounded-lg rounded-r-none focus-visible:ring-transparent pr-8"
+                placeholder="Search for a course"
+                value=""
+              />
+              <button
+                className="inline-flex items-center justify-center rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-sky-700 text-white hover:bg-sky-700/80 h-10 px-4 py-2 rounded-l-none"
+                type="submit"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  className="lucide lucide-search h-4 w-4"
+                >
+                  <circle cx="11" cy="11" r="8"></circle>
+                  <path d="m21 21-4.3-4.3"></path>
+                </svg>
+              </button>
+            </form>
+          </div>
+          <div className="flex space-x-3 md:space-x-3 font-bold text-gray-900 items-center">
             <Link
-              href="https://shop.nowandme.com"
-              target="_blank"
+              href="/quotes"
               className="hidden md:block hover:text-[#FF6D42]"
             >
-              Shop
+              Quotes
             </Link>
-            
+            <Link
+              href="/riddles"
+              className="hidden md:block hover:text-[#FF6D42]"
+            >
+              Riddles
+            </Link>
+            <Link
+              href="/funny"
+              className="hidden md:block hover:text-[#FF6D42]"
+            >
+              Funny
+            </Link>
+
+            <div className="flex items-center gap-x-2 ml-auto">
+              <button className="inline-flex items-center justify-center text-white text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-[#1972f5] hover:opacity-90 hover:text-accent-foreground h-9 rounded-md px-3">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  className="lucide lucide-log-in h-4 w-4 mr-2"
+                >
+                  <path d="M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4"></path>
+                  <polyline points="10 17 15 12 10 7"></polyline>
+                  <line x1="15" x2="3" y1="12" y2="12"></line>
+                </svg>
+                Login
+              </button>
+            </div>
+
             <section className="MOBILE-MENU flex md:hidden justify-start items-between">
-              <div className="HAMBURGER-ICON space-y-2 w-fit md:justify-start cursor-pointer" onClick={clickMenu}>
+              <div
+                className="HAMBURGER-ICON space-y-2 w-fit md:justify-start cursor-pointer"
+                onClick={clickMenu}
+              >
                 <svg
                   viewBox="0 0 24 24"
                   fill="currentColor"
@@ -107,8 +155,15 @@ export default function Header() {
                   ></path>
                 </svg>
               </div>
-              <div className={` ${openMenu === false ? 'hidden' : 'flex'} bg-black w-full h-[100vh] z-10 fixed top-0 left-0 text-white text-4xl font-bold  flex-1 flex-col justify-between`}>
-                <div className="absolute top-0 right-0 px-3 py-5 cursor-pointer" onClick={clickMenu}>
+              <div
+                className={` ${
+                  openMenu === false ? "hidden" : "flex"
+                } bg-black w-full h-[100vh] z-10 fixed top-0 left-0 text-white text-4xl font-bold  flex-1 flex-col justify-between`}
+              >
+                <div
+                  className="absolute top-0 right-0 px-3 py-5 cursor-pointer"
+                  onClick={clickMenu}
+                >
                   <svg
                     className="h-6 w-8 text-white"
                     viewBox="0 0 24 24"
@@ -124,28 +179,31 @@ export default function Header() {
                 </div>
                 <ul className="flex mt-16 p-6 flex-col items-left gap-5 justify-between min-h-[250px]">
                   <li className="text-2xl">
-                    <Link className="hover:text-[#FF6D42]" href="/">Home</Link>
-                  </li>
-                  <li className="text-2xl">
-                    <Link className="hover:text-[#FF6D42]" href="/quotes">Quotes</Link>
-                  </li>
-                  <li className="text-2xl">
-                    <Link className="hover:text-[#FF6D42]" href="/riddles">Riddles</Link>
-                  </li>
-                  <li className="text-2xl">
-                    <Link className="hover:text-[#FF6D42]" href="/persons">Person</Link>
-                  </li>
-                  <li className="text-2xl">
-                    <Link className="hover:text-[#FF6D42]" href="/">Funny</Link>
-                  </li>
-                  <li className="text-2xl">
-                    <Link className="hover:text-[#FF6D42]" href="/blog">Blog</Link>
-                  </li>
-                  <li className="text-2xl">
-                    <Link className="hover:text-[#FF6D42]" href="/" target="_blank">
-                      Shop
+                    <Link className="hover:text-[#FF6D42]" href="/">
+                      Home
                     </Link>
                   </li>
+                  <li className="text-2xl">
+                    <Link className="hover:text-[#FF6D42]" href="/quotes">
+                      Quotes
+                    </Link>
+                  </li>
+                  <li className="text-2xl">
+                    <Link className="hover:text-[#FF6D42]" href="/riddles">
+                      Riddles
+                    </Link>
+                  </li>
+                  <li className="text-2xl">
+                    <Link className="hover:text-[#FF6D42]" href="/author">
+                      Person
+                    </Link>
+                  </li>
+                  <li className="text-2xl">
+                    <Link className="hover:text-[#FF6D42]" href="/">
+                      Funny
+                    </Link>
+                  </li>
+                  
                 </ul>
               </div>
             </section>

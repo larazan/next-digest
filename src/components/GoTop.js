@@ -30,11 +30,11 @@ const GoTop = () => {
         {isVisible && (
           <div
             onClick={scrollToTop}
-            className="fixed p-2 opacity-50 rounded-lg bg-blue-200 bottom-3 right-3 hover:bg-blue-300 lg:bottom-5 lg:right-5 cursor-pointer"
+            className="fixed p-2 md:p-3 rounded-full bg-[#1972f5] bottom-3 right-3 hover:opacity-90 lg:bottom-5 lg:right-5 cursor-pointer"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="h-6 w-6"
+              className=" h-4 w-4 md:h-6 md:w-6 text-white"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
