@@ -23,8 +23,8 @@ export default function Header() {
 
   return (
     <>
-      <header className="fixed z-50 w-full px-10 py-1.5 items-center transition duration-300 ease-out bg-opacity-10 backdrop-filter backdrop-blur border-b">
-        <div className="flex items-center justify-between mx-auto max-w-7xl">
+      <header className="fixed z-50 w-full px-5 md:px-10 py-1.5 items-center transition duration-300 ease-out bg-opacity-10 backdrop-filter backdrop-blur border-b shadow">
+        <div className="flex items-center justify-between mx-auto max-w-5xl">
           <div className="flex w-1/12 items-center text-gray-800">
             <Link href={"/"}>
               <svg
@@ -67,32 +67,33 @@ export default function Header() {
             </Link>
           </div>
           <div className="w-6/12 ml-auto2 hidden lg:block">
-            <form className="flex items-center relative">
-              <input
-                className="flex h-10 border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 w-full  rounded-lg rounded-r-none focus-visible:ring-transparent pr-8"
-                placeholder="Search for a course"
-                value=""
-              />
-              <button
-                className="inline-flex items-center justify-center rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-sky-700 text-white hover:bg-sky-700/80 h-10 px-4 py-2 rounded-l-none"
-                type="submit"
-              >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  className="lucide lucide-search h-4 w-4"
+          <form className="flex items-center relative">
+              <div className="flex w-full items-center rounded-lg bg-gray-100 h-12 border px-1 py-3">
+                <button
+                  className="static inline-flex items-center justify-center rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-transparent text-gray-400 h-10 px-2 py-2 "
+                  type="submit"
                 >
-                  <circle cx="11" cy="11" r="8"></circle>
-                  <path d="m21 21-4.3-4.3"></path>
-                </svg>
-              </button>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="3"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    className="h-5 w-5"
+                  >
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <path d="m21 21-4.3-4.3"></path>
+                  </svg>
+                </button>
+                <input
+                  className="relative flex h-12 bg-transparent px-1 py-3 text-md ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none disabled:cursor-not-allowed disabled:opacity-50 w-full lg:w-[600px] focus-visible:ring-transparent"
+                  placeholder="Search for a Quote or People"
+                />
+              </div>
             </form>
           </div>
           <div className="flex space-x-3 md:space-x-3 font-bold text-gray-900 items-center">

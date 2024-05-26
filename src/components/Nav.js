@@ -57,7 +57,7 @@ const Nav = ({
 
   return (
     <>
-      <div className="absolute riddle bottom-0 px-6 py-3 w-full ">
+      <div className="absolute riddle bottom-4 right-4 px-6 py-3 w-full ">
             <div className="">
               <Matrix  
                 pos={2}

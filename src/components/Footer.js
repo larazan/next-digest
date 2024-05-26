@@ -4,9 +4,10 @@ export default function Footer() {
   return (
     <>
       <footer
-        className="bg-white lg:grid lg:grid-cols-5"
+        className="flex w-full"
       >
-        <div className="px-4 py-2 md:py-6 sm:px-6 lg:col-span-3 lg:px-8">
+        <div className="mx-auto max-w-5xl ">
+        <div className="px-6 py-2 md:py-6 sm:px-6 lg:col-span-3 lg:px-8">
           <div className="grid grid-cols-1 gap-10 sm:grid-cols-2">
             <div className="mt-6">
               <div className="flex w-full flex-row space-x-2 justify-center sm:flex-wrap">
@@ -261,7 +262,7 @@ export default function Footer() {
             </div>
             
 
-            <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
+            <div className="grid grid-cols-2 gap-4 sm:grid-cols-2">
               <div>
                 <nav aria-label="Footer Navigation - Services" className="mt-0 md:mt-6">
                   <ul className="space-y-2 text-md font-mabrybold">
@@ -285,10 +286,10 @@ export default function Footer() {
 
                     <li>
                       <Link
-                        href="#"
+                        href={"/blog"}
                         className="font-bold text-gray-900 transition hover:text-[#FF6D42]"
                       >
-                        Blog
+                        Blogs
                       </Link>
                     </li>
 
@@ -361,6 +362,7 @@ export default function Footer() {
               <p className="text-normal text-gray-700 my-3 md:my-6">©2023 Now&amp;Me Enterprises Pvt. Ltd. – All rights reserved.</p>
             </div>
           </div>
+        </div>
         </div>
       </footer>
     </>
