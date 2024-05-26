@@ -152,7 +152,7 @@ export default function Articles() {
                 <p class="md:text-lg md:leading-normal text-gray-600 text-center md:text-left">
                   The right podcasts can help you gain confidence, develop new
                   habits, find clarity, hone new skills, and fuel your desire
-                  for perpetual growth and learning. We've curated 26 of the
+                  for perpetual growth and learning. We&lsquo;ve curated 26 of the
                   best podcasts you can listen to at work (and how to use them
                   to get ahead.)
                 </p>

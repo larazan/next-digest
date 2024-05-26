@@ -75,11 +75,11 @@ const MainContent = () => {
           </div>
           <div className="p-6 space-y-4">
             <div className="flex items-center gap-x-2 overflow-x-auto pb-2">
-              <a href="/">
+              <Link href="/">
                 <div className="py-2 px-3 text-sm rounded-md flex items-center gap-x-1 hover:bg-slate-200 transition cursor-pointer border-sky-700 bg-sky-500/10 text-sky-800">
                   <div className="truncate text-xs font-semibold">All</div>
                 </div>
-              </a>
+              </Link>
               {tags.map((data, index) => (
                 <Link href="/" key={index}>
                   <div className="py-2 px-3 text-sm bg-[#f1f5f9] rounded-md flex items-center gap-x-1 hover:bg-slate-200 transition cursor-pointer">

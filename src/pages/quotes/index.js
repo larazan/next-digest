@@ -5,12 +5,11 @@ import Link from "next/link";
 import Header from "@/components/Header";
 
 import GoTop from "@/components/GoTop";
-import Sidebar from "@/components/Sidebar";
-import Bottom from "@/components/Bottom";
 import Pagination from "@/components/Pagination";
 import QuoteList from "@/components/QuoteList";
 import Tags from "@/components/Tags";
 import Footer from "@/components/Footer";
+import SubscribeForm from "@/components/SubscribeForm";
 
 export default function Quotes() {
   
@@ -66,6 +65,7 @@ export default function Quotes() {
             <Pagination />
           </div>
         </div>
+        <SubscribeForm />
       </main>
 
       <Footer />

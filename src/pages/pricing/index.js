@@ -44,7 +44,7 @@ export default function Pricing() {
                 </p>
                 <div className="mt-10 flex items-center gap-x-4">
                   <h4 className="flex-none text-sm font-semibold leading-6 text-sky-700">
-                    What's included 👍
+                    What&lsquo;s included 👍
                   </h4>
                   <div className="h-px flex-auto bg-gray-100"></div>
                 </div>
@@ -207,7 +207,7 @@ export default function Pricing() {
                 </ul>
                 <div className="mt-10 flex items-center gap-x-4">
                   <h4 className="flex-none text-sm font-semibold leading-6 text-rose-700">
-                    What's not included 👎
+                    What&lsquo;s not included 👎
                   </h4>
                   <div className="h-px flex-auto bg-gray-100"></div>
                 </div>
@@ -357,7 +357,7 @@ export default function Pricing() {
                     <p className="text-base leading-7 text-gray-600">
                       Private community is a Discord server where premium
                       members can interact with each other, ask questions, and
-                      get help from other members and Antonio. It's a great
+                      get help from other members and Antonio. It&lsquo;s a great
                       place to network and learn from others.
                     </p>
                   </dd>
@@ -368,7 +368,7 @@ export default function Pricing() {
                   </dt>
                   <dd className="mt-4 xl:col-span-7 xl:mt-0">
                     <p className="text-base leading-7 text-gray-600">
-                      Currently only available in private community's discord,
+                      Currently only available in private community&lsquo;s discord,
                       coding challenges are small projects to help you practice
                       and improve your coding skills. Similar to LeetCode, but
                       with a focus on real-world problems.

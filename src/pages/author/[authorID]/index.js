@@ -25,8 +25,8 @@ export default function Detail() {
       <Header />
       <GoTop />
 
-      <main className="lg:pl-72 pt-[80px] h-full">
-        <div className="max-w-screen-2xl mx-auto">
+      <main className="pt-[60px] md:pt-[80px] h-full">
+        <div className="max-w-5xl mx-auto">
          
         <div className="bg-[#FFE5DD] py-10 mb-4">
             
@@ -71,17 +71,7 @@ export default function Detail() {
                         alt=""
                         aria-hidden="true"
                         src={ada}
-                        style={{
-                          display: "block",
-                          maxWidth: "100%",
-                          width: "initial",
-                          height: "initial",
-                          background: "none",
-                          opacity: 1,
-                          border: "0px",
-                          margin: "0px",
-                          padding: "0px",
-                        }}
+                        className='rounded-full w-full'
                       />
                     </span>
                     
@@ -133,17 +123,7 @@ export default function Detail() {
                           alt=""
                           aria-hidden="true"
                           src={ada}
-                          style={{
-                            display: "block",
-                            maxWidth: "100%",
-                            width: "initial",
-                            height: "initial",
-                            background: "none",
-                            opacity: 1,
-                            border: "0px",
-                            margin: "0px",
-                            padding: "0px",
-                          }}
+                          className='rounded-full w-full'
                         />
                       </span>
                       
@@ -171,7 +151,7 @@ export default function Detail() {
         </div>
       </main>
 
-      <Sidebar />
+      
 
       <Bottom />
     </>

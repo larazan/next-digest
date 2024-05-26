@@ -5,8 +5,6 @@ import Head from "next/head";
 
 import Header from "@/components/Header";
 import GoTop from "@/components/GoTop";
-import Bottom from "@/components/Bottom";
-import Sidebar from "@/components/Sidebar";
 import Footer from "@/components/Footer";
 
 export default function Riddles() {
