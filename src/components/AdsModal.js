@@ -3,6 +3,8 @@ import Link from "next/link";
 import Image from "next/image";
 import Transition from "@/utils/Transition";
 
+import promo from '@/img/promo1.jpeg'
+
 function AdsModal({ id, searchId, modalOpen, setModalOpen }) {
   // const [searchModalOpen, setSearchModalOpen] = useState(false);
 
@@ -23,7 +25,7 @@ function AdsModal({ id, searchId, modalOpen, setModalOpen }) {
     <>
       {/* Modal backdrop */}
       <Transition
-        className="fixed inset-0 bg-slate-900 bg-opacity-70 z-50 transition-opacity"
+        className="fixed inset-0 bg-slate-100 bg-opacity-50 z-50 transition-opacity"
         show={modalOpen}
         enter="transition ease-out duration-200"
         enterStart="opacity-0"
@@ -36,7 +38,7 @@ function AdsModal({ id, searchId, modalOpen, setModalOpen }) {
       {/* Modal dialog */}
       <Transition
         id={id}
-        className="fixed inset-0 z-50 overflow-hidden flex items-start top-1/3 mb-4 justify-center transform px-4 sm:px-6"
+        className="fixed inset-0 z-50 overflow-hidden flex items-start top-1/4 md:top-1/3 mb-4 justify-center transform px-4 sm:px-6"
         role="dialog"
         aria-modal="true"
         show={modalOpen}
@@ -49,13 +51,13 @@ function AdsModal({ id, searchId, modalOpen, setModalOpen }) {
       >
         <div
           ref={modalContent}
-          className="bg-white overflow-auto max-w-2xl w-full max-h-full rounded2 shadow-lg"
+          className="bg-white overflow-auto max-w-2xl w-full max-h-full rounded shadow-2xl"
         >
           {/* Search form */}
           <section className="overflow-hidden  shadow-2xl md:grid md:grid-cols-3">
             <Image
               alt="Trainer"
-              src="https://images.unsplash.com/photo-1611510338559-2f463335092c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=928&q=80"
+              src={promo}
               className="h-32 w-full object-cover md:h-full"
             />
 

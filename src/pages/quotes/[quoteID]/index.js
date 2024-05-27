@@ -28,12 +28,12 @@ export default function Detail() {
                   <div className="flex justify-between">
                     <div className="flex justify-end space-x-2">
                       <button>
-                        <div className="flex rounded py-1.5 px-2 bg-[#1877f2] hover:bg-[#1877f2]  fill-[#1877f2] hover:fill-white  items-center justify-between space-x-1 hover:shadow-blue-500/50 ">
-                          <span className="text-white text-sm font-semibold">
+                        <div className="flex rounded py-1.5 px-2 bg-[#1877f2] hover:bg-[#1877f2] fill-[#1877f2] hover:fill-white  items-center justify-between md:space-x-1 hover:shadow-blue-500/50 ">
+                          <span className="text-white text-sm font-semibold hidden md:block">
                             Facebook
                           </span>
                           <svg
-                            className="w-4 h-4 text-white"
+                            className="w-5 h-5 md:w-4 md:h-4 text-white"
                             fill="currentColor"
                             viewBox="0 0 24 24"
                             aria-hidden="true"
@@ -47,12 +47,12 @@ export default function Detail() {
                         </div>
                       </button>
                       <button>
-                        <div className="flex rounded py-1.5 px-2 bg-[#1d9bf0] hover:bg-[#1d9bf0] fill-[#1d9bf0] hover:fill-white  items-center justify-between space-x-1 hover:shadow-sky-500/50">
-                          <span className="text-white text-sm font-semibold">
+                        <div className="flex rounded py-1.5 px-2 bg-[#1d9bf0] hover:bg-[#1d9bf0] fill-[#1d9bf0] hover:fill-white  items-center justify-between md:space-x-1 hover:shadow-sky-500/50">
+                          <span className="text-white text-sm font-semibold hidden md:block">
                             Twitter
                           </span>
                           <svg
-                            className="w-4 h-4 text-white"
+                            className="w-5 h-5 md:w-4 md:h-4 text-white"
                             fill="currentColor"
                             viewBox="0 0 24 24"
                             aria-hidden="true"
@@ -69,7 +69,7 @@ export default function Detail() {
                             viewBox="0 0 24 24"
                             strokeWidth={2}
                             stroke="currentColor"
-                            className="w-4 h-4 text-white"
+                            className="w-5 h-5 md:w-4 md:h-4 text-white"
                           >
                             <path
                               strokeLinecap="round"
@@ -78,13 +78,13 @@ export default function Detail() {
                             />
                           </svg>
 
-                          <span className="text-white text-sm font-semibold">
+                          <span className="text-white text-sm font-semibold hidden md:block">
                             Copy link
                           </span>
                         </div>
                       </button>
                     </div>
-                    <div className="hidden md:flex space-x-2">
+                    <div className="flex space-x-2">
                       <button
                         className="bg-[#f6f8fa] hover:bg-gray-200 border border-gray-300 px-2 py-1 font-extralight text-white inline-flex items-center space-x-1 rounded "
                         // onClick={likeHandler}
@@ -174,14 +174,14 @@ export default function Detail() {
                       </span>
                       <div className="flex flex-wrap gap-x-2 w-60">
                         <Link href="/">
-                          <div className="py-1 px-3 bg-[#f1f5f9] border border-slate-300 rounded-md flex items-center gap-x-1 hover:bg-slate-200 transition cursor-pointer">
+                          <div className="py-0.5 px-2.5 bg-[#f1f5f9] border border-slate-300 rounded-md flex items-center gap-x-1 hover:bg-slate-200 transition cursor-pointer">
                             <div className="truncate text-sm font-semibold capitalize">
                               Life
                             </div>
                           </div>
                         </Link>
                         <Link href="/">
-                          <div className="py-1 px-3 bg-[#f1f5f9] border border-slate-300 rounded-md flex items-center gap-x-1 hover:bg-slate-200 transition cursor-pointer">
+                          <div className="py-0.5 px-2.5 bg-[#f1f5f9] border border-slate-300 rounded-md flex items-center gap-x-1 hover:bg-slate-200 transition cursor-pointer">
                             <div className="truncate text-sm font-semibold capitalize">
                               War
                             </div>
@@ -189,7 +189,7 @@ export default function Detail() {
                         </Link>
                       </div>
                     </div>
-                    <div className="flex md:hidden space-x-2">
+                    <div className="hidden space-x-2">
                     <button
                         className="bg-[#f6f8fa] hover:bg-gray-200 border border-gray-300 px-2 py-1 font-extralight text-white inline-flex items-center space-x-1 rounded "
                         // onClick={likeHandler}

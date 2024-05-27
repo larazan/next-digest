@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link';
 
 const QuoteList = () => {
     const quotesData = [
@@ -22,7 +23,7 @@ const QuoteList = () => {
   return (
     <>
         <div className="py-10  columns-1 md:columns-2 lg:columns-3 ">
-                <div className="mb-4 rounded bg-white border group flex flex-col overflow-hidden justify-center shadow-md items-center cursor-zoom-in">
+                <Link href={'/quotes/o3f7850sd'} className="mb-4 rounded bg-white border group flex flex-col overflow-hidden justify-center shadow-md items-center cursor-zoom-in">
                   <div className="flex-grow py-2 lg:py-4 md:py-4 px-4">
                     <svg
                       width="38"
@@ -50,8 +51,8 @@ const QuoteList = () => {
                       </button>
                     </div>
                   </div>
-                </div>
-                <div className="mb-4 rounded bg-white border group flex flex-col overflow-hidden justify-center shadow-md items-center cursor-zoom-in">
+                </Link>
+                <Link href={'/quotes/o3f7850sd'} className="mb-4 rounded bg-white border group flex flex-col overflow-hidden justify-center shadow-md items-center cursor-zoom-in">
                   <div className="flex-grow py-2 lg:py-4 md:py-4 px-4">
                     <svg
                       width="38"
@@ -79,8 +80,8 @@ const QuoteList = () => {
                       </button>
                     </div>
                   </div>
-                </div>
-                <div className="mb-4 rounded bg-white border group flex flex-col overflow-hidden justify-center shadow-md items-center cursor-zoom-in">
+                </Link>
+                <Link href={'/quotes/o3f7850sd'} className="mb-4 rounded bg-white border group flex flex-col overflow-hidden justify-center shadow-md items-center cursor-zoom-in">
                   <div className="flex-grow py-2 lg:py-4 md:py-4 px-4">
                     <svg
                       width="38"
@@ -110,7 +111,7 @@ const QuoteList = () => {
                       </button>
                     </div>
                   </div>
-                </div>
+                </Link>
                 {quotesData.map((data, index) => (
                   <div
                     className="mb-4 rounded bg-white border group flex flex-col overflow-hidden justify-center shadow-md items-center cursor-zoom-in"
