@@ -286,7 +286,7 @@ export default function Footer() {
 
                     <li>
                       <Link
-                        href={"/blog"}
+                        href={"/articles"}
                         className="font-bold text-gray-900 transition hover:text-[#FF6D42]"
                       >
                         Blogs
@@ -341,6 +341,14 @@ export default function Footer() {
                         className="font-bold text-gray-900 transition hover:text-[#FF6D42]"
                       >
                         Funny
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        href="/author"
+                        className="font-bold text-gray-900 transition hover:text-[#FF6D42]"
+                      >
+                        Peoples
                       </Link>
                     </li>
                     <li>

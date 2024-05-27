@@ -8,6 +8,8 @@ import GoTop from "@/components/GoTop";
 import Footer from "@/components/Footer";
 
 import claire from "@/img/claire.png";
+import SubscribeForm from "@/components/SubscribeForm";
+import Pagination from "@/components/Pagination";
 
 export default function Articles() {
   return (
@@ -21,10 +23,10 @@ export default function Articles() {
       <Header />
       <GoTop />
 
-      <main className="relative pb-32">
+      <main className="relative pb-12">
         <div className="mx-auto max-w-screen-lg">
           <div
-            className="px-6 pt-12 md:pt-24 pb-8 md:pb-20"
+            className="px-6 pt-24 md:pt-24 pb-8 md:pb-20"
             bis_skin_checked="1"
           >
             <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-8xl font-headline font-black tracking-snug text-center leading-12 sm:leading-15 md:leading-19 lg:leading-26 text-gray-800">
@@ -317,9 +319,11 @@ export default function Articles() {
               </li>
             </ul>
           </div>
+          <Pagination />
         </div>
+        
       </main>
-
+      <SubscribeForm />
       <Footer />
     </>
   );
