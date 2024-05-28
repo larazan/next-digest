@@ -89,7 +89,7 @@ export default function Home() {
           <div className="flex flex-1 flex-col items-center justify-center relative">
             <div className="flex flex-1 flex-col pb-18 px-3 md:px-0 max-w-sm md:max-w-2xl">
               <Notice />
-              <div id="template_horizontal-image-slider" className="hidden2">
+              <div id="template_horizontal-image-slider" className="hidden">
                 <div className="default-banner-slider relative pt-[16px] mb-[1em] h-full">
                   <Swiper
                     modules={[Pagination, A11y]}
