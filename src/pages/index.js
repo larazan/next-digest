@@ -171,7 +171,7 @@ export default function Home() {
               </div> */}
               {/*  */}
 
-              <div className="relative">
+              <div className="relative hidden">
                 <div className="my-4 mx-0 flex items-center justify-between">
                   <h1
                     data-testid="title-pilihan-kitabisa"
