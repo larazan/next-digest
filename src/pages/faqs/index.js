@@ -84,7 +84,7 @@ export default function Faqs() {
                 
 
                 <section className="w-full mx-auto  mt-10 md:mt-10 px-5 ">
-                  <h5 className="font-semibold md:font-bold text-2xl md:text-3xl text-center ">
+                  <h5 className="font-semibold md:font-bold text-2xl text-black md:text-3xl text-center ">
                     Frequently asked questions
                   </h5>
                   <p className="mt-3 font-normal text-lg text-gray-700 text-center ">

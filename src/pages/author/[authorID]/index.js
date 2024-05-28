@@ -27,7 +27,7 @@ export default function Detail() {
       <Header />
       <GoTop />
 
-      <main className="pt-[60px] md:pt-[80px] h-full">
+      <main className="pt-[60px] bg-white md:pt-[80px] h-full">
         <div className="max-w-5xl mx-auto">
           <div className="bg-[#FFE5DD] py-10 mb-4">
             <a
@@ -132,7 +132,7 @@ export default function Detail() {
                 </p>
               </a>
             </div>
-            <h1 className="relative mx-3 md:mx-auto leading-tight text-md md:text-lg md:leading-normal max-w-3xl m-auto font-semibold text-center mt-4 sm:mt-6 mb-5 sm:mb-0">
+            <h1 className="relative mx-3 md:mx-auto leading-tight text-md md:text-lg text-black md:leading-normal max-w-3xl m-auto font-semibold text-center mt-4 sm:mt-6 mb-5 sm:mb-0">
               Augusta Ada King, Countess of Lovelace (née Byron; 10 December
               1815 – 27 November 1852) was an English mathematician and writer,
               chiefly known for her work on Charles Babbage&apos;s proposed
@@ -144,7 +144,7 @@ export default function Detail() {
             </h1>
           </div>
 
-          <div className="p-6 space-y-4">
+          <div className="p-6 space-y-4 bg-white">
             <div>
               <QuoteList />
             </div>

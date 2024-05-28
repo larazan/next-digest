@@ -128,7 +128,7 @@ export default function Author() {
       <Header />
       <GoTop />
 
-      <main className="pt-[60px] md:pt-[80px] h-full">
+      <main className="pt-[60px] bg-white md:pt-[80px] h-full">
         <div className="max-w-5xl mx-auto">
           <div className="px-6 pt-6 lg:hidden lg:mb-0 block">
           <form className="flex items-center relative">
@@ -170,15 +170,15 @@ export default function Author() {
                   <Link
                     href={""}
                     key={index}
-                    className="flex mr-2 mt-2 justify-center items-center mb-1.5 w-8 h-8 hover:bg-blue-800 px-2 py-1 border-2 text-gray-900 hover:text-white border-gray-900"
+                    className="flex mr-2 mt-2 justify-center items-center mb-1.5 w-8 h-8 bg-white hover:bg-blue-800 px-2 py-1 border-2 text-gray-900 hover:text-white border-gray-900"
                   >
-                    <span className="uppercase font-bold">{data.title}</span>
+                    <span className="uppercase font-bold text-black">{data.title}</span>
                   </Link>
                 ))}
               </div>
             </div>
 
-            <div>
+            <div className="bg-white">
               <AuthorList />
             </div>
             <Pagination />

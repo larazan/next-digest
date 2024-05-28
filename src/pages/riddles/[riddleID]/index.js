@@ -24,11 +24,11 @@ export default function Detail() {
       <Header />
 
       <main className="w-full h-screen">
-        <div className="h-[66px]"></div>
+        <div className="h-[0px] md:h-[66px]"></div>
         <div className="max-w-screen-5xl mx-auto">
           <div className="lg:flex p-0 w-full">
             {/* <div className="lg:w-72"></div> */}
-            <div className="relative mx-auto w-full lg:w-[calc(100vh-200px)]2 lg:w-7/12 bg-[#0074d9]  h-[calc(100vh-66px)] pt-16 md:pt-[10px]">
+            <div className="relative mx-auto w-full lg:w-[calc(100vh-200px)]2 lg:w-7/12 bg-[#0074d9]  h-[calc(100vh-66px)] min-h-screen pt-16 md:pt-[10px]">
               <div className="flex flex-col w-10/12 mx-auto items-center bg-[#0074d9] py-10 mb-4">
                 <h1 className="relative mx-3 md:mx-auto text-3xl md:text-5xl  md:leading-[60px] max-w-3xl m-auto text-white font-semibold  mt-4 sm:mt-6 mb-5 sm:mb-0">
                   A grandmother, two mothers, and two daughters went to a

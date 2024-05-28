@@ -42,7 +42,7 @@ export default function Tags() {
           </Link>
           {tags.map((data, index) => (
             <Link href="/" key={index}>
-              <div className="py-1.5 px-3 text-sm bg-[#f1f5f9] border border-slate-300 rounded-md flex items-center gap-x-1 hover:bg-slate-200 transition cursor-pointer">
+              <div className="py-1.5 px-3 text-sm bg-[#f1f5f9] border border-slate-300 rounded-md flex items-center text-slate-900 gap-x-1 hover:bg-slate-200 transition cursor-pointer">
                 <div className="truncate text-xs font-semibold capitalize">
                   {data}
                 </div>

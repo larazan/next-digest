@@ -26,7 +26,7 @@ export default function Quotes() {
       <Header />
       <GoTop />
 
-      <main className="pt-[60px] md:pt-[80px] h-full">
+      <main className="pt-[60px] md:pt-[80px] min-h-screen pt-162 h-full bg-white">
         <div className="max-w-5xl mx-auto">
           <div className="px-6 pt-6 lg:hidden lg:mb-0 block">
             <Search />

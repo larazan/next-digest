@@ -175,14 +175,14 @@ export default function Detail() {
                       <div className="flex flex-wrap gap-x-2 w-60">
                         <Link href="/">
                           <div className="py-0.5 px-2.5 bg-[#f1f5f9] border border-slate-300 rounded-md flex items-center gap-x-1 hover:bg-slate-200 transition cursor-pointer">
-                            <div className="truncate text-sm font-semibold capitalize">
+                            <div className="truncate text-sm text-black font-semibold capitalize">
                               Life
                             </div>
                           </div>
                         </Link>
                         <Link href="/">
                           <div className="py-0.5 px-2.5 bg-[#f1f5f9] border border-slate-300 rounded-md flex items-center gap-x-1 hover:bg-slate-200 transition cursor-pointer">
-                            <div className="truncate text-sm font-semibold capitalize">
+                            <div className="truncate text-sm text-black font-semibold capitalize">
                               War
                             </div>
                           </div>

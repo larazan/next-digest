@@ -22,7 +22,7 @@ export default function Header() {
 
   return (
     <>
-      <header className="fixed z-30 w-full px-5 md:px-10 py-1.5 items-center transition duration-300 ease-out bg-opacity-10 backdrop-filter backdrop-blur border-b shadow">
+      <header className="fixed z-30 w-full px-5 md:px-10 py-1.5 items-center transition duration-300 ease-out bg-white2 bg-opacity-10 backdrop-filter backdrop-blur border-b shadow">
         <div className="flex items-center justify-between mx-auto max-w-5xl">
           <div className="flex w-1/12 items-center text-gray-800">
             <Link href={"/"}>

@@ -62,16 +62,16 @@ function AdsModal({ id, searchId, modalOpen, setModalOpen }) {
             />
 
             <div className="p-4 text-center sm:p-6 md:col-span-2 lg:p-8">
-              <p className="text-sm font-semibold uppercase tracking-widest">
+              <p className="text-sm font-semibold text-black uppercase tracking-widest">
                 Run with the pack
               </p>
 
               <h2 className="mt-6 font-black uppercase">
-                <span className="text-4xl font-black sm:text-5xl lg:text-6xl">
+                <span className="text-4xl text-black sm:text-5xl lg:text-6xl">
                   Get 20% off
                 </span>
 
-                <span className="mt-2 block text-sm">
+                <span className="mt-2 block text-sm text-black">
                   On your next order over $50
                 </span>
               </h2>
