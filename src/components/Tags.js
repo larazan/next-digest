@@ -52,7 +52,7 @@ export default function Tags() {
         </div>
         <div className="flex  mx-auto justify-center w-11/12">
           <button
-            className="flex items-center px-2 py-1 space-x-1 rounded-md tracking-tight text-[13px] font-medium"
+            className="flex items-center px-2 py-1 space-x-1 text-black rounded-md tracking-tight text-[13px] font-medium"
             onClick={() => setShowMore(!showMore)}
           >
             <span>{showMore ? "Show less" : "Show more"}</span>

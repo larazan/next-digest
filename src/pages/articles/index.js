@@ -23,7 +23,7 @@ export default function Articles() {
       <Header />
       <GoTop />
 
-      <main className="relative pb-12">
+      <main className="relative bg-white pb-12">
         <div className="mx-auto max-w-screen-lg">
           <div
             className="px-6 pt-24 md:pt-24 pb-8 md:pb-20"

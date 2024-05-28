@@ -22,7 +22,7 @@ export default function Privacy() {
         <div className="flex flex-row w-full">
           <div className="flex flex-1 flex-col items-center justify-center relative">
             <div className="flex flex-1 flex-col pb-20  max-w-md md:max-w-2xl ">
-              <section className="w-full mx-auto  mt-10 md:mt-10 px-5 ">
+              <section className="w-full mx-auto  mt-10 md:mt-10 px-5 text-black">
                 <h5 className="font-semibold md:font-bold text-2xl md:text-3xl text-center ">
                   Privacy
                 </h5>
