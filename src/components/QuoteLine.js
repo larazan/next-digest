@@ -11,7 +11,7 @@ const QuoteLine = () => {
   SwiperCore.use([Autoplay]);
   return (
     <>
-      <div className="mt-20 mb-10  items-center">
+      <div className="hidden mt-20 mb-10 items-center">
         <Swiper
           modules={[Pagination, A11y]}
           slidesPerView={1}
