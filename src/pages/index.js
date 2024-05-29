@@ -40,6 +40,7 @@ import meme12 from "@/img/meme12.jpg";
 import meme13 from "@/img/meme13.jpg";
 
 import funny1 from "@/img/funny1.jpg";
+import HomeSection from "@/components/HomeSection";
 
 export default function Home() {
   SwiperCore.use([Autoplay]);
@@ -385,24 +386,18 @@ export default function Home() {
                 </h1>
                 <div className="flex w-full space-x-4">
                   <div>
-                    <Link
-                      className="text-tundora no-underline"
-                      href="/"
-                    >
+                    <Link className="text-tundora no-underline" href="/">
                       <div className="my-[1em] mx-[0em] flex items-center w-full bg-white leading-[1.25em]">
                         <figure className="m-0 mr-2 md:mr-5 flex aspect-[10/9] md:aspect-[16/9] h-fit flex-1 items-center justify-center">
                           <Image
                             alt=""
                             src={meme13}
-                            
                             className="h-full w-full rounded object-cover"
                             style={{ color: "transparent" }}
                           />
                         </figure>
                         <div className="flex w-2/3 md:max-w-[55%] flex-1 flex-col space-y-1 md:space-y-2">
-                          <span
-                            className="my-[0.25em] mx-[0em] overflow-hidden break-words text-md md:text-lg leading-tight md:leading-tight font-semibold"
-                          >
+                          <span className="my-[0.25em] mx-[0em] overflow-hidden break-words text-md md:text-lg leading-tight md:leading-tight font-semibold">
                             80 Funny Work Memes to Keep You Laughing Through the
                             Week
                           </span>
@@ -415,24 +410,18 @@ export default function Home() {
                       </div>
                       <div className="h-px bg-mercury"></div>
                     </Link>
-                    <Link
-                      className="text-tundora no-underline"
-                      href="/"
-                    >
+                    <Link className="text-tundora no-underline" href="/">
                       <div className="my-[1em] mx-[0em] flex items-center w-full bg-white leading-[1.25em]">
                         <figure className="m-0 mr-2 md:mr-5 flex aspect-[10/9] md:aspect-[16/9] h-fit flex-1 items-center justify-center">
                           <Image
                             alt=""
                             src={meme11}
-                            
                             className="h-full w-full rounded object-cover"
                             style={{ color: "transparent" }}
                           />
                         </figure>
                         <div className="flex w-2/3 md:max-w-[55%] flex-1 flex-col space-y-1 md:space-y-2">
-                          <span
-                            className="my-[0.25em] mx-[0em] overflow-hidden break-words text-md md:text-lg leading-tight md:leading-tight font-semibold"
-                          >
+                          <span className="my-[0.25em] mx-[0em] overflow-hidden break-words text-md md:text-lg leading-tight md:leading-tight font-semibold">
                             80 Funny Work Memes to Keep You Laughing Through the
                             Week
                           </span>
@@ -447,12 +436,9 @@ export default function Home() {
                     </Link>
                     {/*  */}
                     <div className="flex min-w-0 flex-1 flex-col py-2">
-                     <div className="w-full rounded p-4 bg-[##14ada8]">
+                      <div className="w-full rounded p-4 bg-[##14ada8]">
                         <div className="flex flex-col space-y-1 md:space-y-2">
-                        <span
-                            className="my-[0.25em] mx-[0em] overflow-hidden break-words text-md md:text-lg leading-tight md:leading-tight font-semibold text-tundora"
-                          
-                          >
+                          <span className="my-[0.25em] mx-[0em] overflow-hidden break-words text-md md:text-lg leading-tight md:leading-tight font-semibold text-tundora">
                             80 Funny Work Memes to Keep You Laughing Through the
                             Week
                           </span>
@@ -463,11 +449,13 @@ export default function Home() {
                           </span>
                         </div>
                         <div className="pt-2 ">
-                        <TweetEmbed tweetId="1674296643380826115" className="w-1/2 md:w-full" />
+                          <TweetEmbed
+                            tweetId="1674296643380826115"
+                            className="w-1/2 md:w-full"
+                          />
                         </div>
-                        
-                     </div>
-                     <div className="h-px bg-mercury"></div>
+                      </div>
+                      <div className="h-px bg-mercury"></div>
                     </div>
                     {/*  */}
                     {/* <Link
@@ -506,24 +494,18 @@ export default function Home() {
                       </div>
                       <div className="h-px bg-mercury"></div>
                     </Link> */}
-                    <Link
-                      className="text-tundora no-underline"
-                      href="/"
-                    >
+                    <Link className="text-tundora no-underline" href="/">
                       <div className="my-[1em] mx-[0em] flex items-center w-full bg-white leading-[1.25em]">
                         <figure className="m-0 mr-2 md:mr-5 flex aspect-[10/9] md:aspect-[16/9] h-fit flex-1 items-center justify-center">
                           <Image
                             alt=""
                             src={meme12}
-                            
                             className="h-full w-full rounded object-cover"
                             style={{ color: "transparent" }}
                           />
                         </figure>
                         <div className="flex w-2/3 md:max-w-[55%] flex-1 flex-col space-y-1 md:space-y-2">
-                          <span
-                            className="my-[0.25em] mx-[0em] overflow-hidden break-words text-md md:text-lg leading-tight md:leading-tight font-semibold"
-                          >
+                          <span className="my-[0.25em] mx-[0em] overflow-hidden break-words text-md md:text-lg leading-tight md:leading-tight font-semibold">
                             80 Funny Work Memes to Keep You Laughing Through the
                             Week
                           </span>
@@ -540,7 +522,49 @@ export default function Home() {
                 </div>
               </div>
 
-              <div className="flex items-center justify-center px-3 py-2 space-x-1 md:space-x-3 my-[1em] mx-auto w-[160px] md:w-[190px] cursor-pointer rounded-full bg-[#e7f5ff]  text-center text-sm md:text-lg text-[#10a8e5]">
+              <HomeSection />
+
+              <section>
+                <div
+                  className="wrap mx-auto flex flex-col md:flex-row divide-y-2 md:divide-y-0 md:divide-x-2 divide-red"
+                  
+                >
+                  <div
+                    className="px-6 py-8 md:pt-16 md:pb-24 md:text-center md:w-1/2"
+                    data-controller="animated-number"
+                  >
+                    <p>
+                      <b
+                        className="block font-heading text-5xl md:text-6xl leading-snug mt-1 md:my-4"
+                        data-target="animated-number.stat"
+                        data-stat="1310904"
+                      >
+                        1,310,889
+                      </b>
+                      <span className="text-xl">Quotes</span>
+                    </p>
+                  </div>
+                  <div
+                    className="px-6 py-8 md:pt-16 md:pb-24 md:text-center md:w-1/2"
+                    data-controller="animated-number"
+                  >
+                    <p>
+                      <b
+                        className="block font-heading text-5xl md:text-6xl leading-snug mt-1 md:my-4"
+                        data-target="animated-number.stat"
+                        data-stat="151284"
+                      >
+                        151,269
+                      </b>
+                      <span className="text-xl">
+                        Famous People
+                      </span>
+                    </p>
+                  </div>
+                </div>
+              </section>
+
+              <div className="hidden flex2 items-center justify-center px-3 py-2 space-x-1 md:space-x-3 my-[1em] mx-auto w-[160px] md:w-[190px] cursor-pointer rounded-full bg-[#e7f5ff]  text-center text-sm md:text-lg text-[#10a8e5]">
                 <span>Lihat Semua</span>
                 <span className="">
                   <svg
