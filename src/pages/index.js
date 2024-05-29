@@ -526,8 +526,7 @@ export default function Home() {
 
               <section>
                 <div
-                  className="wrap mx-auto flex flex-col md:flex-row divide-y-2 md:divide-y-0 md:divide-x-2 divide-red"
-                  
+                  className="wrap mx-auto flex flex-col bg-white md:flex-row divide-y-2 md:divide-y-0 md:divide-x-2 divide-red"   
                 >
                   <div
                     className="px-6 py-8 md:pt-16 md:pb-24 md:text-center md:w-1/2"
@@ -535,13 +534,13 @@ export default function Home() {
                   >
                     <p>
                       <b
-                        className="block font-heading text-5xl md:text-6xl leading-snug mt-1 md:my-4"
+                        className="block font-heading text-5xl md:text-6xl text-black leading-snug mt-1 md:my-4"
                         data-target="animated-number.stat"
                         data-stat="1310904"
                       >
                         1,310,889
                       </b>
-                      <span className="text-xl">Quotes</span>
+                      <span className="text-xl text-black">Quotes</span>
                     </p>
                   </div>
                   <div
@@ -550,15 +549,13 @@ export default function Home() {
                   >
                     <p>
                       <b
-                        className="block font-heading text-5xl md:text-6xl leading-snug mt-1 md:my-4"
+                        className="block font-heading text-5xl md:text-6xl text-black leading-snug mt-1 md:my-4"
                         data-target="animated-number.stat"
                         data-stat="151284"
                       >
                         151,269
                       </b>
-                      <span className="text-xl">
-                        Famous People
-                      </span>
+                      <span className="text-xl text-black">Famous People</span>
                     </p>
                   </div>
                 </div>
