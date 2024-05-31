@@ -14,6 +14,7 @@ import QuoteList from "@/components/QuoteList";
 import ada from "@/img/ada.jpg";
 import Footer from "@/components/Footer";
 import SubscribeForm from "@/components/SubscribeForm";
+import Advertising from "@/components/Advertising";
 
 export default function Detail() {
   return (
@@ -29,6 +30,7 @@ export default function Detail() {
 
       <main className="pt-[60px] bg-white md:pt-[80px] h-full">
         <div className="max-w-5xl mx-auto">
+          <Advertising />
           <div className="bg-[#FFE5DD] py-10 mb-4">
             <a
               href="https://nowandme.com/blog/author/annanyachaturvedi"

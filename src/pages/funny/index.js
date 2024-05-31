@@ -49,7 +49,7 @@ const Funny = () => {
                   </div>
                   <div className="flex w-full space-x-4">
                     <div className="mt-8 grid grid-cols-1 md:grid-cols-2 gap-y-[32px] sm:gap-x-[32px]">
-                      <Link href="/guides/dota-2/2023-dpc-ranking-who-is-going-to-ti12/">
+                      <Link href="/funny/two">
                         <section class=" shadow hover:shadow-lg bg-white dark:bg-dark-neutral-50 dark:hover:bg-dark-neutral-300 text-neutral-900 dark:text-neutral-100 hover:cursor-pointer h-full group rounded-xl overflow-hidden">
                           <Image src={meme12} alt='' className='w-full h-48 object-cover' />
                           
@@ -91,7 +91,7 @@ const Funny = () => {
                           </div>
                         </section>
                       </Link>
-                      <Link href="/guides/dota-2/2023-dpc-ranking-who-is-going-to-ti12/">
+                      <Link href="/funny/two">
                         <section class=" shadow hover:shadow-lg bg-white dark:bg-dark-neutral-50 dark:hover:bg-dark-neutral-300 text-neutral-900 dark:text-neutral-100 hover:cursor-pointer h-full group rounded-xl overflow-hidden">
                           <Image src={meme13} alt='' className='w-full h-48 object-cover' />
                           
@@ -122,7 +122,7 @@ const Funny = () => {
                           </div>
                         </section>
                       </Link>
-                      <Link href="/guides/dota-2/2023-dpc-ranking-who-is-going-to-ti12/">
+                      <Link href="/funny/two">
                         <section class=" shadow hover:shadow-lg bg-white dark:bg-dark-neutral-50 dark:hover:bg-dark-neutral-300 text-neutral-900 dark:text-neutral-100 hover:cursor-pointer h-full group rounded-xl overflow-hidden">
                           <Image src={meme11} alt='' className='w-full h-48 object-cover' />
                           
@@ -153,7 +153,7 @@ const Funny = () => {
                           </div>
                         </section>
                       </Link>
-                      <Link href="/guides/dota-2/2023-dpc-ranking-who-is-going-to-ti12/">
+                      <Link href="/funny/two">
                         <section class=" shadow hover:shadow-lg bg-white dark:bg-dark-neutral-50 dark:hover:bg-dark-neutral-300 text-neutral-900 dark:text-neutral-100 hover:cursor-pointer h-full group rounded-xl overflow-hidden">
                           <Image src={meme12} alt='' className='w-full h-48 object-cover' />
                           

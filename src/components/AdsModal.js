@@ -25,7 +25,7 @@ function AdsModal({ id, searchId, modalOpen, setModalOpen }) {
     <>
       {/* Modal backdrop */}
       <Transition
-        className="fixed inset-0 bg-slate-100 bg-opacity-50 z-50 transition-opacity"
+        className="fixed inset-0 bg-slate-600 bg-opacity-50 z-50 transition-opacity"
         show={modalOpen}
         enter="transition ease-out duration-200"
         enterStart="opacity-0"

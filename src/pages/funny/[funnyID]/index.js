@@ -9,6 +9,9 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import SubscribeForm from "@/components/SubscribeForm";
 
+import ada from "@/img/ada.jpg";
+import Advertising from "@/components/Advertising";
+
 const Detail = () => {
   return (
     <>
@@ -20,8 +23,9 @@ const Detail = () => {
         </Head>
 
         <Header />
-        <div className="flex flex-col bg-white min-h-screen pt-16 md:pt-[100px]">
-          <div className="bg-[#FFE5DD] py-10 mb-4">
+        <div className="flex flex-col bg-white min-h-screen pt-16 md:pt-[80px]">
+          <Advertising />
+          <div className="bg-purple-100 py-10 mb-4">
             
             <h1 className="relative mx-3 md:mx-auto text-3xl md:text-5xl md:leading-[60px] max-w-3xl m-auto font-semibold text-center mt-4 sm:mt-6 mb-5 sm:mb-0">
               When Live Wire Met Now&amp;Me: Interview with Aleesha Matharu
@@ -62,21 +66,11 @@ const Detail = () => {
                         maxWidth: "100%",
                       }}
                     >
-                      <Image
+                     <Image
                         alt=""
                         aria-hidden="true"
-                        src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2732%27%20height=%2732%27/%3e"
-                        style={{
-                          display: "block",
-                          maxWidth: "100%",
-                          width: "initial",
-                          height: "initial",
-                          background: "none",
-                          opacity: 1,
-                          border: "0px",
-                          margin: "0px",
-                          padding: "0px",
-                        }}
+                        src={ada}
+                        className="rounded-full w-full"
                       />
                     </span>
                    
@@ -124,22 +118,12 @@ const Detail = () => {
                           maxWidth: "100%",
                         }}
                       >
-                        <Image
-                          alt=""
-                          aria-hidden="true"
-                          src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2740%27%20height=%2740%27/%3e"
-                          style={{
-                            display: "block",
-                            maxWidth: "100%",
-                            width: "initial",
-                            height: "initial",
-                            background: "none",
-                            opacity: 1,
-                            border: "0px",
-                            margin: "0px",
-                            padding: "0px",
-                          }}
-                        />
+                       <Image
+                        alt=""
+                        aria-hidden="true"
+                        src={ada}
+                        className="rounded-full w-full"
+                      />
                       </span>
                       
                     </span>

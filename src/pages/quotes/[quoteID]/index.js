@@ -8,6 +8,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import SubscribeForm from "@/components/SubscribeForm";
 import QuoteRandom from "@/components/QuoteRandom";
+import Advertising from "@/components/Advertising";
 
 export default function Detail() {
   return (
@@ -20,10 +21,12 @@ export default function Detail() {
         </Head>
 
         <Header />
-        <div className="flex bg-white min-h-screen pt-16 md:pt-[100px]">
+        <div className="flex flex-col bg-white min-h-screen pt-16 md:pt-[100px]">
+          
           <div className="flex flex-row w-full">
             <div className="flex flex-1 flex-col items-center justify-center relative">
               <div className="flex flex-1 flex-col pb-18 max-w-md md:max-w-2xl ">
+              <Advertising />
                 <section className="w-full mx-auto  mt-10 md:mt-10 px-5 pb-10">
                   <div className="flex justify-between">
                     <div className="flex justify-end space-x-2">
