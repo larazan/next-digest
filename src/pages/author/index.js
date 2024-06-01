@@ -133,7 +133,7 @@ export default function Author() {
       <main className="pt-[60px] bg-white md:pt-[80px] h-full">
         <div className="max-w-5xl mx-auto">
         <Advertising />
-          <div className="px-6 pt-6 lg:hidden lg:mb-0 block">
+          <div className="px-6 lg:hidden lg:mb-0 block">
           <Search />
           </div>
           <div className="p-6 space-y-4">

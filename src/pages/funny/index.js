@@ -34,11 +34,11 @@ const Funny = () => {
           <div className="flex flex-1 flex-col items-center justify-center relative">
             <div className="flex flex-1 flex-col pb-18 max-w-md md:max-w-2xl ">
               <section className="w-full mx-auto  mt-10 md:mt-10 px-5 ">
-                <h1 className="text-3xl font-bold tracking-tighter md:text-5xl lg:text-7xl">
+                <h1 className="text-3xl text-black font-bold tracking-tighter md:text-5xl lg:text-7xl">
                   1,000<span className="text-xl">s</span> more clicks <br />{" "}
                   with Automated Link Previews!
                 </h1>
-                <p className="max-w-3xl mt-6 text-lg font-medium md:text-xl lg:text-2xl">
+                <p className="max-w-3xl mt-6 text-black text-lg font-medium md:text-xl lg:text-2xl">
                   Say goodbye to Canva! Create a template, integrate it into
                   your site once, and focus on creating great content.
                 </p>
@@ -55,7 +55,7 @@ const Funny = () => {
                           
                           <div class="px-4 py-4">
                             <div>
-                              <div class="text-md leading-tight mb-4 text-neutral-600 dark:text-neutral-300 line-clamp-3">
+                              <div class="text-md leading-tight mb-4 text-neutral-600 dark:text-neutral-600 line-clamp-3">
                                 <p>
                                   Find out which teams are ahead in the race to
                                   The International 12.
@@ -76,12 +76,12 @@ const Funny = () => {
                                   /> */}
                                   <Ava username={'Sarah Zulkiflee'} size={35} />
                                   <div class="text-xs">
-                                    <p class="text-sm font-semibold">
+                                    <p class="text-sm text-gray-700 font-semibold">
                                       Sarah &quot;KZ&quot; Zulkiflee
                                     </p>
                                   </div>
                                 </div>
-                                <div class="text-xs">
+                                <div class="text-xs text-gray-700">
                                   <time datetime="2023-06-23T00:30:27">
                                     June 23, 2023
                                   </time>
@@ -97,7 +97,7 @@ const Funny = () => {
                           
                           <div class="px-4 py-4">
                             <div>
-                              <div class="text-md leading-tight mb-4 text-neutral-600 dark:text-neutral-300 line-clamp-3">
+                              <div class="text-md leading-tight mb-4 text-neutral-600 dark:text-neutral-600 line-clamp-3">
                                 <p>
                                   Find out which teams are ahead in the race to
                                   The International 12.
@@ -107,12 +107,12 @@ const Funny = () => {
                                 <div class="flex items-center space-x-2">
                                 <Ava username={'Sarah Zulkiflee'} size={35} />
                                   <div class="text-xs">
-                                    <p class="text-sm font-semibold">
+                                    <p class="text-sm font-semibold text-gray-700">
                                       Sarah &quot;KZ&quot; Zulkiflee
                                     </p>
                                   </div>
                                 </div>
-                                <div class="text-xs">
+                                <div class="text-xs text-gray-700">
                                   <time datetime="2023-06-23T00:30:27">
                                     June 23, 2023
                                   </time>
@@ -128,7 +128,7 @@ const Funny = () => {
                           
                           <div class="px-4 py-4">
                             <div>
-                              <div class="text-md leading-tight mb-4 text-neutral-600 dark:text-neutral-300 line-clamp-3">
+                              <div class="text-md leading-tight mb-4 text-neutral-600 dark:text-neutral-600 line-clamp-3">
                                 <p>
                                   Find out which teams are ahead in the race to
                                   The International 12.
@@ -138,12 +138,12 @@ const Funny = () => {
                                 <div class="flex items-center space-x-2">
                                 <Ava username={'Sarah Zulkiflee'} size={35} />
                                   <div class="text-xs">
-                                    <p class="text-sm font-semibold">
+                                    <p class="text-sm text-gray-700 font-semibold">
                                       Sarah &quot;KZ&quot; Zulkiflee
                                     </p>
                                   </div>
                                 </div>
-                                <div class="text-xs">
+                                <div class="text-xs text-gray-700">
                                   <time datetime="2023-06-23T00:30:27">
                                     June 23, 2023
                                   </time>
@@ -159,7 +159,7 @@ const Funny = () => {
                           
                           <div class="px-4 py-4">
                             <div>
-                              <div class="text-md leading-tight mb-4 text-neutral-600 dark:text-neutral-300 line-clamp-3">
+                              <div class="text-md leading-tight mb-4 text-neutral-600 dark:text-neutral-600 line-clamp-3">
                                 <p>
                                   Find out which teams are ahead in the race to
                                   The International 12.
@@ -169,12 +169,12 @@ const Funny = () => {
                                 <div class="flex items-center space-x-2">
                                   <Ava username={'Sarah Zulkiflee'} size={35} />
                                   <div class="text-xs">
-                                    <p class="text-sm font-semibold">
+                                    <p class="text-sm text-gray-700 font-semibold">
                                       Sarah &quot;KZ&quot; Zulkiflee
                                     </p>
                                   </div>
                                 </div>
-                                <div class="flex justify-end text-xs">
+                                <div class="flex text-gray-700 justify-end text-xs">
                                   <time datetime="2023-06-23T00:30:27">
                                     June 23, 2023
                                   </time>

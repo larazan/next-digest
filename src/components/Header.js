@@ -178,7 +178,7 @@ export default function Header() {
                     </Link>
                   </li>
                   <li className="text-2xl">
-                    <Link className="hover:text-[#FF6D42]" href="/">
+                    <Link className="hover:text-[#FF6D42]" href="/funny">
                       Funny
                     </Link>
                   </li>

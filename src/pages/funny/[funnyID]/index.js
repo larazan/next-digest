@@ -11,6 +11,7 @@ import SubscribeForm from "@/components/SubscribeForm";
 
 import ada from "@/img/ada.jpg";
 import Advertising from "@/components/Advertising";
+import GoTop from "@/components/GoTop";
 
 const Detail = () => {
   return (
@@ -23,11 +24,12 @@ const Detail = () => {
         </Head>
 
         <Header />
+        <GoTop />
         <div className="flex flex-col bg-white min-h-screen pt-16 md:pt-[80px]">
           <Advertising />
           <div className="bg-purple-100 py-10 mb-4">
             
-            <h1 className="relative mx-3 md:mx-auto text-3xl md:text-5xl md:leading-[60px] max-w-3xl m-auto font-semibold text-center mt-4 sm:mt-6 mb-5 sm:mb-0">
+            <h1 className="relative mx-3 md:mx-auto text-3xl md:text-5xl md:leading-[60px] max-w-3xl m-auto text-black font-semibold text-center mt-4 sm:mt-6 mb-5 sm:mb-0">
               When Live Wire Met Now&amp;Me: Interview with Aleesha Matharu
             </h1>
             <a

@@ -84,7 +84,7 @@ function SearchModal({
               <div className="text-md font-semibold text-slate-500 capitalize px-2 mb-3">Recent searches</div>
               <ul className="w-full flex flex-col space-y-3">
                 <li className="flex justify-between items-center cursor-pointer w-full hover:text-indigo-500 pb-1 border-b">
-                  <span className="text-sm leading-tight md:leading-normal">
+                  <span className="text-sm leading-tight md:leading-normal text-slate-500">
                     25 New Mom Gift Baskets That Are All About Her
                   </span>
                   <div>
@@ -105,7 +105,7 @@ function SearchModal({
                   </div>
                 </li>
                 <li className="flex justify-between items-center cursor-pointer w-full hover:text-indigo-500 pb-1 border-b">
-                  <span className="text-sm leading-tight md:leading-normal">
+                  <span className="text-sm leading-tight md:leading-normal text-slate-500">
                     33 Meditation Gifts to Help Find Your Inner Zen Master
                   </span>
                   <div>
@@ -126,7 +126,7 @@ function SearchModal({
                   </div>
                 </li>
                 <li className="flex justify-between items-center cursor-pointer w-full hover:text-indigo-500 pb-1 border-b">
-                  <span className="text-sm leading-tight md:leading-normal">
+                  <span className="text-sm leading-tight md:leading-normal text-slate-500">
                     25 New Mom Gift Baskets That Are All About Her
                   </span>
                   <div>
@@ -146,56 +146,16 @@ function SearchModal({
                     </svg>
                   </div>
                 </li>
-                <li className="flex justify-between items-center cursor-pointer w-full hover:text-indigo-500 pb-1 border-b">
-                  <span className="text-sm leading-tight md:leading-normal">
-                    33 Meditation Gifts to Help Find Your Inner Zen Master
-                  </span>
-                  <div>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      strokeWidth={1.5}
-                      stroke="currentColor"
-                      className="w-4 h-4"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25"
-                      />
-                    </svg>
-                  </div>
-                </li>
+               
               </ul>
             </div>
             {/* Recent pages */}
             <div className="mb-3 last:mb-0">
               <div className="text-md font-semibold text-slate-500 capitalize px-2 mb-3">Recent pages</div>
               <ul className="w-full flex flex-col space-y-3">
+                
                 <li className="flex justify-between items-center cursor-pointer w-full hover:text-indigo-500 pb-1 border-b">
-                  <span className="text-sm leading-tight md:leading-normal">
-                    25 New Mom Gift Baskets That Are All About Her
-                  </span>
-                  <div>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      strokeWidth={1.5}
-                      stroke="currentColor"
-                      className="w-4 h-4"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25"
-                      />
-                    </svg>
-                  </div>
-                </li>
-                <li className="flex justify-between items-center cursor-pointer w-full hover:text-indigo-500 pb-1 border-b">
-                  <span className="text-sm leading-tight md:leading-normal">
+                  <span className="text-sm leading-tight md:leading-normal text-slate-500">
                     33 Meditation Gifts to Help Find Your Inner Zen Master
                   </span>
                   <div>
@@ -216,7 +176,7 @@ function SearchModal({
                   </div>
                 </li>
                 <li className="flex justify-between items-center cursor-pointer w-full hover:text-indigo-500 pb-1 border-b">
-                  <span className="text-sm leading-tight md:leading-normal">
+                  <span className="text-sm leading-tight md:leading-normal text-slate-500">
                     25 New Mom Gift Baskets That Are All About Her
                   </span>
                   <div>
@@ -237,7 +197,7 @@ function SearchModal({
                   </div>
                 </li>
                 <li className="flex justify-between items-center cursor-pointer w-full hover:text-indigo-500 pb-1 border-b">
-                  <span className="text-sm leading-tight md:leading-normal">
+                  <span className="text-sm leading-tight md:leading-normal text-slate-500">
                     33 Meditation Gifts to Help Find Your Inner Zen Master
                   </span>
                   <div>
