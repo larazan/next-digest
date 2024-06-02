@@ -351,6 +351,14 @@ export default function Footer() {
                     </li>
                     <li>
                       <Link
+                        href="/tags"
+                        className="font-bold text-gray-900 transition hover:text-[#FF6D42]"
+                      >
+                        Tags
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
                         href="#"
                         className="font-bold text-gray-900 transition hover:text-[#FF6D42]"
                       >
